@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "project": "Tiny Army",
+  "version": "0.8.2",
+  "scope": "Public-code-only local staging; no remote publication or web deployment performed.",
+  "totalFileCountIncludingManifest": 55,
+  "payloadFileCountExcludingManifest": 54,
+  "payloadBytesExcludingManifest": 1097430,
+  "selfHashPolicy": "This manifest lists every other file. Its own digest must be recorded separately.",
+  "qa": {
+    "standaloneScripts": "15/15 PASS",
+    "assetFreeBuildTests": "3/3 PASS",
+    "fullAssetReadOnlyAssemblyMatchesReference": true,
+    "releaseReferenceSha256": "d31e8f3bce59a39fcbcf7a4cfa7104ad86bb0715777fe7f59160cd9192541ba8",
+    "defaultMissingAssetBehavior": "FAIL as intended",
+    "browserMobileAndDeployment": "NOT RUN"
+  },
+  "assetPolicy": {
+    "rasterAndEmbeddedPortraitData": "excluded",
+    "generatedPlayableHtml": "excluded",
+    "proceduralCanvasSvgCode": "included",
+    "historicalCodeFixtures": {
+      "files": 7,
+      "bytes": 223843
+    },
+    "license": "No new license selected or granted."
+  },
+  "excludedFromOriginalV082Tree": {
+    "art-files-and-asset-metadata": {
+      "files": 297,
+      "bytes": 26248814
+    },
+    "embedded-raster-portrait-registry": {
+      "files": 1,
+      "bytes": 10571746
+    },
+    "full-asset-generated-game": {
+      "files": 1,
+      "bytes": 11315320
+    },
+    "nonportable-aggregate-test-harness-and-unused-fixtures": {
+      "files": 26,
+      "bytes": 335479
+    },
+    "original-qa-reports-and-rendered-proofs": {
+      "files": 74,
+      "bytes": 3667452
+    },
+    "original-release-documents-and-packaging-scripts": {
+      "files": 38,
+      "bytes": 211366
+    },
+    "private-research-and-planning-documents": {
+      "files": 6,
+      "bytes": 92636
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 665,
+      "sha256": "8819dab38cb120cd4badb0b26fb449d382bd2820ce3a80d8b54481df5e7d3458"
+    },
+    {
+      "path": "QA-SCOPE.md",
+      "bytes": 2291,
+      "sha256": "0cd61b3e9748e25435a1fe497830cbc9964b1bd8cada3ddd4c68831de610c4cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3046,
+      "sha256": "5d282fda59feac3e610227eeb07440c41a17a7c99b2d856990db1fea80baf8fc"
+    },
+    {
+      "path": "SOURCE-PROVENANCE.json",
+      "bytes": 19884,
+      "sha256": "8c7c69010d58d82e9e999dd895b55ea0b00b4ded6f2694523a460590fb53a3ed"
+    },
+    {
+      "path": "assemble.py",
+      "bytes": 2565,
+      "sha256": "d97d4228006813097eb619b9a72b79f7aac1b1345757da9c157d4b8ee8a0ae3b"
+    },
+    {
+      "path": "assets/portrait-manifest.template.json",
+      "bytes": 2008,
+      "sha256": "f75181c893e6ad9bb7f45dc891f7d1d595d09e4ce6345a1dff3f77f717d65872"
+    },
+    {
+      "path": "package.json",
+      "bytes": 449,
+      "sha256": "fffce6bbe23f77931ff76ae2ed2371803685fa4dff5dd72c724880c9b70308f4"
+    },
+    {
+      "path": "procedural-art/rarity-art.js",
+      "bytes": 7521,
+      "sha256": "4579650931bfdd8a06de781c7ab44be8ba5c10a570b19be880456b59d550b8e4"
+    },
+    {
+      "path": "procedural-art/relic-art.js",
+      "bytes": 20198,
+      "sha256": "936543caf563d39f8bd23999ee5c2a8782421d9e756e0939d5052470a1e42371"
+    },
+    {
+      "path": "procedural-art/skill-effects.js",
+      "bytes": 15391,
+      "sha256": "81c8fc9fd8dd049457b407d5bdd4e91c12cfb442ed053d1354aa3b545ca4a6e7"
+    },
+    {
+      "path": "src/battle-readability.js",
+      "bytes": 8350,
+      "sha256": "1436b22a45fbd2b95a3a11fa691fb535ae80aef42665510e4f9aafd1977e53af"
+    },
+    {
+      "path": "src/campaign-legacy.js",
+      "bytes": 46919,
+      "sha256": "053653571485f7fe8a4b2809dfa938ba41d58cd40c14a146e57dfa6a509bc057"
+    },
+    {
+      "path": "src/campaign-map.js",
+      "bytes": 4444,
+      "sha256": "0ec0e7aa8c3c634a2a759947f4b9ed0f1897d5760c0078c78d04b5545d1a0a23"
+    },
+    {
+      "path": "src/campaign.js",
+      "bytes": 48604,
+      "sha256": "b2dc32f52a8f32971f4f08dcbe7f2569a4c5bca80de4f87c33fdd61a1c37dd35"
+    },
+    {
+      "path": "src/card-assets.js",
+      "bytes": 20836,
+      "sha256": "62c518e8ca32945f0ea5454322dee0f057152863e1ab46b95167f49dd2662cff"
+    },
+    {
+      "path": "src/chapter-backdrop.js",
+      "bytes": 4829,
+      "sha256": "949404cbfb10684db369cd9f9bac13c31a3453be5023fee9f14dfb061664f044"
+    },
+    {
+      "path": "src/condition-art.js",
+      "bytes": 6455,
+      "sha256": "408260f328a30fc04d50c09516cd80820a1cc3b72ca3a4112bdebe074cb8b484"
+    },
+    {
+      "path": "src/condition-transition.js",
+      "bytes": 6101,
+      "sha256": "de2a98c7fae0b7fa23b924d2e2c3294fadd174d01eb63bd75fa6aacfdb67f75f"
+    },
+    {
+      "path": "src/content.js",
+      "bytes": 33538,
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "path": "src/formation-input.js",
+      "bytes": 7253,
+      "sha256": "b72971ecb9478ab5fb2b2f9c4eaf743b15c4a239e474d3abb6feb46d1bd40dd3"
+    },
+    {
+      "path": "src/game-art.js",
+      "bytes": 30434,
+      "sha256": "88aebd8aa309d5b872b06e95fbde10505839da87bb44f60fdfbd733a9df0425e"
+    },
+    {
+      "path": "src/game-engine.js",
+      "bytes": 35536,
+      "sha256": "fadff2d8948420eb4ee3a6479c544ae6386e635aa74af97f6e97f26f7a7633be"
+    },
+    {
+      "path": "src/game-ui-art.js",
+      "bytes": 93590,
+      "sha256": "a7dc40694f5bb59f8801184450ed32f49f2d0c91e95ae70ef0828bde19219b9a"
+    },
+    {
+      "path": "src/game-ui.js",
+      "bytes": 135841,
+      "sha256": "fab3be5e019edd264fcd150719a5c4e3d7ff8676c771d7ba68a166cced832d01"
+    },
+    {
+      "path": "src/graphics-settings.js",
+      "bytes": 9091,
+      "sha256": "051d317416b85a545af9fdabf36466b1cd6637089f4159d23761304b44166cac"
+    },
+    {
+      "path": "src/screen-art.js",
+      "bytes": 23811,
+      "sha256": "861442d99a06579a5ec17d315ffb49e6338ee0d6bce58bcb012c93adb8adbbb2"
+    },
+    {
+      "path": "src/strategy-view.js",
+      "bytes": 7046,
+      "sha256": "959d3cf7c8ec8612011b0ff5eda266580cd0444ff2ffd571b6d3c018cebf1855"
+    },
+    {
+      "path": "src/template.html",
+      "bytes": 160327,
+      "sha256": "12e44797499329fb0e1e4534559e32f0a149369bd93d6718570b7e6d76a8eb34"
+    },
+    {
+      "path": "src/ui-motion.js",
+      "bytes": 17815,
+      "sha256": "9725f16f8c0e93ee2392622004ddbd43551d41ef9ec0bbb907abcdb30de4c48f"
+    },
+    {
+      "path": "tests/battle-framing-v071.test.cjs",
+      "bytes": 2904,
+      "sha256": "c6f1e25c9a9617cb87bb7e50ad6d55137c08edf4fc4bd773cdb4aa179d86ba6c"
+    },
+    {
+      "path": "tests/battle-readability.test.cjs",
+      "bytes": 3781,
+      "sha256": "32591d54cc906763e7aeedba1c51ecc6842770e3705af4d036b4867ab64dff2c"
+    },
+    {
+      "path": "tests/build-system.test.py",
+      "bytes": 2214,
+      "sha256": "d82b0f05671dbf7866506efb34ee5525a5bb797ffca0ba989c13bf558a65cd24"
+    },
+    {
+      "path": "tests/campaign-v08.test.cjs",
+      "bytes": 8662,
+      "sha256": "a43bb445e0daf5ef5436a39b90ce7a3b3d9d9d8730874f4d19816153789c6e6a"
+    },
+    {
+      "path": "tests/campaign-v082.test.cjs",
+      "bytes": 15577,
+      "sha256": "d619761c727fbac27748f3a27e81bb32b704b24a28bc30e3c46825a6d3376a04"
+    },
+    {
+      "path": "tests/chapter-theme.test.cjs",
+      "bytes": 2906,
+      "sha256": "f7401af5f6361f254c39d273eb423a8e2265efa3246c90f6563a32a321f48886"
+    },
+    {
+      "path": "tests/condition-art.test.cjs",
+      "bytes": 3946,
+      "sha256": "4cb7b99705d51ec13b331eb2e12748c5e100c7d41e8724dd200c5632c0195635"
+    },
+    {
+      "path": "tests/condition-transition.test.cjs",
+      "bytes": 4001,
+      "sha256": "f36d0c4a417ec73ee865998343264c38c3cf7669c483515c0019f2b46fb5d35f"
+    },
+    {
+      "path": "tests/fixtures/v072/src/campaign.js",
+      "bytes": 42665,
+      "sha256": "9c090215232477ab2812b246eb1db5b215607dcbdfcb31b2e307206dc39da937"
+    },
+    {
+      "path": "tests/fixtures/v072/src/content.js",
+      "bytes": 25991,
+      "sha256": "188ee793c4a18206085c1eacaac64fd6176805afba01f3b60976b3b6678704d4"
+    },
+    {
+      "path": "tests/fixtures/v072/src/game-engine.js",
+      "bytes": 29898,
+      "sha256": "473037e976481d0172243b100a91a7234ce42bd04f21870838554f5edae07161"
+    },
+    {
+      "path": "tests/fixtures/v081/src/campaign-legacy.js",
+      "bytes": 46919,
+      "sha256": "053653571485f7fe8a4b2809dfa938ba41d58cd40c14a146e57dfa6a509bc057"
+    },
+    {
+      "path": "tests/fixtures/v081/src/campaign-map.js",
+      "bytes": 3765,
+      "sha256": "9410bedbb37549576697dd63825a11014aa5448aa15c69a8ee97c214de43664e"
+    },
+    {
+      "path": "tests/fixtures/v081/src/campaign.js",
+      "bytes": 45655,
+      "sha256": "cc220954e651a46568657da3a4fbcefb83e080644047d8b427399837263f3b48"
+    },
+    {
+      "path": "tests/fixtures/v081/src/content.js",
+      "bytes": 28950,
+      "sha256": "104a431adf25b15e7f72c3dfe3f41557b11d04a8aa4a0f14ba9ddbcef30d03c3"
+    },
+    {
+      "path": "tests/formation-input.test.cjs",
+      "bytes": 7798,
+      "sha256": "5f2a4924c627ad7657fca9d033d78014788653ef8e0decf0a18779c9a9907d5a"
+    },
+    {
+      "path": "tests/screen-art.test.cjs",
+      "bytes": 2571,
+      "sha256": "bc2c2eff9b5fb9f4716f49d75b589200904861135d5e287589b48b95a659cd2b"
+    },
+    {
+      "path": "tests/strategy-view.test.cjs",
+      "bytes": 4411,
+      "sha256": "2c8bae9c351efa2b0ca74fd251bf81c2376b26449c54b19eaa60cd4e5797bab5"
+    },
+    {
+      "path": "tests/v07-unit-art.test.cjs",
+      "bytes": 3605,
+      "sha256": "41e9bde680d4b2c2a53c645d7b0513ef3b698d39513d296fcfdcc9029022f94b"
+    },
+    {
+      "path": "tests/v071-combat-art.test.cjs",
+      "bytes": 5176,
+      "sha256": "12593bde892f7b045cbcd162cc438626f603de8253b501b3e9eb0045a998079d"
+    },
+    {
+      "path": "tests/v08-caster-art.test.cjs",
+      "bytes": 6172,
+      "sha256": "ae9984ce5e76fb90f8f5aafcf800c1628eb66d0995e4730a8c7d62b08d6deaf8"
+    },
+    {
+      "path": "tests/v08-combat-stats.test.cjs",
+      "bytes": 7392,
+      "sha256": "a2ff9e58cd2d8a355df0e36a7576b7e3a51d84750ed2e27daddd7325186f997e"
+    },
+    {
+      "path": "tests/v08-content.test.cjs",
+      "bytes": 4784,
+      "sha256": "0e19bf5eea9eaa182912ca4fd8f7b084266d336c40668a4d8ca72618eaf96d61"
+    },
+    {
+      "path": "tools/build-portrait-sheets.cjs",
+      "bytes": 11341,
+      "sha256": "38317a8f59d326959a37e7f9146f331c82c101af0a286c392ac8fb5ee391a452"
+    },
+    {
+      "path": "tools/run-tests.cjs",
+      "bytes": 1508,
+      "sha256": "2a809442fa67bc5e9c34a8a88f6e3aaaa33baa6922e6268132e7df5c7bf9e6cc"
+    }
+  ]
+}

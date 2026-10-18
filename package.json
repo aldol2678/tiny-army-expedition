@@ -1,0 +1,15 @@
+{
+  "name": "tiny-army-code",
+  "version": "0.8.2",
+  "private": true,
+  "description": "Code-only Tiny Army snapshot; separately supplied portrait assets are required for the full game build.",
+  "scripts": {
+    "test": "node tools/run-tests.cjs",
+    "test:build": "python3 tests/build-system.test.py",
+    "build": "python3 assemble.py",
+    "portraits:local": "node tools/build-portrait-sheets.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

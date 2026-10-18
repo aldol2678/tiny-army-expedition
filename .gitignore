@@ -1,0 +1,54 @@
+# Private, separately supplied art and build output
+/assets-local/
+/src/portrait-sheets.js
+/index.html
+/dist/
+/reports/
+/releases/
+
+# No deployment or hosting workflow in this code-management snapshot
+/.github/
+/.vercel/
+/.netlify/
+
+# Local tools and caches
+/node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.cache/
+*.log
+
+# Images, generated artwork, archives, and personal/local exports
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.avif
+*.ico
+*.zip
+*.tar
+*.gz
+*.7z
+*.pdf
+*.prompt.json
+*.metadata.json
+*save*.json
+/saves/
+/userdata/
+/private/
+/research/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+*.pem
+*.key
+credentials*
+.npmrc
+.aws/
+.ssh/
+.vscode/
+.idea/

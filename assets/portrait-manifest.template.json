@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "status": "Template only; image files and executable registry are not included.",
+  "version": "0.8.2-casual-v2-conditions-1",
+  "localRegistry": "assets-local/portrait-sheets.js",
+  "localPngDirectory": "assets-local/portraits",
+  "states": [
+    "fresh",
+    "tired",
+    "exhausted"
+  ],
+  "thresholds": {
+    "freshMin": 75,
+    "tiredMin": 25
+  },
+  "dimensions": {
+    "width": 2172,
+    "height": 724,
+    "alpha": true,
+    "cells": 3,
+    "cellWidth": 724
+  },
+  "roles": [
+    {
+      "type": "spear",
+      "filename": "spear-condition-sheet.png"
+    },
+    {
+      "type": "archer",
+      "filename": "archer-condition-sheet.png"
+    },
+    {
+      "type": "support",
+      "filename": "support-condition-sheet.png"
+    },
+    {
+      "type": "guardian",
+      "filename": "guardian-condition-sheet-v2.png"
+    },
+    {
+      "type": "charger",
+      "filename": "charger-condition-sheet.png"
+    },
+    {
+      "type": "sniper",
+      "filename": "sniper-condition-sheet.png"
+    },
+    {
+      "type": "volley",
+      "filename": "volley-condition-sheet.png"
+    },
+    {
+      "type": "mage",
+      "filename": "mage-condition-sheet.png"
+    }
+  ],
+  "runtimeContract": {
+    "global": "TinyArmyPortraitSheets",
+    "fields": [
+      "version",
+      "states",
+      "thresholds",
+      "sheets"
+    ],
+    "sheetFields": [
+      "version",
+      "width",
+      "height",
+      "sourceSha256",
+      "sha256",
+      "cells",
+      "viewport",
+      "dataUri"
+    ],
+    "dataFormat": "Locally encoded lossless WebP data URI",
+    "cells": "Three x/y/width/height cells in fresh, tired, exhausted order.",
+    "viewport": "One common padded alpha-bound union per class; generated from the separately supplied PNG."
+  },
+  "proceduralArtIncluded": true,
+  "proceduralArtScope": "Canvas/SVG drawing functions and inline vector shape strings remain part of the source code.",
+  "assetLicense": "No separate asset license has been selected or granted in this snapshot."
+}
