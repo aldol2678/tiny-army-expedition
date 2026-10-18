@@ -4,7 +4,11 @@ const M=require('./spear-skills.cjs');
  * Host snapshot() returns stable IDs, projected source stats, starting slots,
  * current positions/life/deployment, public telegraph ticks, actual guardian links.
  * Host applyDamageOnce(event) MUST atomically journal eventId and return the same
- * {eventId, actualDamage} on retry, including after a restored checkpoint.
+ * receipt on retry, including after a restored checkpoint. When the host amplifies
+ * damage (time escalation >60s, prepared bonus) the receipt MUST carry the breakdown
+ * {eventId, targetId, amount, amplification, incoming, hpBefore, hpAfter, actualDamage
+ *  [, mitigated, absorbed]}; a bare {eventId, actualDamage} is accepted only when
+ * actualDamage <= event.amount.
  * Events already contain projected damage. Do not reapply relic/stat/condition.
  */
 function resolveThroughHost(state,host,tick){
