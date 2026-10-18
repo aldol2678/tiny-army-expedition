@@ -1,0 +1,74 @@
+{
+  "initial4/shops0/army": {
+    "final_second_delta_mean": -0.722,
+    "final_relic_delta_mean": 2.291,
+    "final_units_delta_mean": -0.085,
+    "second_delayed_runs": 435
+  },
+  "initial4/shops0/relic": {
+    "final_second_delta_mean": -0.232,
+    "final_relic_delta_mean": 0.01,
+    "final_units_delta_mean": -0.048,
+    "second_delayed_runs": 149
+  },
+  "initial4/shops0/balanced": {
+    "final_second_delta_mean": -0.286,
+    "final_relic_delta_mean": 0.92,
+    "final_units_delta_mean": -0.086,
+    "second_delayed_runs": 0
+  },
+  "initial4/shops1/army": {
+    "final_second_delta_mean": -0.574,
+    "final_relic_delta_mean": 2.062,
+    "final_units_delta_mean": -0.184,
+    "second_delayed_runs": 139
+  },
+  "initial4/shops1/relic": {
+    "final_second_delta_mean": -0.222,
+    "final_relic_delta_mean": 0.01,
+    "final_units_delta_mean": 0.004,
+    "second_delayed_runs": 150
+  },
+  "initial4/shops1/balanced": {
+    "final_second_delta_mean": -0.352,
+    "final_relic_delta_mean": 1.056,
+    "final_units_delta_mean": -0.139,
+    "second_delayed_runs": 0
+  },
+  "initial6/shops0/army": {
+    "final_second_delta_mean": -0.726,
+    "final_relic_delta_mean": 2.231,
+    "final_units_delta_mean": -0.095,
+    "second_delayed_runs": 97
+  },
+  "initial6/shops0/relic": {
+    "final_second_delta_mean": -0.246,
+    "final_relic_delta_mean": 0.01,
+    "final_units_delta_mean": -0.025,
+    "second_delayed_runs": 149
+  },
+  "initial6/shops0/balanced": {
+    "final_second_delta_mean": -0.318,
+    "final_relic_delta_mean": 1.061,
+    "final_units_delta_mean": -0.099,
+    "second_delayed_runs": 0
+  },
+  "initial6/shops1/army": {
+    "final_second_delta_mean": -0.524,
+    "final_relic_delta_mean": 1.969,
+    "final_units_delta_mean": -0.206,
+    "second_delayed_runs": 18
+  },
+  "initial6/shops1/relic": {
+    "final_second_delta_mean": -0.223,
+    "final_relic_delta_mean": 0.01,
+    "final_units_delta_mean": -0.019,
+    "second_delayed_runs": 98
+  },
+  "initial6/shops1/balanced": {
+    "final_second_delta_mean": -0.28,
+    "final_relic_delta_mean": 1.197,
+    "final_units_delta_mean": -0.28,
+    "second_delayed_runs": 0
+  }
+}

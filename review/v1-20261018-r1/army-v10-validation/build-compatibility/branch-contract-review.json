@@ -1,0 +1,168 @@
+{
+  "scope": "Manual document contract extraction; not 16-class executable test",
+  "branchCount": 16,
+  "skillSlots": 32,
+  "inheritanceCombinationsRequired": 64,
+  "rows": [
+    {
+      "parent": "방벽병 guardian",
+      "child": "성채수호병 / bastion",
+      "skills": [
+        "방벽 연결",
+        "방벽 전개"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "방벽병 guardian",
+      "child": "반격호위병 / sentinel",
+      "skills": [
+        "방벽 연결",
+        "반격 견제"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "돌격병 charger",
+      "child": "돌파선봉병 / vanguard",
+      "skills": [
+        "돌격",
+        "돌파 후 엄호"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "돌격병 charger",
+      "child": "추격창기병 / pursuer",
+      "skills": [
+        "돌격",
+        "퇴로 봉쇄"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "저격수 sniper",
+      "child": "정밀사수 / marksman",
+      "skills": [
+        "강화탄",
+        "고정 조준"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "저격수 sniper",
+      "child": "감시사수 / watcher",
+      "skills": [
+        "강화탄",
+        "경계 사격"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "연사수 volley",
+      "child": "기동연사수 / skirmisher",
+      "skills": [
+        "일제 사격",
+        "후퇴 기동"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "연사수 volley",
+      "child": "제압궁수 / suppressor",
+      "skills": [
+        "일제 사격",
+        "견제 사선"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "폭염술사 pyromancer",
+      "child": "화염전술사 / ember_tactician",
+      "skills": [
+        "폭염탄",
+        "잔불 지대"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "폭염술사 pyromancer",
+      "child": "열막술사 / heat_warden",
+      "skills": [
+        "폭염탄",
+        "열기 장막"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "서리술사 frostmage",
+      "child": "한파조율사 / frost_weaver",
+      "skills": [
+        "서리 화살",
+        "냉기 경계"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "서리술사 frostmage",
+      "child": "한기봉인사 / frost_binder",
+      "skills": [
+        "서리 화살",
+        "한기 봉인"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "군의관 medic",
+      "child": "야전의무장 / surgeon",
+      "skills": [
+        "야전 진료",
+        "집중 수술"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "군의관 medic",
+      "child": "정화의무관 / cleanser",
+      "skills": [
+        "야전 진료",
+        "저주 정화"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "수호사 warder",
+      "child": "결계수호사 / barrier_keeper",
+      "skills": [
+        "수호 진료",
+        "교대 방벽"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    },
+    {
+      "parent": "수호사 warder",
+      "child": "금제수호사 / ward_keeper",
+      "skills": [
+        "수호 진료",
+        "금제 방벽"
+      ],
+      "status": "contract-only; no implemented child ID",
+      "legacyInvestment": "retained by proposal; runtime unverified"
+    }
+  ]
+}

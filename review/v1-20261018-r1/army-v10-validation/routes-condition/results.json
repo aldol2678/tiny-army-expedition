@@ -1,0 +1,1606 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "combatSimulation": false,
+  "seeds": 1200,
+  "graphs": 6000,
+  "routes": 346557,
+  "noRestGraphs": 3624,
+  "noRestRuns": 102,
+  "maxElitesInChapter": 6,
+  "restCountHistogram": {
+    "0": 102,
+    "1": 281,
+    "2": 342,
+    "3": 278,
+    "4": 138,
+    "5": 46,
+    "6": 12,
+    "8": 1
+  },
+  "serviceMandatory": 0,
+  "assumptions": {
+    "allWins": true,
+    "allRecruitsPresentAtStart": true,
+    "rosters": [
+      6,
+      9,
+      12
+    ],
+    "rotation": "highest condition first, ties lowest ID; roles ignored",
+    "knockouts": "0/1/2 lowest-condition deployed units per battle, or boss1 = one only on each boss; all assumed wins",
+    "restPriority": "omniscient per-chapter route maximizes number of rests then minimizes fatigue, no opportunity cost modeled",
+    "normalFatigue": {
+      "normal": 1,
+      "elite": 2,
+      "boss": 3
+    },
+    "reserveRecovery": 6,
+    "restRecovery": 20
+  },
+  "timing": [
+    {
+      "battle": 2,
+      "slot": "evolution-if-eligible",
+      "remainingBattles": 33
+    },
+    {
+      "battle": 5,
+      "slot": "training-I-if-eligible",
+      "remainingBattles": 30
+    },
+    {
+      "battle": 8,
+      "slot": "training-II-or-second-stage-if-eligible",
+      "remainingBattles": 27
+    },
+    {
+      "battle": 21,
+      "slot": "unowned-target-relic-if-eligible",
+      "remainingBattles": 14
+    },
+    {
+      "battle": 21,
+      "phase": "awakening",
+      "chapter": 4,
+      "remainingBattles": 14
+    }
+  ],
+  "caseSummaries": {
+    "noRestSafe_roster6_ko0": {
+      "finalMinimum": {
+        "min": 55,
+        "p50": 55,
+        "max": 55,
+        "mean": 55
+      },
+      "finalMean": {
+        "min": 55,
+        "p50": 55,
+        "max": 55,
+        "mean": 55
+      },
+      "minEver": {
+        "min": 55,
+        "p50": 55,
+        "max": 55,
+        "mean": 55
+      },
+      "finalBossEntry": {
+        "min": 58,
+        "p50": 58,
+        "max": 58,
+        "mean": 58
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster6_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 45.833333333333336,
+        "p50": 45.833333333333336,
+        "max": 45.833333333333336,
+        "mean": 45.833333333334025
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 16,
+        "p50": 16,
+        "max": 16,
+        "mean": 16
+      }
+    },
+    "noRestSafe_roster6_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 36.666666666666664,
+        "p50": 36.666666666666664,
+        "max": 36.666666666666664,
+        "mean": 36.66666666666641
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 32,
+        "p50": 32,
+        "max": 32,
+        "mean": 32
+      }
+    },
+    "noRestSafe_roster6_koboss1": {
+      "finalMinimum": {
+        "min": 35,
+        "p50": 35,
+        "max": 35,
+        "mean": 35
+      },
+      "finalMean": {
+        "min": 51.666666666666664,
+        "p50": 51.666666666666664,
+        "max": 51.666666666666664,
+        "mean": 51.66666666666578
+      },
+      "minEver": {
+        "min": 35,
+        "p50": 35,
+        "max": 35,
+        "mean": 35
+      },
+      "finalBossEntry": {
+        "min": 42,
+        "p50": 42,
+        "max": 42,
+        "mean": 42
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster9_ko0": {
+      "finalMinimum": {
+        "min": 58,
+        "p50": 58,
+        "max": 58,
+        "mean": 58
+      },
+      "finalMean": {
+        "min": 60.77777777777778,
+        "p50": 60.77777777777778,
+        "max": 60.77777777777778,
+        "mean": 60.7777777777794
+      },
+      "minEver": {
+        "min": 58,
+        "p50": 58,
+        "max": 58,
+        "mean": 58
+      },
+      "finalBossEntry": {
+        "min": 61,
+        "p50": 61,
+        "max": 61,
+        "mean": 61
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster9_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 53.333333333333336,
+        "p50": 53.333333333333336,
+        "max": 53.333333333333336,
+        "mean": 53.33333333333427
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 11,
+        "p50": 11,
+        "max": 11,
+        "mean": 11
+      }
+    },
+    "noRestSafe_roster9_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 46.22222222222222,
+        "p50": 46.22222222222222,
+        "max": 46.22222222222222,
+        "mean": 46.222222222221106
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 22,
+        "p50": 22,
+        "max": 22,
+        "mean": 22
+      }
+    },
+    "noRestSafe_roster9_koboss1": {
+      "finalMinimum": {
+        "min": 42,
+        "p50": 42,
+        "max": 42,
+        "mean": 42
+      },
+      "finalMean": {
+        "min": 58.55555555555556,
+        "p50": 58.55555555555556,
+        "max": 58.55555555555556,
+        "mean": 58.555555555555344
+      },
+      "minEver": {
+        "min": 42,
+        "p50": 42,
+        "max": 42,
+        "mean": 42
+      },
+      "finalBossEntry": {
+        "min": 49,
+        "p50": 49,
+        "max": 49,
+        "mean": 49
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster12_ko0": {
+      "finalMinimum": {
+        "min": 95,
+        "p50": 95,
+        "max": 95,
+        "mean": 95
+      },
+      "finalMean": {
+        "min": 97,
+        "p50": 97,
+        "max": 97,
+        "mean": 97
+      },
+      "minEver": {
+        "min": 95,
+        "p50": 95,
+        "max": 95,
+        "mean": 95
+      },
+      "finalBossEntry": {
+        "min": 98,
+        "p50": 98,
+        "max": 98,
+        "mean": 98
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster12_ko1": {
+      "finalMinimum": {
+        "min": 90,
+        "p50": 90,
+        "max": 90,
+        "mean": 90
+      },
+      "finalMean": {
+        "min": 96,
+        "p50": 96,
+        "max": 96,
+        "mean": 96
+      },
+      "minEver": {
+        "min": 90,
+        "p50": 90,
+        "max": 90,
+        "mean": 90
+      },
+      "finalBossEntry": {
+        "min": 97,
+        "p50": 97,
+        "max": 97,
+        "mean": 97
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster12_ko2": {
+      "finalMinimum": {
+        "min": 86,
+        "p50": 86,
+        "max": 86,
+        "mean": 86
+      },
+      "finalMean": {
+        "min": 92.16666666666667,
+        "p50": 92.16666666666667,
+        "max": 92.16666666666667,
+        "mean": 92.16666666666806
+      },
+      "minEver": {
+        "min": 86,
+        "p50": 86,
+        "max": 86,
+        "mean": 86
+      },
+      "finalBossEntry": {
+        "min": 93,
+        "p50": 93,
+        "max": 93,
+        "mean": 93
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "noRestSafe_roster12_koboss1": {
+      "finalMinimum": {
+        "min": 91,
+        "p50": 91,
+        "max": 91,
+        "mean": 91
+      },
+      "finalMean": {
+        "min": 96.66666666666667,
+        "p50": 96.66666666666667,
+        "max": 96.66666666666667,
+        "mean": 96.66666666666823
+      },
+      "minEver": {
+        "min": 91,
+        "p50": 91,
+        "max": 91,
+        "mean": 91
+      },
+      "finalBossEntry": {
+        "min": 98,
+        "p50": 98,
+        "max": 98,
+        "mean": 98
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster6_ko0": {
+      "finalMinimum": {
+        "min": 55,
+        "p50": 79,
+        "max": 95,
+        "mean": 78.95666666666666
+      },
+      "finalMean": {
+        "min": 55,
+        "p50": 79,
+        "max": 95,
+        "mean": 78.95666666666666
+      },
+      "minEver": {
+        "min": 55,
+        "p50": 71,
+        "max": 89,
+        "mean": 71.01833333333333
+      },
+      "finalBossEntry": {
+        "min": 58,
+        "p50": 82,
+        "max": 98,
+        "mean": 81.95666666666666
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster6_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 51,
+        "mean": 1.4166666666666667
+      },
+      "finalMean": {
+        "min": 45.833333333333336,
+        "p50": 65.83333333333333,
+        "max": 87.66666666666667,
+        "mean": 66.03333333333362
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 36,
+        "mean": 0.23083333333333333
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 58,
+        "mean": 3.2275
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 10,
+        "max": 16,
+        "mean": 9.641666666666667
+      }
+    },
+    "restPriority_roster6_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 51,
+        "mean": 1.4166666666666667
+      },
+      "finalMean": {
+        "min": 36.666666666666664,
+        "p50": 53,
+        "max": 80.33333333333333,
+        "mean": 53.11000000000029
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 36,
+        "mean": 0.23083333333333333
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 58,
+        "mean": 3.2275
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 20,
+        "max": 32,
+        "mean": 19.283333333333335
+      }
+    },
+    "restPriority_roster6_koboss1": {
+      "finalMinimum": {
+        "min": 35,
+        "p50": 65,
+        "max": 91,
+        "mean": 63.78
+      },
+      "finalMean": {
+        "min": 51.666666666666664,
+        "p50": 75.66666666666667,
+        "max": 94.33333333333333,
+        "mean": 76.42722222222218
+      },
+      "minEver": {
+        "min": 35,
+        "p50": 58,
+        "max": 85,
+        "mean": 57.25833333333333
+      },
+      "finalBossEntry": {
+        "min": 42,
+        "p50": 72,
+        "max": 98,
+        "mean": 70.78
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster9_ko0": {
+      "finalMinimum": {
+        "min": 57,
+        "p50": 79,
+        "max": 95,
+        "mean": 79.69333333333333
+      },
+      "finalMean": {
+        "min": 59.888888888888886,
+        "p50": 80.88888888888889,
+        "max": 95,
+        "mean": 80.585277777778
+      },
+      "minEver": {
+        "min": 57,
+        "p50": 73,
+        "max": 90,
+        "mean": 72.1125
+      },
+      "finalBossEntry": {
+        "min": 60,
+        "p50": 82,
+        "max": 98,
+        "mean": 82.69333333333333
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster9_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 60,
+        "mean": 2.5058333333333334
+      },
+      "finalMean": {
+        "min": 52.77777777777778,
+        "p50": 71.77777777777777,
+        "max": 91.11111111111111,
+        "mean": 71.73185185185201
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 46,
+        "mean": 1.32
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 67,
+        "mean": 4.920833333333333
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 5,
+        "max": 11,
+        "mean": 5.453333333333333
+      }
+    },
+    "restPriority_roster9_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 59,
+        "mean": 2.2025
+      },
+      "finalMean": {
+        "min": 45.333333333333336,
+        "p50": 62.666666666666664,
+        "max": 87.11111111111111,
+        "mean": 62.90981481481529
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 45,
+        "mean": 1.0166666666666666
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 66,
+        "mean": 4.594166666666666
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 10,
+        "max": 23,
+        "mean": 11.26
+      }
+    },
+    "restPriority_roster9_koboss1": {
+      "finalMinimum": {
+        "min": 41,
+        "p50": 65,
+        "max": 91,
+        "mean": 66.7475
+      },
+      "finalMean": {
+        "min": 57.666666666666664,
+        "p50": 78.77777777777777,
+        "max": 94.55555555555556,
+        "mean": 79.0051851851856
+      },
+      "minEver": {
+        "min": 41,
+        "p50": 62,
+        "max": 87,
+        "mean": 60.6475
+      },
+      "finalBossEntry": {
+        "min": 48,
+        "p50": 72,
+        "max": 98,
+        "mean": 73.7475
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster12_ko0": {
+      "finalMinimum": {
+        "min": 93,
+        "p50": 95,
+        "max": 95,
+        "mean": 94.95416666666667
+      },
+      "finalMean": {
+        "min": 96.25,
+        "p50": 97,
+        "max": 97,
+        "mean": 96.98458333333333
+      },
+      "minEver": {
+        "min": 93,
+        "p50": 95,
+        "max": 95,
+        "mean": 94.67916666666666
+      },
+      "finalBossEntry": {
+        "min": 96,
+        "p50": 98,
+        "max": 98,
+        "mean": 97.95416666666667
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster12_ko1": {
+      "finalMinimum": {
+        "min": 89,
+        "p50": 90,
+        "max": 91,
+        "mean": 90.40583333333333
+      },
+      "finalMean": {
+        "min": 95.5,
+        "p50": 96.08333333333333,
+        "max": 96.66666666666667,
+        "mean": 96.26034722222361
+      },
+      "minEver": {
+        "min": 87,
+        "p50": 90,
+        "max": 90,
+        "mean": 89.80666666666667
+      },
+      "finalBossEntry": {
+        "min": 96,
+        "p50": 97,
+        "max": 98,
+        "mean": 97.40583333333333
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster12_ko2": {
+      "finalMinimum": {
+        "min": 85,
+        "p50": 89,
+        "max": 91,
+        "mean": 88.93
+      },
+      "finalMean": {
+        "min": 92,
+        "p50": 94.66666666666667,
+        "max": 96.33333333333333,
+        "mean": 94.63736111110957
+      },
+      "minEver": {
+        "min": 85,
+        "p50": 87,
+        "max": 90,
+        "mean": 87.21416666666667
+      },
+      "finalBossEntry": {
+        "min": 92,
+        "p50": 96,
+        "max": 98,
+        "mean": 95.93
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "restPriority_roster12_koboss1": {
+      "finalMinimum": {
+        "min": 89,
+        "p50": 91,
+        "max": 91,
+        "mean": 90.95416666666667
+      },
+      "finalMean": {
+        "min": 95.91666666666667,
+        "p50": 96.66666666666667,
+        "max": 96.66666666666667,
+        "mean": 96.65125000000157
+      },
+      "minEver": {
+        "min": 89,
+        "p50": 91,
+        "max": 91,
+        "mean": 90.85916666666667
+      },
+      "finalBossEntry": {
+        "min": 96,
+        "p50": 98,
+        "max": 98,
+        "mean": 97.95416666666667
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster6_ko0": {
+      "finalMinimum": {
+        "min": 32,
+        "p50": 42,
+        "max": 50,
+        "mean": 41.9825
+      },
+      "finalMean": {
+        "min": 32,
+        "p50": 42,
+        "max": 50,
+        "mean": 41.9825
+      },
+      "minEver": {
+        "min": 32,
+        "p50": 42,
+        "max": 50,
+        "mean": 41.9825
+      },
+      "finalBossEntry": {
+        "min": 35,
+        "p50": 45,
+        "max": 53,
+        "mean": 44.9825
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster6_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 26.666666666666668,
+        "p50": 35,
+        "max": 41.666666666666664,
+        "mean": 34.98541666666653
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 17,
+        "p50": 18,
+        "max": 19,
+        "mean": 17.780833333333334
+      }
+    },
+    "eliteMaximum_roster6_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 21.333333333333332,
+        "p50": 28,
+        "max": 33.333333333333336,
+        "mean": 27.98833333333346
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 34,
+        "p50": 36,
+        "max": 38,
+        "mean": 35.56166666666667
+      }
+    },
+    "eliteMaximum_roster6_koboss1": {
+      "finalMinimum": {
+        "min": 12,
+        "p50": 22,
+        "max": 30,
+        "mean": 21.9825
+      },
+      "finalMean": {
+        "min": 28.666666666666668,
+        "p50": 38.666666666666664,
+        "max": 46.666666666666664,
+        "mean": 38.649166666666346
+      },
+      "minEver": {
+        "min": 12,
+        "p50": 22,
+        "max": 30,
+        "mean": 21.9825
+      },
+      "finalBossEntry": {
+        "min": 19,
+        "p50": 29,
+        "max": 37,
+        "mean": 28.9825
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster9_ko0": {
+      "finalMinimum": {
+        "min": 38,
+        "p50": 46,
+        "max": 54,
+        "mean": 46.285
+      },
+      "finalMean": {
+        "min": 42,
+        "p50": 49.888888888888886,
+        "max": 56.77777777777778,
+        "mean": 49.82537037037045
+      },
+      "minEver": {
+        "min": 38,
+        "p50": 46,
+        "max": 54,
+        "mean": 46.285
+      },
+      "finalBossEntry": {
+        "min": 41,
+        "p50": 49,
+        "max": 57,
+        "mean": 49.285
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster9_ko1": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 35.666666666666664,
+        "p50": 43,
+        "max": 49.55555555555556,
+        "mean": 43.05583333333336
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 11,
+        "p50": 12,
+        "max": 13,
+        "mean": 12.215
+      }
+    },
+    "eliteMaximum_roster9_ko2": {
+      "finalMinimum": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalMean": {
+        "min": 29.88888888888889,
+        "p50": 36.888888888888886,
+        "max": 42.666666666666664,
+        "mean": 36.83157407407406
+      },
+      "minEver": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "finalBossEntry": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "zeroEvents": {
+        "min": 23,
+        "p50": 25,
+        "max": 27,
+        "mean": 25.194166666666668
+      }
+    },
+    "eliteMaximum_roster9_koboss1": {
+      "finalMinimum": {
+        "min": 22,
+        "p50": 30,
+        "max": 38,
+        "mean": 30.285
+      },
+      "finalMean": {
+        "min": 39.77777777777778,
+        "p50": 47.666666666666664,
+        "max": 54.55555555555556,
+        "mean": 47.603148148148186
+      },
+      "minEver": {
+        "min": 22,
+        "p50": 30,
+        "max": 38,
+        "mean": 30.285
+      },
+      "finalBossEntry": {
+        "min": 29,
+        "p50": 37,
+        "max": 45,
+        "mean": 37.285
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster12_ko0": {
+      "finalMinimum": {
+        "min": 92,
+        "p50": 94,
+        "max": 95,
+        "mean": 94.09
+      },
+      "finalMean": {
+        "min": 95.25,
+        "p50": 96.75,
+        "max": 97,
+        "mean": 96.64666666666666
+      },
+      "minEver": {
+        "min": 92,
+        "p50": 93,
+        "max": 94,
+        "mean": 93.14416666666666
+      },
+      "finalBossEntry": {
+        "min": 95,
+        "p50": 97,
+        "max": 98,
+        "mean": 97.09
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster12_ko1": {
+      "finalMinimum": {
+        "min": 81,
+        "p50": 86,
+        "max": 90,
+        "mean": 86.34083333333334
+      },
+      "finalMean": {
+        "min": 88.41666666666667,
+        "p50": 93.5,
+        "max": 96,
+        "mean": 93.38958333333346
+      },
+      "minEver": {
+        "min": 81,
+        "p50": 86,
+        "max": 89,
+        "mean": 85.92833333333333
+      },
+      "finalBossEntry": {
+        "min": 88,
+        "p50": 93,
+        "max": 97,
+        "mean": 93.34083333333334
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster12_ko2": {
+      "finalMinimum": {
+        "min": 73,
+        "p50": 79,
+        "max": 83,
+        "mean": 78.52583333333334
+      },
+      "finalMean": {
+        "min": 79.5,
+        "p50": 85,
+        "max": 90,
+        "mean": 84.99187500000008
+      },
+      "minEver": {
+        "min": 73,
+        "p50": 79,
+        "max": 83,
+        "mean": 78.52583333333334
+      },
+      "finalBossEntry": {
+        "min": 80,
+        "p50": 86,
+        "max": 90,
+        "mean": 85.52583333333334
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    "eliteMaximum_roster12_koboss1": {
+      "finalMinimum": {
+        "min": 85,
+        "p50": 89,
+        "max": 91,
+        "mean": 89.16833333333334
+      },
+      "finalMean": {
+        "min": 94.41666666666667,
+        "p50": 96.16666666666667,
+        "max": 96.66666666666667,
+        "mean": 96.21034722222221
+      },
+      "minEver": {
+        "min": 85,
+        "p50": 89,
+        "max": 91,
+        "mean": 88.53
+      },
+      "finalBossEntry": {
+        "min": 92,
+        "p50": 96,
+        "max": 98,
+        "mean": 96.16833333333334
+      },
+      "zeroEvents": {
+        "min": 0,
+        "p50": 0,
+        "max": 0,
+        "mean": 0
+      }
+    }
+  },
+  "exampleSafe": {
+    "finalMinimum": 55,
+    "finalMean": 55,
+    "minEver": 55,
+    "finalBossEntry": 58,
+    "bossEntry": [
+      94,
+      85,
+      76,
+      67,
+      58
+    ],
+    "chapterEnd": [
+      91,
+      82,
+      73,
+      64,
+      55
+    ],
+    "zeroEvents": 0
+  },
+  "exampleRoutes": [
+    {
+      "seed": 0,
+      "paths": {
+        "noRestSafe": [
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "restPriority": [
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "eliteMaximum": [
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "elite",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "boss",
+          "elite",
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "elite",
+          "boss",
+          "normal",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "paths": {
+        "noRestSafe": [
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "restPriority": [
+          "normal",
+          "normal",
+          "normal",
+          "elite",
+          "rest",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "eliteMaximum": [
+          "elite",
+          "elite",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "boss",
+          "elite",
+          "normal",
+          "elite",
+          "elite",
+          "normal",
+          "elite",
+          "boss",
+          "normal",
+          "elite",
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "elite",
+          "elite",
+          "normal",
+          "normal",
+          "elite",
+          "boss",
+          "elite",
+          "normal",
+          "elite",
+          "normal",
+          "elite",
+          "elite",
+          "boss"
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "paths": {
+        "noRestSafe": [
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "restPriority": [
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "rest",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss"
+        ],
+        "eliteMaximum": [
+          "elite",
+          "normal",
+          "normal",
+          "elite",
+          "elite",
+          "elite",
+          "boss",
+          "normal",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "elite",
+          "boss",
+          "elite",
+          "normal",
+          "normal",
+          "elite",
+          "normal",
+          "normal",
+          "boss",
+          "elite",
+          "elite",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "boss",
+          "normal",
+          "normal",
+          "normal",
+          "normal",
+          "elite",
+          "elite",
+          "boss"
+        ]
+      }
+    }
+  ],
+  "sourceHashes": {
+    "army-v10-implementation/src/graph.js": "3181535ac4113550c7afc7311e16bc36f17bf5b9ee887865b8526a3754a1bda5",
+    "army-v10-implementation/src/campaign.js": "0afafa6cda4cf7c1138f321548430e315573628d9f9a1960c490f0bb4f34e334",
+    "army-v10-implementation/src/config.js": "da8c689bb8338e5003a3d2171babbf34657fdc7c0a74fffbe3247ed91adf592f",
+    "army-v10-planning/IMPLEMENTATION-BASELINE.md": "32119480f7ca3d93c9d19b2bbd9ba593a8e7b7cfbdba893b58318a9a328f8902"
+  }
+}

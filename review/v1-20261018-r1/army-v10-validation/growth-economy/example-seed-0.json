@@ -1,0 +1,1403 @@
+{
+  "army": {
+    "chosen": {
+      "recruit": 6,
+      "growth": 15,
+      "relic": 12,
+      "key": 1,
+      "pass": 0
+    },
+    "offered": {
+      "recruit": 23,
+      "growth": 18,
+      "relic": 23
+    },
+    "first_second": 8,
+    "second_by8": true,
+    "snapshots": {
+      "7": {
+        "units": 8,
+        "second": 0,
+        "relics": 1,
+        "gold": 90,
+        "key": false
+      },
+      "14": {
+        "units": 9,
+        "second": 1,
+        "relics": 4,
+        "gold": 180,
+        "key": false
+      },
+      "21": {
+        "units": 10,
+        "second": 2,
+        "relics": 8,
+        "gold": 270,
+        "key": true
+      },
+      "28": {
+        "units": 10,
+        "second": 3,
+        "relics": 10,
+        "gold": 360,
+        "key": true
+      },
+      "34": {
+        "units": 10,
+        "second": 5,
+        "relics": 12,
+        "gold": 420,
+        "key": true
+      }
+    },
+    "recruits_bought": 0,
+    "training_bought": 0,
+    "xp": 50,
+    "final_gold": 450,
+    "trace": [
+      {
+        "battle": 1,
+        "cards": [
+          "relic",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 5,
+        "second": 0,
+        "gold": 10
+      },
+      {
+        "battle": 2,
+        "cards": [
+          "evolve",
+          "relic",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 6,
+        "second": 0,
+        "gold": 20
+      },
+      {
+        "battle": 3,
+        "cards": [
+          "growth",
+          "recruit",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 7,
+        "second": 0,
+        "gold": 30
+      },
+      {
+        "battle": 4,
+        "cards": [
+          "relic",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 0,
+        "gold": 40
+      },
+      {
+        "battle": 5,
+        "cards": [
+          "train1",
+          "growth",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 0,
+        "gold": 50
+      },
+      {
+        "battle": 6,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 7,
+        "second": 0,
+        "gold": 60
+      },
+      {
+        "battle": 7,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "recruit",
+        "units": 8,
+        "second": 0,
+        "gold": 90
+      },
+      {
+        "battle": 8,
+        "cards": [
+          "train2",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 8,
+        "second": 1,
+        "gold": 100
+      },
+      {
+        "battle": 9,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 8,
+        "second": 1,
+        "gold": 110
+      },
+      {
+        "battle": 10,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "recruit",
+        "units": 9,
+        "second": 1,
+        "gold": 120
+      },
+      {
+        "battle": 11,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 1,
+        "gold": 130
+      },
+      {
+        "battle": 12,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 1,
+        "gold": 140
+      },
+      {
+        "battle": 13,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 1,
+        "gold": 150
+      },
+      {
+        "battle": 14,
+        "cards": [
+          "growth",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 1,
+        "gold": 180
+      },
+      {
+        "battle": 15,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 1,
+        "gold": 190
+      },
+      {
+        "battle": 16,
+        "cards": [
+          "recruit",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 10,
+        "second": 1,
+        "gold": 200
+      },
+      {
+        "battle": 17,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 1,
+        "gold": 210
+      },
+      {
+        "battle": 18,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 1,
+        "gold": 220
+      },
+      {
+        "battle": 19,
+        "cards": [
+          "recruit",
+          "relic",
+          "recruit"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 1,
+        "gold": 230
+      },
+      {
+        "battle": 20,
+        "cards": [
+          "growth",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 2,
+        "gold": 240
+      },
+      {
+        "battle": 21,
+        "cards": [
+          "key",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "key",
+        "units": 10,
+        "second": 2,
+        "gold": 270
+      },
+      {
+        "battle": 22,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 2,
+        "gold": 280
+      },
+      {
+        "battle": 23,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 2,
+        "gold": 290
+      },
+      {
+        "battle": 24,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 2,
+        "gold": 300
+      },
+      {
+        "battle": 25,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 3,
+        "gold": 310
+      },
+      {
+        "battle": 26,
+        "cards": [
+          "recruit",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 3,
+        "gold": 320
+      },
+      {
+        "battle": 27,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 3,
+        "gold": 330
+      },
+      {
+        "battle": 28,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 3,
+        "gold": 360
+      },
+      {
+        "battle": 29,
+        "cards": [
+          "recruit",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 3,
+        "gold": 370
+      },
+      {
+        "battle": 30,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 10,
+        "second": 3,
+        "gold": 380
+      },
+      {
+        "battle": 31,
+        "cards": [
+          "recruit",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 4,
+        "gold": 390
+      },
+      {
+        "battle": 32,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 4,
+        "gold": 400
+      },
+      {
+        "battle": 33,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 4,
+        "gold": 410
+      },
+      {
+        "battle": 34,
+        "cards": [
+          "growth",
+          "growth",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 10,
+        "second": 5,
+        "gold": 420
+      }
+    ]
+  },
+  "relic": {
+    "chosen": {
+      "recruit": 5,
+      "growth": 11,
+      "relic": 17,
+      "key": 0,
+      "pass": 1
+    },
+    "offered": {
+      "recruit": 23,
+      "growth": 18,
+      "relic": 23
+    },
+    "first_second": 23,
+    "second_by8": false,
+    "snapshots": {
+      "7": {
+        "units": 4,
+        "second": 0,
+        "relics": 7,
+        "gold": 90,
+        "key": false
+      },
+      "14": {
+        "units": 4,
+        "second": 0,
+        "relics": 13,
+        "gold": 180,
+        "key": false
+      },
+      "21": {
+        "units": 6,
+        "second": 0,
+        "relics": 17,
+        "gold": 270,
+        "key": false
+      },
+      "28": {
+        "units": 7,
+        "second": 2,
+        "relics": 17,
+        "gold": 360,
+        "key": false
+      },
+      "34": {
+        "units": 9,
+        "second": 3,
+        "relics": 17,
+        "gold": 420,
+        "key": false
+      }
+    },
+    "recruits_bought": 0,
+    "training_bought": 0,
+    "xp": 50,
+    "final_gold": 450,
+    "trace": [
+      {
+        "battle": 1,
+        "cards": [
+          "relic",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 10
+      },
+      {
+        "battle": 2,
+        "cards": [
+          "evolve",
+          "relic",
+          "recruit"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 20
+      },
+      {
+        "battle": 3,
+        "cards": [
+          "growth",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 30
+      },
+      {
+        "battle": 4,
+        "cards": [
+          "relic",
+          "growth",
+          "growth"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 40
+      },
+      {
+        "battle": 5,
+        "cards": [
+          "train1",
+          "growth",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 50
+      },
+      {
+        "battle": 6,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 60
+      },
+      {
+        "battle": 7,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 90
+      },
+      {
+        "battle": 8,
+        "cards": [
+          "train2",
+          "relic",
+          "growth"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 100
+      },
+      {
+        "battle": 9,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 110
+      },
+      {
+        "battle": 10,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 120
+      },
+      {
+        "battle": 11,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 130
+      },
+      {
+        "battle": 12,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 140
+      },
+      {
+        "battle": 13,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 150
+      },
+      {
+        "battle": 14,
+        "cards": [
+          "growth",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 4,
+        "second": 0,
+        "gold": 180
+      },
+      {
+        "battle": 15,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 4,
+        "second": 0,
+        "gold": 190
+      },
+      {
+        "battle": 16,
+        "cards": [
+          "recruit",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 5,
+        "second": 0,
+        "gold": 200
+      },
+      {
+        "battle": 17,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 5,
+        "second": 0,
+        "gold": 210
+      },
+      {
+        "battle": 18,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 5,
+        "second": 0,
+        "gold": 220
+      },
+      {
+        "battle": 19,
+        "cards": [
+          "recruit",
+          "relic",
+          "recruit"
+        ],
+        "pick": "relic",
+        "units": 5,
+        "second": 0,
+        "gold": 230
+      },
+      {
+        "battle": 20,
+        "cards": [
+          "growth",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 0,
+        "gold": 240
+      },
+      {
+        "battle": 21,
+        "cards": [
+          "key",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 6,
+        "second": 0,
+        "gold": 270
+      },
+      {
+        "battle": 22,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 7,
+        "second": 0,
+        "gold": 280
+      },
+      {
+        "battle": 23,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 1,
+        "gold": 290
+      },
+      {
+        "battle": 24,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 1,
+        "gold": 300
+      },
+      {
+        "battle": 25,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 1,
+        "gold": 310
+      },
+      {
+        "battle": 26,
+        "cards": [
+          "recruit",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 2,
+        "gold": 320
+      },
+      {
+        "battle": 27,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "pass",
+        "units": 7,
+        "second": 2,
+        "gold": 330
+      },
+      {
+        "battle": 28,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 2,
+        "gold": 360
+      },
+      {
+        "battle": 29,
+        "cards": [
+          "recruit",
+          "recruit",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 8,
+        "second": 2,
+        "gold": 370
+      },
+      {
+        "battle": 30,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 9,
+        "second": 2,
+        "gold": 380
+      },
+      {
+        "battle": 31,
+        "cards": [
+          "recruit",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 2,
+        "gold": 390
+      },
+      {
+        "battle": 32,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 400
+      },
+      {
+        "battle": 33,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 410
+      },
+      {
+        "battle": 34,
+        "cards": [
+          "growth",
+          "growth",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 420
+      }
+    ]
+  },
+  "balanced": {
+    "chosen": {
+      "recruit": 5,
+      "growth": 18,
+      "relic": 10,
+      "key": 1,
+      "pass": 0
+    },
+    "offered": {
+      "recruit": 23,
+      "growth": 18,
+      "relic": 23
+    },
+    "first_second": 8,
+    "second_by8": true,
+    "snapshots": {
+      "7": {
+        "units": 5,
+        "second": 0,
+        "relics": 1,
+        "gold": 90,
+        "key": false
+      },
+      "14": {
+        "units": 8,
+        "second": 2,
+        "relics": 2,
+        "gold": 180,
+        "key": false
+      },
+      "21": {
+        "units": 9,
+        "second": 3,
+        "relics": 6,
+        "gold": 270,
+        "key": true
+      },
+      "28": {
+        "units": 9,
+        "second": 4,
+        "relics": 8,
+        "gold": 360,
+        "key": true
+      },
+      "34": {
+        "units": 9,
+        "second": 6,
+        "relics": 10,
+        "gold": 420,
+        "key": true
+      }
+    },
+    "recruits_bought": 0,
+    "training_bought": 0,
+    "xp": 50,
+    "final_gold": 450,
+    "trace": [
+      {
+        "battle": 1,
+        "cards": [
+          "relic",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 5,
+        "second": 0,
+        "gold": 10
+      },
+      {
+        "battle": 2,
+        "cards": [
+          "evolve",
+          "relic",
+          "recruit"
+        ],
+        "pick": "evolve",
+        "units": 5,
+        "second": 0,
+        "gold": 20
+      },
+      {
+        "battle": 3,
+        "cards": [
+          "growth",
+          "recruit",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 0,
+        "gold": 30
+      },
+      {
+        "battle": 4,
+        "cards": [
+          "relic",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 0,
+        "gold": 40
+      },
+      {
+        "battle": 5,
+        "cards": [
+          "train1",
+          "growth",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 0,
+        "gold": 50
+      },
+      {
+        "battle": 6,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 5,
+        "second": 0,
+        "gold": 60
+      },
+      {
+        "battle": 7,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 0,
+        "gold": 90
+      },
+      {
+        "battle": 8,
+        "cards": [
+          "train2",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 5,
+        "second": 1,
+        "gold": 100
+      },
+      {
+        "battle": 9,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 5,
+        "second": 1,
+        "gold": 110
+      },
+      {
+        "battle": 10,
+        "cards": [
+          "relic",
+          "recruit",
+          "growth"
+        ],
+        "pick": "recruit",
+        "units": 6,
+        "second": 1,
+        "gold": 120
+      },
+      {
+        "battle": 11,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 7,
+        "second": 1,
+        "gold": 130
+      },
+      {
+        "battle": 12,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 7,
+        "second": 2,
+        "gold": 140
+      },
+      {
+        "battle": 13,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "recruit",
+        "units": 8,
+        "second": 2,
+        "gold": 150
+      },
+      {
+        "battle": 14,
+        "cards": [
+          "growth",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 8,
+        "second": 2,
+        "gold": 180
+      },
+      {
+        "battle": 15,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 8,
+        "second": 2,
+        "gold": 190
+      },
+      {
+        "battle": 16,
+        "cards": [
+          "recruit",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "recruit",
+        "units": 9,
+        "second": 2,
+        "gold": 200
+      },
+      {
+        "battle": 17,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 2,
+        "gold": 210
+      },
+      {
+        "battle": 18,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 2,
+        "gold": 220
+      },
+      {
+        "battle": 19,
+        "cards": [
+          "recruit",
+          "relic",
+          "recruit"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 2,
+        "gold": 230
+      },
+      {
+        "battle": 20,
+        "cards": [
+          "growth",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 240
+      },
+      {
+        "battle": 21,
+        "cards": [
+          "key",
+          "recruit",
+          "recruit"
+        ],
+        "pick": "key",
+        "units": 9,
+        "second": 3,
+        "gold": 270
+      },
+      {
+        "battle": 22,
+        "cards": [
+          "recruit",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 3,
+        "gold": 280
+      },
+      {
+        "battle": 23,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 290
+      },
+      {
+        "battle": 24,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 3,
+        "gold": 300
+      },
+      {
+        "battle": 25,
+        "cards": [
+          "growth",
+          "relic",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 4,
+        "gold": 310
+      },
+      {
+        "battle": 26,
+        "cards": [
+          "recruit",
+          "growth",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 4,
+        "gold": 320
+      },
+      {
+        "battle": 27,
+        "cards": [
+          "relic",
+          "relic",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 4,
+        "gold": 330
+      },
+      {
+        "battle": 28,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 4,
+        "gold": 360
+      },
+      {
+        "battle": 29,
+        "cards": [
+          "recruit",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 4,
+        "gold": 370
+      },
+      {
+        "battle": 30,
+        "cards": [
+          "relic",
+          "recruit",
+          "relic"
+        ],
+        "pick": "relic",
+        "units": 9,
+        "second": 4,
+        "gold": 380
+      },
+      {
+        "battle": 31,
+        "cards": [
+          "recruit",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 5,
+        "gold": 390
+      },
+      {
+        "battle": 32,
+        "cards": [
+          "recruit",
+          "growth",
+          "recruit"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 5,
+        "gold": 400
+      },
+      {
+        "battle": 33,
+        "cards": [
+          "growth",
+          "recruit",
+          "growth"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 5,
+        "gold": 410
+      },
+      {
+        "battle": 34,
+        "cards": [
+          "growth",
+          "growth",
+          "relic"
+        ],
+        "pick": "growth",
+        "units": 9,
+        "second": 6,
+        "gold": 420
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "receipt": {
+    "eventId": "receipt-escalation:1:1:0",
+    "amount": 47.5,
+    "actualDamage": 95
+  },
+  "exception": "Invalid damage receipt",
+  "hpBefore": 110,
+  "hpAfter": 15,
+  "tick": 5400,
+  "resolveTick": 5400
+}

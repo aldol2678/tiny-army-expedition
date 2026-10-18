@@ -1,0 +1,16 @@
+{
+  "packageVersion": "v10-review-20261018-r1",
+  "liveVersion": "v0.9.11",
+  "liveCommit": "9f15c57c8b6cabff286874da34ecde1c8b2c8e8b",
+  "scope": "Source-only review package; 1.0 isolated prototype is NOT a playable 35-battle integrated campaign",
+  "engineFiles": "Four unmodified dist/js source dependencies copied from current repository",
+  "excluded": [
+    ".git",
+    "credentials",
+    "private user data",
+    "audio",
+    "image/font assets",
+    "deployment configuration"
+  ],
+  "productionMutation": false
+}

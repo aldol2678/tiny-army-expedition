@@ -1,0 +1,13 @@
+test_budget_and_xp (test_model.Tests.test_budget_and_xp) ... ok
+test_caps (test_model.Tests.test_caps) ... ok
+test_gold_ledger (test_model.Tests.test_gold_ledger) ... ok
+test_milestones (test_model.Tests.test_milestones) ... ok
+test_no_free_automatic_qualification (test_model.Tests.test_no_free_automatic_qualification) ... ok
+test_paired_categories (test_model.Tests.test_paired_categories) ... ok
+test_replay (test_model.Tests.test_replay) ... ok
+test_reservations (test_model.Tests.test_reservations) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.051s
+
+OK

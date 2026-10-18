@@ -1,0 +1,14 @@
+{
+  "army-v10-implementation/spear-skills/adapter.cjs": "6070b409513e18133555a16ff682968eb0e2babcdbe054ffdd08af817df587f3",
+  "army-v10-implementation/spear-skills/test.cjs": "0d7a0be4c9d5e95a3bfd4c2607306647f98c25cbfb0f7dabb88b20804f98ba3c",
+  "army-v10-implementation/spear-skills/spear-skills.cjs": "6d490963f1b7f27feffb371dbce3fafa6b16e6b15175bb8e251817b26c2e056c",
+  "army-v10-planning/second-class-branch-proposal.md": "f5527a8d99e8abf61e59ed080f989f451a4c8cf738510d22c77efeac6e5546c9",
+  "tiny-army-sites/dist/js/content.js": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1",
+  "tiny-army-sites/dist/js/v09-content.js": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe",
+  "tiny-army-sites/dist/js/game-engine.js": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20",
+  "tiny-army-sites/dist/js/campaign.js": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef",
+  "army-v10-validation/build-compatibility/compatibility.cjs": "22116d2abc165e7fa58aec16991079ed8dfdd6d15c0432d774a6c3827f700c7a",
+  "army-v10-validation/build-compatibility/receipt-bug.cjs": "a725f58b2acd33c9eac1b0b0c9a4e6f8502191bb88521cf523c988f108db7c1c",
+  "army-v10-validation/build-compatibility/rerun-existing.cjs": "da88a403178f9fc4dcdafd8c8216f3f6995247bf9b5fdb182b3587d007a69bde",
+  "army-v10-validation/build-compatibility/inheritance.cjs": "1d30d4a5a19615655e7975360229a0802a72c679a1d267c167e487b8668adbdf"
+}

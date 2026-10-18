@@ -1,0 +1,13 @@
+{
+  "status": "PASS_REPRODUCIBILITY_ONLY",
+  "testedFromFreshUnzip": true,
+  "sourceExecutableFilesMatchingTestedCopy": 22,
+  "node": "v24.19.0",
+  "python": "3.12.14",
+  "campaignTests": 6,
+  "spearTests": 19,
+  "knownReceiptDefect": "REPRODUCED_NOT_FIXED",
+  "full35BattleIntegratedSimulation": false,
+  "productionFilesModified": false,
+  "externalDownloadsRequired": false
+}

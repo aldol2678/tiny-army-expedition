@@ -1,0 +1,13 @@
+test_budget_totals (test_model.BudgetTests.test_budget_totals) ... ok
+test_empty_eligibility_is_empty_not_new_category (test_model.BudgetTests.test_empty_eligibility_is_empty_not_new_category) ... ok
+test_exact_document_pool (test_model.BudgetTests.test_exact_document_pool) ... ok
+test_four_vs_three_tradeoff (test_model.BudgetTests.test_four_vs_three_tradeoff) ... ok
+test_milestones (test_model.BudgetTests.test_milestones) ... ok
+test_no_double_boss_or_growth_budget (test_model.BudgetTests.test_no_double_boss_or_growth_budget) ... ok
+test_representative_candidate_filter (test_model.BudgetTests.test_representative_candidate_filter) ... ok
+test_xp_and_caps (test_model.BudgetTests.test_xp_and_caps) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

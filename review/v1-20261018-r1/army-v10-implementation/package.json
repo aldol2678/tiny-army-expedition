@@ -1,0 +1,1 @@
+{"name":"tiny-army-v10-campaign-trial","version":"0.0.1","private":true,"type":"module","scripts":{"test":"node --test test/*.test.js","verify":"node test/verify-seeds.js"},"engines":{"node":">=18"}}

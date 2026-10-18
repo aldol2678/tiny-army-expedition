@@ -1,0 +1,27 @@
+✔ two roles retain legacy IDs and exactly two plus ultimate skills (1.615221ms)
+✔ real v09 projection training/condition/relic values inherited once (5.702133ms)
+✔ no legal targets spends no cooldown/sequence/ultimate (0.566763ms)
+✔ windup and recovery forbid normal attack; remaining attack time preserved (0.81069ms)
+✔ ultimate compresses windup but preserves total occupancy and damage (1.431945ms)
+✔ ultimate requires 5 seconds and valid bonus condition, reserve cannot charge (1.669654ms)
+✔ fixed ground charge fizzles without cover and never follows moved target (0.676057ms)
+✔ absorbed/zero damage does not create charge cover (0.628386ms)
+✔ death cancels pending action with no refund and no proc (0.535746ms)
+✔ resolved event replay produces nothing; invalid receipt cannot settle (1.230051ms)
+✔ guardian ultimate splits same budget up to three hits and never shields/heals (1.466317ms)
+✔ guardian requires actual strongest link; may retarget only once (0.960145ms)
+✔ 55% mitigation cap, zero hit preserves budget, equal sources choose ID (0.652863ms)
+✔ source death and connection loss end protection without duration extension (0.639843ms)
+✔ snapshot reload and input array permutation deterministic, inputs unmodified (1.56142ms)
+✔ proc budget rejects repeated and derived chains, capped at three root claims (0.93682ms)
+✔ guardian ordinary and ultimate total budget identical, legacy normal tags untouched (1.225675ms)
+✔ real spear-tip bonus affects normal attack but not charge; condition applied once (1.380197ms)
+✔ executable adapter calls host with original tags and idempotent journal (1.794641ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 120.296184

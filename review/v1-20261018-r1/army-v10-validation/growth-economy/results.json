@@ -1,0 +1,2355 @@
+{
+  "model": "opportunity-proxy-1",
+  "seeds": 1000,
+  "combat_connected": false,
+  "results": {
+    "initial4/shops0/army/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.571,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.826,
+      "first_second_p90_conditional": 11,
+      "chosen_mean": {
+        "recruit": 5.952,
+        "growth": 20.267,
+        "relic": 6.781,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 8.351,
+          "second": 0,
+          "relics": 0.342,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.256,
+          "second": 1.95,
+          "relics": 1.79,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.471,
+          "second": 3.377,
+          "relics": 3.37,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.733,
+          "second": 5.04,
+          "relics": 5.194,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.952,
+          "second": 6.411,
+          "relics": 6.781,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops0/army/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.271,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 9.538,
+      "first_second_p90_conditional": 11,
+      "chosen_mean": {
+        "recruit": 5.867,
+        "growth": 18.061,
+        "relic": 9.072,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 7.857,
+          "second": 0,
+          "relics": 1.229,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.231,
+          "second": 1.72,
+          "relics": 2.635,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.412,
+          "second": 2.888,
+          "relics": 4.936,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.648,
+          "second": 4.291,
+          "relics": 7.486,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.867,
+          "second": 5.689,
+          "relics": 9.072,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops0/relic/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.297,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 11.522,
+      "first_second_p90_conditional": 17,
+      "chosen_mean": {
+        "recruit": 3.124,
+        "growth": 12.565,
+        "relic": 16.987,
+        "key": 0.971,
+        "pass": 0.353
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 4.23,
+          "second": 0,
+          "relics": 4.597,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 4.508,
+          "second": 0.979,
+          "relics": 9.358,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 4.73,
+          "second": 1.583,
+          "relics": 13.545,
+          "gold": 270,
+          "key": 0.971
+        },
+        "28": {
+          "units": 5.57,
+          "second": 2.585,
+          "relics": 16.641,
+          "gold": 360,
+          "key": 0.971
+        },
+        "34": {
+          "units": 7.124,
+          "second": 3.862,
+          "relics": 16.987,
+          "gold": 420,
+          "key": 0.971
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops0/relic/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.271,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 12.07,
+      "first_second_p90_conditional": 19,
+      "chosen_mean": {
+        "recruit": 3.076,
+        "growth": 11.919,
+        "relic": 16.997,
+        "key": 0.947,
+        "pass": 1.061
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 4.2,
+          "second": 0,
+          "relics": 4.896,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 4.484,
+          "second": 0.914,
+          "relics": 9.657,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 4.678,
+          "second": 1.43,
+          "relics": 14.127,
+          "gold": 270,
+          "key": 0.947
+        },
+        "28": {
+          "units": 5.468,
+          "second": 2.303,
+          "relics": 16.84,
+          "gold": 360,
+          "key": 0.947
+        },
+        "34": {
+          "units": 7.076,
+          "second": 3.63,
+          "relics": 16.997,
+          "gold": 420,
+          "key": 0.947
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops0/balanced/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 5.731,
+        "growth": 18.63,
+        "relic": 8.639,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 5.451,
+          "second": 0,
+          "relics": 0.247,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 8.754,
+          "second": 2.124,
+          "relics": 1.394,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.248,
+          "second": 3.07,
+          "relics": 4.542,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.512,
+          "second": 4.51,
+          "relics": 7.042,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.731,
+          "second": 5.884,
+          "relics": 8.639,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops0/balanced/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 5.645,
+        "growth": 17.796,
+        "relic": 9.559,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 5.208,
+          "second": 0,
+          "relics": 1.212,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 8.689,
+          "second": 1.995,
+          "relics": 2.119,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.185,
+          "second": 2.927,
+          "relics": 5.053,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.426,
+          "second": 4.178,
+          "relics": 7.973,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.645,
+          "second": 5.598,
+          "relics": 9.559,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial4/shops1/army/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.895,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.133,
+      "first_second_p90_conditional": 9,
+      "chosen_mean": {
+        "recruit": 4.382,
+        "growth": 21.081,
+        "relic": 7.511,
+        "key": 1,
+        "pass": 0.026
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.034,
+          "second": 0,
+          "relics": 0.643,
+          "gold": 53.72,
+          "key": 0
+        },
+        "14": {
+          "units": 9.339,
+          "second": 2.885,
+          "relics": 2.172,
+          "gold": 99.1,
+          "key": 0
+        },
+        "21": {
+          "units": 9.551,
+          "second": 4.798,
+          "relics": 3.754,
+          "gold": 145.51,
+          "key": 1
+        },
+        "28": {
+          "units": 9.816,
+          "second": 6.89,
+          "relics": 5.58,
+          "gold": 192.49,
+          "key": 1
+        },
+        "34": {
+          "units": 10.204,
+          "second": 8.652,
+          "relics": 7.511,
+          "gold": 213.31,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.822,
+        "training_bought": 5.675
+      }
+    },
+    "initial4/shops1/army/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.77,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.288,
+      "first_second_p90_conditional": 9,
+      "chosen_mean": {
+        "recruit": 4.18,
+        "growth": 19.236,
+        "relic": 9.573,
+        "key": 1,
+        "pass": 0.011
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 8.925,
+          "second": 0,
+          "relics": 1.427,
+          "gold": 53.72,
+          "key": 0
+        },
+        "14": {
+          "units": 9.315,
+          "second": 2.677,
+          "relics": 2.986,
+          "gold": 94.69,
+          "key": 0
+        },
+        "21": {
+          "units": 9.488,
+          "second": 4.34,
+          "relics": 5.29,
+          "gold": 141.19,
+          "key": 1
+        },
+        "28": {
+          "units": 9.724,
+          "second": 6.225,
+          "relics": 7.84,
+          "gold": 188.62,
+          "key": 1
+        },
+        "34": {
+          "units": 10.02,
+          "second": 8.078,
+          "relics": 9.573,
+          "gold": 206.38,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.84,
+        "training_bought": 5.894
+      }
+    },
+    "initial4/shops1/relic/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.297,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 11.183,
+      "first_second_p90_conditional": 16,
+      "chosen_mean": {
+        "recruit": 3.033,
+        "growth": 12.686,
+        "relic": 16.987,
+        "key": 0.998,
+        "pass": 0.296
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 6.23,
+          "second": 0,
+          "relics": 4.597,
+          "gold": 50,
+          "key": 0
+        },
+        "14": {
+          "units": 8.445,
+          "second": 0.999,
+          "relics": 9.358,
+          "gold": 99.82,
+          "key": 0
+        },
+        "21": {
+          "units": 9.218,
+          "second": 1.98,
+          "relics": 13.537,
+          "gold": 150.94,
+          "key": 0.998
+        },
+        "28": {
+          "units": 10.046,
+          "second": 3.302,
+          "relics": 16.641,
+          "gold": 202.93,
+          "key": 0.998
+        },
+        "34": {
+          "units": 11.525,
+          "second": 5.101,
+          "relics": 16.987,
+          "gold": 219.25,
+          "key": 0.998
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 4.492,
+        "training_bought": 3.697
+      }
+    },
+    "initial4/shops1/relic/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.271,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 11.592,
+      "first_second_p90_conditional": 17,
+      "chosen_mean": {
+        "recruit": 3.001,
+        "growth": 11.992,
+        "relic": 16.997,
+        "key": 0.997,
+        "pass": 1.013
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 6.2,
+          "second": 0,
+          "relics": 4.896,
+          "gold": 50,
+          "key": 0
+        },
+        "14": {
+          "units": 8.429,
+          "second": 0.929,
+          "relics": 9.657,
+          "gold": 99.81,
+          "key": 0
+        },
+        "21": {
+          "units": 9.197,
+          "second": 1.797,
+          "relics": 14.116,
+          "gold": 151.63,
+          "key": 0.997
+        },
+        "28": {
+          "units": 9.982,
+          "second": 3.024,
+          "relics": 16.84,
+          "gold": 203.05,
+          "key": 0.997
+        },
+        "34": {
+          "units": 11.529,
+          "second": 4.879,
+          "relics": 16.997,
+          "gold": 218.47,
+          "key": 0.997
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 4.528,
+        "training_bought": 3.699
+      }
+    },
+    "initial4/shops1/balanced/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.341,
+        "growth": 20.389,
+        "relic": 9.253,
+        "key": 1,
+        "pass": 0.017
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 7.451,
+          "second": 0,
+          "relics": 0.247,
+          "gold": 50,
+          "key": 0
+        },
+        "14": {
+          "units": 9.233,
+          "second": 2.865,
+          "relics": 3.092,
+          "gold": 93.27,
+          "key": 0
+        },
+        "21": {
+          "units": 9.445,
+          "second": 4.524,
+          "relics": 5.401,
+          "gold": 136.26,
+          "key": 1
+        },
+        "28": {
+          "units": 9.707,
+          "second": 6.482,
+          "relics": 7.475,
+          "gold": 182.76,
+          "key": 1
+        },
+        "34": {
+          "units": 10.029,
+          "second": 8.352,
+          "relics": 9.253,
+          "gold": 201,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 2.688,
+        "training_bought": 5.508
+      }
+    },
+    "initial4/shops1/balanced/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.102,
+        "growth": 19.578,
+        "relic": 10.309,
+        "key": 1,
+        "pass": 0.011
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 7.208,
+          "second": 0,
+          "relics": 1.212,
+          "gold": 50,
+          "key": 0
+        },
+        "14": {
+          "units": 9.2,
+          "second": 2.729,
+          "relics": 3.509,
+          "gold": 95.34,
+          "key": 0
+        },
+        "21": {
+          "units": 9.374,
+          "second": 4.326,
+          "relics": 5.932,
+          "gold": 139.33,
+          "key": 1
+        },
+        "28": {
+          "units": 9.61,
+          "second": 6.132,
+          "relics": 8.622,
+          "gold": 186.73,
+          "key": 1
+        },
+        "34": {
+          "units": 9.89,
+          "second": 8,
+          "relics": 10.309,
+          "gold": 204.1,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 2.788,
+        "training_bought": 5.338
+      }
+    },
+    "initial6/shops0/army/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.926,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.147,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 4.026,
+        "growth": 21.796,
+        "relic": 7.177,
+        "key": 1,
+        "pass": 0.001
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.031,
+          "second": 0,
+          "relics": 0.66,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.331,
+          "second": 2.504,
+          "relics": 2.18,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.543,
+          "second": 3.918,
+          "relics": 3.762,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.805,
+          "second": 5.533,
+          "relics": 5.586,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 10.026,
+          "second": 6.943,
+          "relics": 7.177,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops0/army/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.846,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.313,
+      "first_second_p90_conditional": 9,
+      "chosen_mean": {
+        "recruit": 3.931,
+        "growth": 19.661,
+        "relic": 9.408,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 8.922,
+          "second": 0,
+          "relics": 1.444,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.302,
+          "second": 2.245,
+          "relics": 2.969,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.475,
+          "second": 3.421,
+          "relics": 5.273,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.711,
+          "second": 4.821,
+          "relics": 7.823,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.931,
+          "second": 6.217,
+          "relics": 9.408,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops0/relic/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.297,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 11.522,
+      "first_second_p90_conditional": 17,
+      "chosen_mean": {
+        "recruit": 3.039,
+        "growth": 12.702,
+        "relic": 16.987,
+        "key": 0.971,
+        "pass": 0.301
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 6.23,
+          "second": 0,
+          "relics": 4.597,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 6.508,
+          "second": 0.979,
+          "relics": 9.358,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 6.73,
+          "second": 1.583,
+          "relics": 13.545,
+          "gold": 270,
+          "key": 0.971
+        },
+        "28": {
+          "units": 7.56,
+          "second": 2.585,
+          "relics": 16.641,
+          "gold": 360,
+          "key": 0.971
+        },
+        "34": {
+          "units": 9.039,
+          "second": 3.91,
+          "relics": 16.987,
+          "gold": 420,
+          "key": 0.971
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops0/relic/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.271,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 12.07,
+      "first_second_p90_conditional": 19,
+      "chosen_mean": {
+        "recruit": 3.014,
+        "growth": 12.022,
+        "relic": 16.997,
+        "key": 0.947,
+        "pass": 1.02
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 6.2,
+          "second": 0,
+          "relics": 4.896,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 6.484,
+          "second": 0.914,
+          "relics": 9.657,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 6.678,
+          "second": 1.43,
+          "relics": 14.127,
+          "gold": 270,
+          "key": 0.947
+        },
+        "28": {
+          "units": 7.467,
+          "second": 2.303,
+          "relics": 16.84,
+          "gold": 360,
+          "key": 0.947
+        },
+        "34": {
+          "units": 9.014,
+          "second": 3.664,
+          "relics": 16.997,
+          "gold": 420,
+          "key": 0.947
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops0/balanced/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.883,
+        "growth": 20.16,
+        "relic": 8.957,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 7.451,
+          "second": 0,
+          "relics": 0.247,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.178,
+          "second": 2.225,
+          "relics": 2.656,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.402,
+          "second": 3.5,
+          "relics": 5.225,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.664,
+          "second": 4.981,
+          "relics": 7.371,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.883,
+          "second": 6.383,
+          "relics": 8.957,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops0/balanced/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.784,
+        "growth": 19.198,
+        "relic": 10.018,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 7.208,
+          "second": 0,
+          "relics": 1.212,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.142,
+          "second": 2.12,
+          "relics": 3.153,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.329,
+          "second": 3.333,
+          "relics": 5.702,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.565,
+          "second": 4.656,
+          "relics": 8.432,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.784,
+          "second": 6.065,
+          "relics": 10.018,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "initial6/shops1/army/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.985,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.017,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.219,
+        "growth": 21.743,
+        "relic": 8.008,
+        "key": 1,
+        "pass": 0.03
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.186,
+          "second": 0,
+          "relics": 1.066,
+          "gold": 67.84,
+          "key": 0
+        },
+        "14": {
+          "units": 9.428,
+          "second": 3.144,
+          "relics": 2.586,
+          "gold": 113.86,
+          "key": 0
+        },
+        "21": {
+          "units": 9.64,
+          "second": 5.056,
+          "relics": 4.168,
+          "gold": 160.03,
+          "key": 1
+        },
+        "28": {
+          "units": 9.91,
+          "second": 7.147,
+          "relics": 6.004,
+          "gold": 206.92,
+          "key": 1
+        },
+        "34": {
+          "units": 10.327,
+          "second": 8.856,
+          "relics": 8.008,
+          "gold": 229.63,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.108,
+        "training_bought": 5.607
+      }
+    },
+    "initial6/shops1/army/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.971,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8.041,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 3.013,
+        "growth": 19.993,
+        "relic": 9.977,
+        "key": 1,
+        "pass": 0.017
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.156,
+          "second": 0,
+          "relics": 1.818,
+          "gold": 67.84,
+          "key": 0
+        },
+        "14": {
+          "units": 9.398,
+          "second": 2.932,
+          "relics": 3.345,
+          "gold": 110.77,
+          "key": 0
+        },
+        "21": {
+          "units": 9.571,
+          "second": 4.613,
+          "relics": 5.649,
+          "gold": 156.97,
+          "key": 1
+        },
+        "28": {
+          "units": 9.807,
+          "second": 6.49,
+          "relics": 8.201,
+          "gold": 203.77,
+          "key": 1
+        },
+        "34": {
+          "units": 10.121,
+          "second": 8.332,
+          "relics": 9.977,
+          "gold": 221.92,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.108,
+        "training_bought": 5.864
+      }
+    },
+    "initial6/shops1/relic/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 0.297,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 9.852,
+      "first_second_p90_conditional": 11,
+      "chosen_mean": {
+        "recruit": 3.033,
+        "growth": 12.686,
+        "relic": 16.987,
+        "key": 0.998,
+        "pass": 0.296
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 8.228,
+          "second": 0,
+          "relics": 4.597,
+          "gold": 50.04,
+          "key": 0
+        },
+        "14": {
+          "units": 9.246,
+          "second": 1.397,
+          "relics": 9.358,
+          "gold": 98.18,
+          "key": 0
+        },
+        "21": {
+          "units": 9.464,
+          "second": 2.368,
+          "relics": 13.537,
+          "gold": 153.47,
+          "key": 0.998
+        },
+        "28": {
+          "units": 10.292,
+          "second": 3.671,
+          "relics": 16.641,
+          "gold": 204.56,
+          "key": 0.998
+        },
+        "34": {
+          "units": 11.771,
+          "second": 5.474,
+          "relics": 16.987,
+          "gold": 220.88,
+          "key": 0.998
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 2.738,
+        "training_bought": 4.812
+      }
+    },
+    "initial6/shops1/relic/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 0.271,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 10.096,
+      "first_second_p90_conditional": 11,
+      "chosen_mean": {
+        "recruit": 3.001,
+        "growth": 11.992,
+        "relic": 16.997,
+        "key": 0.997,
+        "pass": 1.013
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 8.198,
+          "second": 0,
+          "relics": 4.896,
+          "gold": 50.04,
+          "key": 0
+        },
+        "14": {
+          "units": 9.235,
+          "second": 1.297,
+          "relics": 9.657,
+          "gold": 98.49,
+          "key": 0
+        },
+        "21": {
+          "units": 9.42,
+          "second": 2.179,
+          "relics": 14.116,
+          "gold": 153.84,
+          "key": 0.997
+        },
+        "28": {
+          "units": 10.205,
+          "second": 3.413,
+          "relics": 16.84,
+          "gold": 203.94,
+          "key": 0.997
+        },
+        "34": {
+          "units": 11.752,
+          "second": 5.251,
+          "relics": 16.997,
+          "gold": 219.96,
+          "key": 0.997
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 2.751,
+        "training_bought": 4.834
+      }
+    },
+    "initial6/shops1/balanced/milestones0": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 2.609,
+        "growth": 20.979,
+        "relic": 9.396,
+        "key": 1,
+        "pass": 0.016
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.29,
+          "second": 0,
+          "relics": 0.247,
+          "gold": 53.22,
+          "key": 0
+        },
+        "14": {
+          "units": 9.682,
+          "second": 3.095,
+          "relics": 3.432,
+          "gold": 94.65,
+          "key": 0
+        },
+        "21": {
+          "units": 9.894,
+          "second": 4.826,
+          "relics": 5.543,
+          "gold": 141.99,
+          "key": 1
+        },
+        "28": {
+          "units": 10.156,
+          "second": 6.806,
+          "relics": 7.584,
+          "gold": 189.27,
+          "key": 1
+        },
+        "34": {
+          "units": 10.493,
+          "second": 8.616,
+          "relics": 9.396,
+          "gold": 209.22,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.884,
+        "training_bought": 5.77
+      }
+    },
+    "initial6/shops1/balanced/milestones1": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 2.313,
+        "growth": 20.084,
+        "relic": 10.593,
+        "key": 1,
+        "pass": 0.01
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 9.047,
+          "second": 0,
+          "relics": 1.212,
+          "gold": 53.22,
+          "key": 0
+        },
+        "14": {
+          "units": 9.492,
+          "second": 3.006,
+          "relics": 3.794,
+          "gold": 95.29,
+          "key": 0
+        },
+        "21": {
+          "units": 9.665,
+          "second": 4.675,
+          "relics": 6.165,
+          "gold": 142.03,
+          "key": 1
+        },
+        "28": {
+          "units": 9.901,
+          "second": 6.504,
+          "relics": 8.831,
+          "gold": 189.25,
+          "key": 1
+        },
+        "34": {
+          "units": 10.213,
+          "second": 8.336,
+          "relics": 10.593,
+          "gold": 208.03,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 1.9,
+        "training_bought": 5.799
+      }
+    }
+  },
+  "paired": {
+    "initial4/shops0/army": {
+      "final_second_delta_mean": -0.722,
+      "final_relic_delta_mean": 2.291,
+      "final_units_delta_mean": -0.085,
+      "second_delayed_runs": 435
+    },
+    "initial4/shops0/relic": {
+      "final_second_delta_mean": -0.232,
+      "final_relic_delta_mean": 0.01,
+      "final_units_delta_mean": -0.048,
+      "second_delayed_runs": 149
+    },
+    "initial4/shops0/balanced": {
+      "final_second_delta_mean": -0.286,
+      "final_relic_delta_mean": 0.92,
+      "final_units_delta_mean": -0.086,
+      "second_delayed_runs": 0
+    },
+    "initial4/shops1/army": {
+      "final_second_delta_mean": -0.574,
+      "final_relic_delta_mean": 2.062,
+      "final_units_delta_mean": -0.184,
+      "second_delayed_runs": 139
+    },
+    "initial4/shops1/relic": {
+      "final_second_delta_mean": -0.222,
+      "final_relic_delta_mean": 0.01,
+      "final_units_delta_mean": 0.004,
+      "second_delayed_runs": 150
+    },
+    "initial4/shops1/balanced": {
+      "final_second_delta_mean": -0.352,
+      "final_relic_delta_mean": 1.056,
+      "final_units_delta_mean": -0.139,
+      "second_delayed_runs": 0
+    },
+    "initial6/shops0/army": {
+      "final_second_delta_mean": -0.726,
+      "final_relic_delta_mean": 2.231,
+      "final_units_delta_mean": -0.095,
+      "second_delayed_runs": 97
+    },
+    "initial6/shops0/relic": {
+      "final_second_delta_mean": -0.246,
+      "final_relic_delta_mean": 0.01,
+      "final_units_delta_mean": -0.025,
+      "second_delayed_runs": 149
+    },
+    "initial6/shops0/balanced": {
+      "final_second_delta_mean": -0.318,
+      "final_relic_delta_mean": 1.061,
+      "final_units_delta_mean": -0.099,
+      "second_delayed_runs": 0
+    },
+    "initial6/shops1/army": {
+      "final_second_delta_mean": -0.524,
+      "final_relic_delta_mean": 1.969,
+      "final_units_delta_mean": -0.206,
+      "second_delayed_runs": 18
+    },
+    "initial6/shops1/relic": {
+      "final_second_delta_mean": -0.223,
+      "final_relic_delta_mean": 0.01,
+      "final_units_delta_mean": -0.019,
+      "second_delayed_runs": 98
+    },
+    "initial6/shops1/balanced": {
+      "final_second_delta_mean": -0.28,
+      "final_relic_delta_mean": 1.197,
+      "final_units_delta_mean": -0.28,
+      "second_delayed_runs": 0
+    }
+  },
+  "capacity_sensitivity": {
+    "army": {
+      "False": {
+        "runs": 1000,
+        "second_by8_fraction": 0.571,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8.826,
+        "first_second_p90_conditional": 11,
+        "chosen_mean": {
+          "recruit": 5.952,
+          "growth": 20.267,
+          "relic": 6.781,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 8.351,
+            "second": 0,
+            "relics": 0.342,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 9.256,
+            "second": 1.95,
+            "relics": 1.79,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.471,
+            "second": 3.377,
+            "relics": 3.37,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.733,
+            "second": 5.04,
+            "relics": 5.194,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.952,
+            "second": 6.411,
+            "relics": 6.781,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "True": {
+        "runs": 1000,
+        "second_by8_fraction": 0.271,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 9.538,
+        "first_second_p90_conditional": 11,
+        "chosen_mean": {
+          "recruit": 5.867,
+          "growth": 18.061,
+          "relic": 9.072,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 7.857,
+            "second": 0,
+            "relics": 1.229,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 9.231,
+            "second": 1.72,
+            "relics": 2.635,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.412,
+            "second": 2.888,
+            "relics": 4.936,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.648,
+            "second": 4.291,
+            "relics": 7.486,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.867,
+            "second": 5.689,
+            "relics": 9.072,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    },
+    "relic": {
+      "False": {
+        "runs": 1000,
+        "second_by8_fraction": 0.297,
+        "no_second_fraction": 0.001,
+        "first_second_mean_conditional": 11.5846,
+        "first_second_p90_conditional": 17,
+        "chosen_mean": {
+          "recruit": 1.235,
+          "growth": 9.08,
+          "relic": 22.716,
+          "key": 0.963,
+          "pass": 0.006
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 4.23,
+            "second": 0,
+            "relics": 4.597,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 4.508,
+            "second": 0.979,
+            "relics": 9.358,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 4.721,
+            "second": 1.574,
+            "relics": 13.583,
+            "gold": 270,
+            "key": 0.963
+          },
+          "28": {
+            "units": 4.993,
+            "second": 2.192,
+            "relics": 18.491,
+            "gold": 360,
+            "key": 0.963
+          },
+          "34": {
+            "units": 5.235,
+            "second": 2.689,
+            "relics": 22.716,
+            "gold": 420,
+            "key": 0.963
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "True": {
+        "runs": 1000,
+        "second_by8_fraction": 0.271,
+        "no_second_fraction": 0.002,
+        "first_second_mean_conditional": 12.1984,
+        "first_second_p90_conditional": 19,
+        "chosen_mean": {
+          "recruit": 1.135,
+          "growth": 8.332,
+          "relic": 23.597,
+          "key": 0.934,
+          "pass": 0.002
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 4.2,
+            "second": 0,
+            "relics": 4.896,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 4.484,
+            "second": 0.914,
+            "relics": 9.657,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 4.66,
+            "second": 1.408,
+            "relics": 14.196,
+            "gold": 270,
+            "key": 0.934
+          },
+          "28": {
+            "units": 4.897,
+            "second": 1.941,
+            "relics": 19.372,
+            "gold": 360,
+            "key": 0.934
+          },
+          "34": {
+            "units": 5.135,
+            "second": 2.45,
+            "relics": 23.597,
+            "gold": 420,
+            "key": 0.934
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    },
+    "balanced": {
+      "False": {
+        "runs": 1000,
+        "second_by8_fraction": 1,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8,
+        "first_second_p90_conditional": 8,
+        "chosen_mean": {
+          "recruit": 5.731,
+          "growth": 18.63,
+          "relic": 8.639,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 5.451,
+            "second": 0,
+            "relics": 0.247,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 8.754,
+            "second": 2.124,
+            "relics": 1.394,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.248,
+            "second": 3.07,
+            "relics": 4.542,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.512,
+            "second": 4.51,
+            "relics": 7.042,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.731,
+            "second": 5.884,
+            "relics": 8.639,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "True": {
+        "runs": 1000,
+        "second_by8_fraction": 1,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8,
+        "first_second_p90_conditional": 8,
+        "chosen_mean": {
+          "recruit": 5.645,
+          "growth": 17.796,
+          "relic": 9.559,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 5.208,
+            "second": 0,
+            "relics": 1.212,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 8.689,
+            "second": 1.995,
+            "relics": 2.119,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.185,
+            "second": 2.927,
+            "relics": 5.053,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.426,
+            "second": 4.178,
+            "relics": 7.973,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.645,
+            "second": 5.598,
+            "relics": 9.559,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    }
+  },
+  "gate_sensitivity": {
+    "1": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 4.542,
+      "first_second_p90_conditional": 7,
+      "chosen_mean": {
+        "recruit": 5.726,
+        "growth": 17.428,
+        "relic": 9.846,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 5.928,
+          "second": 0.968,
+          "relics": 1.225,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 9.018,
+          "second": 1.78,
+          "relics": 2.847,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.27,
+          "second": 2.778,
+          "relics": 5.485,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.507,
+          "second": 4.063,
+          "relics": 8.26,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.726,
+          "second": 5.47,
+          "relics": 9.846,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    },
+    "8": {
+      "runs": 1000,
+      "second_by8_fraction": 1,
+      "no_second_fraction": 0,
+      "first_second_mean_conditional": 8,
+      "first_second_p90_conditional": 8,
+      "chosen_mean": {
+        "recruit": 5.645,
+        "growth": 17.796,
+        "relic": 9.559,
+        "key": 1,
+        "pass": 0
+      },
+      "snapshots_mean": {
+        "7": {
+          "units": 5.208,
+          "second": 0,
+          "relics": 1.212,
+          "gold": 90,
+          "key": 0
+        },
+        "14": {
+          "units": 8.689,
+          "second": 1.995,
+          "relics": 2.119,
+          "gold": 180,
+          "key": 0
+        },
+        "21": {
+          "units": 9.185,
+          "second": 2.927,
+          "relics": 5.053,
+          "gold": 270,
+          "key": 1
+        },
+        "28": {
+          "units": 9.426,
+          "second": 4.178,
+          "relics": 7.973,
+          "gold": 360,
+          "key": 1
+        },
+        "34": {
+          "units": 9.645,
+          "second": 5.598,
+          "relics": 9.559,
+          "gold": 420,
+          "key": 1
+        }
+      },
+      "purchases_mean": {
+        "recruits_bought": 0,
+        "training_bought": 0
+      }
+    }
+  },
+  "timing_sensitivity": {
+    "army": {
+      "6": {
+        "runs": 1000,
+        "second_by8_fraction": 0.271,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 9.538,
+        "first_second_p90_conditional": 11,
+        "chosen_mean": {
+          "recruit": 5.867,
+          "growth": 18.061,
+          "relic": 9.072,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 7.857,
+            "second": 0,
+            "relics": 1.229,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 9.231,
+            "second": 1.72,
+            "relics": 2.635,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.412,
+            "second": 2.888,
+            "relics": 4.936,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.648,
+            "second": 4.291,
+            "relics": 7.486,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.867,
+            "second": 5.689,
+            "relics": 9.072,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "9": {
+        "runs": 1000,
+        "second_by8_fraction": 0.571,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 9.316,
+        "first_second_p90_conditional": 12,
+        "chosen_mean": {
+          "recruit": 5.85,
+          "growth": 18.157,
+          "relic": 8.993,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 8.351,
+            "second": 0,
+            "relics": 0.342,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 9.21,
+            "second": 1.742,
+            "relics": 2.559,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.395,
+            "second": 2.921,
+            "relics": 4.857,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.631,
+            "second": 4.326,
+            "relics": 7.407,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.85,
+            "second": 5.716,
+            "relics": 8.993,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "10": {
+        "runs": 1000,
+        "second_by8_fraction": 0.571,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 9.076,
+        "first_second_p90_conditional": 12,
+        "chosen_mean": {
+          "recruit": 5.845,
+          "growth": 18.18,
+          "relic": 8.975,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 8.351,
+            "second": 0,
+            "relics": 0.342,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 9.205,
+            "second": 1.732,
+            "relics": 2.541,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.39,
+            "second": 2.942,
+            "relics": 4.839,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.626,
+            "second": 4.323,
+            "relics": 7.389,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.845,
+            "second": 5.737,
+            "relics": 8.975,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    },
+    "relic": {
+      "6": {
+        "runs": 1000,
+        "second_by8_fraction": 0.271,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 12.07,
+        "first_second_p90_conditional": 19,
+        "chosen_mean": {
+          "recruit": 3.076,
+          "growth": 11.919,
+          "relic": 16.997,
+          "key": 0.947,
+          "pass": 1.061
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 4.2,
+            "second": 0,
+            "relics": 4.896,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 4.484,
+            "second": 0.914,
+            "relics": 9.657,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 4.678,
+            "second": 1.43,
+            "relics": 14.127,
+            "gold": 270,
+            "key": 0.947
+          },
+          "28": {
+            "units": 5.468,
+            "second": 2.303,
+            "relics": 16.84,
+            "gold": 360,
+            "key": 0.947
+          },
+          "34": {
+            "units": 7.076,
+            "second": 3.63,
+            "relics": 16.997,
+            "gold": 420,
+            "key": 0.947
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "9": {
+        "runs": 1000,
+        "second_by8_fraction": 0.297,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 12.389,
+        "first_second_p90_conditional": 19,
+        "chosen_mean": {
+          "recruit": 3.075,
+          "growth": 11.919,
+          "relic": 16.998,
+          "key": 0.948,
+          "pass": 1.06
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 4.23,
+            "second": 0,
+            "relics": 4.597,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 4.475,
+            "second": 0.873,
+            "relics": 9.672,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 4.665,
+            "second": 1.425,
+            "relics": 14.146,
+            "gold": 270,
+            "key": 0.948
+          },
+          "28": {
+            "units": 5.465,
+            "second": 2.298,
+            "relics": 16.856,
+            "gold": 360,
+            "key": 0.948
+          },
+          "34": {
+            "units": 7.075,
+            "second": 3.642,
+            "relics": 16.998,
+            "gold": 420,
+            "key": 0.948
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "10": {
+        "runs": 1000,
+        "second_by8_fraction": 0.297,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 12.311,
+        "first_second_p90_conditional": 19,
+        "chosen_mean": {
+          "recruit": 3.074,
+          "growth": 11.924,
+          "relic": 16.997,
+          "key": 0.943,
+          "pass": 1.062
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 4.23,
+            "second": 0,
+            "relics": 4.597,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 4.464,
+            "second": 0.879,
+            "relics": 9.678,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 4.658,
+            "second": 1.445,
+            "relics": 14.154,
+            "gold": 270,
+            "key": 0.943
+          },
+          "28": {
+            "units": 5.464,
+            "second": 2.303,
+            "relics": 16.836,
+            "gold": 360,
+            "key": 0.943
+          },
+          "34": {
+            "units": 7.074,
+            "second": 3.63,
+            "relics": 16.997,
+            "gold": 420,
+            "key": 0.943
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    },
+    "balanced": {
+      "6": {
+        "runs": 1000,
+        "second_by8_fraction": 1,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8,
+        "first_second_p90_conditional": 8,
+        "chosen_mean": {
+          "recruit": 5.645,
+          "growth": 17.796,
+          "relic": 9.559,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 5.208,
+            "second": 0,
+            "relics": 1.212,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 8.689,
+            "second": 1.995,
+            "relics": 2.119,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.185,
+            "second": 2.927,
+            "relics": 5.053,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.426,
+            "second": 4.178,
+            "relics": 7.973,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.645,
+            "second": 5.598,
+            "relics": 9.559,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "9": {
+        "runs": 1000,
+        "second_by8_fraction": 1,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8,
+        "first_second_p90_conditional": 8,
+        "chosen_mean": {
+          "recruit": 5.623,
+          "growth": 17.917,
+          "relic": 9.46,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 5.451,
+            "second": 0,
+            "relics": 0.247,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 8.453,
+            "second": 2.023,
+            "relics": 1.908,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.157,
+            "second": 2.981,
+            "relics": 4.869,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.404,
+            "second": 4.226,
+            "relics": 7.873,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.623,
+            "second": 5.634,
+            "relics": 9.46,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      },
+      "10": {
+        "runs": 1000,
+        "second_by8_fraction": 1,
+        "no_second_fraction": 0,
+        "first_second_mean_conditional": 8,
+        "first_second_p90_conditional": 8,
+        "chosen_mean": {
+          "recruit": 5.617,
+          "growth": 17.926,
+          "relic": 9.457,
+          "key": 1,
+          "pass": 0
+        },
+        "snapshots_mean": {
+          "7": {
+            "units": 5.451,
+            "second": 0,
+            "relics": 0.247,
+            "gold": 90,
+            "key": 0
+          },
+          "14": {
+            "units": 8.45,
+            "second": 2.022,
+            "relics": 1.905,
+            "gold": 180,
+            "key": 0
+          },
+          "21": {
+            "units": 9.154,
+            "second": 2.978,
+            "relics": 4.863,
+            "gold": 270,
+            "key": 1
+          },
+          "28": {
+            "units": 9.398,
+            "second": 4.22,
+            "relics": 7.871,
+            "gold": 360,
+            "key": 1
+          },
+          "34": {
+            "units": 9.617,
+            "second": 5.638,
+            "relics": 9.457,
+            "gold": 420,
+            "key": 1
+          }
+        },
+        "purchases_mean": {
+          "recruits_bought": 0,
+          "training_bought": 0
+        }
+      }
+    }
+  },
+  "total_runs": 41000
+}

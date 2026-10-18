@@ -1,0 +1,48 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "seeds": 1200,
+  "graphs": 6000,
+  "routes": 346557,
+  "noRestGraphs": 3624,
+  "noRestRuns": 102,
+  "maxElitesInChapter": 6,
+  "restCountHistogram": {
+    "0": 102,
+    "1": 281,
+    "2": 342,
+    "3": 278,
+    "4": 138,
+    "5": 46,
+    "6": 12,
+    "8": 1
+  },
+  "serviceMandatory": 0,
+  "timing": [
+    {
+      "battle": 2,
+      "slot": "evolution-if-eligible",
+      "remainingBattles": 33
+    },
+    {
+      "battle": 5,
+      "slot": "training-I-if-eligible",
+      "remainingBattles": 30
+    },
+    {
+      "battle": 8,
+      "slot": "training-II-or-second-stage-if-eligible",
+      "remainingBattles": 27
+    },
+    {
+      "battle": 21,
+      "slot": "unowned-target-relic-if-eligible",
+      "remainingBattles": 14
+    },
+    {
+      "battle": 21,
+      "phase": "awakening",
+      "chapter": 4,
+      "remainingBattles": 14
+    }
+  ]
+}

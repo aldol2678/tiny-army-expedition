@@ -1,0 +1,99 @@
+{
+  "summaries": [
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 26.693749999999998
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 12,
+      "meanTime": 44.578124999999986
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 35.577083333333334
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 19.894791666666666
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 15,
+      "meanTime": 43.55104166666667
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 25.733333333333334
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 29.85000000000001
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 4,
+      "meanTime": 50.49791666666667
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.028125
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 21.840625
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 40.676041666666656
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 19.222916666666663
+    }
+  ],
+  "receiptBug": {
+    "receipt": {
+      "eventId": "receipt-escalation:1:1:0",
+      "amount": 47.5,
+      "actualDamage": 95
+    },
+    "exception": "Invalid damage receipt",
+    "time": 90,
+    "seed": 1,
+    "description": "Legacy rage scaling after 60s makes actualDamage > event.amount; adapter mutates HP then reducer rejects receipt."
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "checks": {
+    "existingRelics": [
+      "banner",
+      "seal",
+      "spear_tip",
+      "medic",
+      "whistle",
+      "drum",
+      "keen_eye",
+      "arcane_lens",
+      "vanguard_plate",
+      "vanguard_banner",
+      "mid_resonance",
+      "heavy_blade",
+      "overcharge_core",
+      "triage_codex",
+      "echo_crystal",
+      "emergency_case",
+      "quick_hourglass"
+    ],
+    "projectionCases": 1836,
+    "combatCases": 512,
+    "replayEquality": true,
+    "sourceIntegrity": true
+  },
+  "ap": {
+    "before": 29.4,
+    "after": 30,
+    "apBasePercentPointGain": 3,
+    "relativeAPGainPercent": 2.0408163265306145,
+    "regenBefore": 3,
+    "regenAfter": 2.4000000000000004,
+    "costPersistsAtAllRanks": true
+  },
+  "triageWatch": [
+    {
+      "rank": 1,
+      "intervalFactor": 0.96,
+      "healFactor": 0.95,
+      "idealThroughputRatio": 0.9895833333333334,
+      "changePercent": -1.041666666666663
+    },
+    {
+      "rank": 2,
+      "intervalFactor": 0.94,
+      "healFactor": 0.95,
+      "idealThroughputRatio": 1.0106382978723405,
+      "changePercent": 1.0638297872340496
+    },
+    {
+      "rank": 3,
+      "intervalFactor": 0.92,
+      "healFactor": 0.95,
+      "idealThroughputRatio": 1.0326086956521738,
+      "changePercent": 3.2608695652173836
+    }
+  ],
+  "economic": {
+    "marchPurseTotalCaps": [
+      8,
+      12,
+      16
+    ],
+    "marginalCapGainPerUpgrade": 4,
+    "forgeCosts": [
+      20,
+      30
+    ],
+    "maximumCapOnlyNet": [
+      -16,
+      -26
+    ],
+    "scope": "Additional lifetime payout ceiling is +4; realized marginal payout is 0..4 depending on remaining battles and already-paid ledger. See horizon table.",
+    "horizons": [
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 0,
+        "noUpgradePayout": 0,
+        "upgradePayout": 0,
+        "marginalPayout": 0,
+        "net": -20
+      },
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 1,
+        "noUpgradePayout": 2,
+        "upgradePayout": 3,
+        "marginalPayout": 1,
+        "net": -19
+      },
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 2,
+        "noUpgradePayout": 4,
+        "upgradePayout": 6,
+        "marginalPayout": 2,
+        "net": -18
+      },
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 3,
+        "noUpgradePayout": 6,
+        "upgradePayout": 9,
+        "marginalPayout": 3,
+        "net": -17
+      },
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 4,
+        "noUpgradePayout": 8,
+        "upgradePayout": 12,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 1,
+        "paid": 0,
+        "remainingNormalWins": 10,
+        "noUpgradePayout": 8,
+        "upgradePayout": 12,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 0,
+        "noUpgradePayout": 0,
+        "upgradePayout": 0,
+        "marginalPayout": 0,
+        "net": -20
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 1,
+        "noUpgradePayout": 0,
+        "upgradePayout": 3,
+        "marginalPayout": 3,
+        "net": -17
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 2,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 3,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 4,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 1,
+        "paid": 8,
+        "remainingNormalWins": 10,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -16
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 0,
+        "noUpgradePayout": 0,
+        "upgradePayout": 0,
+        "marginalPayout": 0,
+        "net": -30
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 1,
+        "noUpgradePayout": 3,
+        "upgradePayout": 4,
+        "marginalPayout": 1,
+        "net": -29
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 2,
+        "noUpgradePayout": 6,
+        "upgradePayout": 8,
+        "marginalPayout": 2,
+        "net": -28
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 3,
+        "noUpgradePayout": 9,
+        "upgradePayout": 12,
+        "marginalPayout": 3,
+        "net": -27
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 4,
+        "noUpgradePayout": 12,
+        "upgradePayout": 16,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 0,
+        "remainingNormalWins": 10,
+        "noUpgradePayout": 12,
+        "upgradePayout": 16,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 0,
+        "noUpgradePayout": 0,
+        "upgradePayout": 0,
+        "marginalPayout": 0,
+        "net": -30
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 1,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 2,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 3,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 4,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -26
+      },
+      {
+        "fromRank": 2,
+        "paid": 12,
+        "remainingNormalWins": 10,
+        "noUpgradePayout": 0,
+        "upgradePayout": 4,
+        "marginalPayout": 4,
+        "net": -26
+      }
+    ]
+  },
+  "condition": [
+    {
+      "owned": 6,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 76,
+          "endMinimum": 66,
+          "endMaximum": 66,
+          "endMean": 66
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 42,
+          "endMinimum": 32,
+          "endMaximum": 32,
+          "endMean": 32
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 8,
+          "endMinimum": 0,
+          "endMaximum": 0,
+          "endMean": 0
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 0,
+          "endMinimum": 0,
+          "endMaximum": 0,
+          "endMean": 0
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 0,
+          "endMinimum": 0,
+          "endMaximum": 0,
+          "endMean": 0
+        }
+      ]
+    },
+    {
+      "owned": 8,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 86,
+          "endMinimum": 76,
+          "endMaximum": 92,
+          "endMean": 83
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 72,
+          "endMinimum": 62,
+          "endMaximum": 76,
+          "endMean": 68
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 58,
+          "endMinimum": 48,
+          "endMaximum": 60,
+          "endMean": 53
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 44,
+          "endMinimum": 34,
+          "endMaximum": 44,
+          "endMean": 38
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 30,
+          "endMinimum": 20,
+          "endMaximum": 30,
+          "endMean": 23
+        }
+      ]
+    },
+    {
+      "owned": 9,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 94,
+          "endMinimum": 84,
+          "endMaximum": 96,
+          "endMean": 88.66666666666667
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 82,
+          "endMinimum": 72,
+          "endMaximum": 88,
+          "endMean": 80
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 76,
+          "endMinimum": 66,
+          "endMaximum": 80,
+          "endMean": 71.33333333333333
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 66,
+          "endMinimum": 56,
+          "endMaximum": 70,
+          "endMean": 62.666666666666664
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 58,
+          "endMinimum": 48,
+          "endMaximum": 62,
+          "endMean": 54
+        }
+      ]
+    },
+    {
+      "owned": 10,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 96,
+          "endMinimum": 86,
+          "endMaximum": 100,
+          "endMean": 92.4
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 94,
+          "endMinimum": 84,
+          "endMaximum": 98,
+          "endMean": 88.8
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 90,
+          "endMinimum": 80,
+          "endMaximum": 94,
+          "endMean": 85.2
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 86,
+          "endMinimum": 76,
+          "endMaximum": 92,
+          "endMean": 81.6
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 82,
+          "endMinimum": 72,
+          "endMaximum": 88,
+          "endMean": 78
+        }
+      ]
+    },
+    {
+      "owned": 12,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 95
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 95
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 95
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 95
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 95
+        }
+      ]
+    },
+    {
+      "owned": 15,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96
+        }
+      ]
+    },
+    {
+      "owned": 18,
+      "deployed": 6,
+      "policy": "freshest-first, stable ID tie-break; all battles assumed won; zero KO; no services or relics",
+      "chapters": [
+        {
+          "chapter": 1,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96.66666666666667
+        },
+        {
+          "chapter": 2,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96.66666666666667
+        },
+        {
+          "chapter": 3,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96.66666666666667
+        },
+        {
+          "chapter": 4,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96.66666666666667
+        },
+        {
+          "chapter": 5,
+          "bossStartMinimum": 100,
+          "endMinimum": 90,
+          "endMaximum": 100,
+          "endMean": 96.66666666666667
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "encounter": "short",
+      "build": "none",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 10.028125,
+      "meanHP": 0.9983062330623305,
+      "meanSpells": 3.1875,
+      "meanHealing": 22.962962962962976
+    },
+    {
+      "encounter": "short",
+      "build": "ap47",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 8.913541666666667,
+      "meanHP": 1,
+      "meanSpells": 2.625,
+      "meanHealing": 14.444444444444454
+    },
+    {
+      "encounter": "short",
+      "build": "ap47_core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 8.913541666666667,
+      "meanHP": 1,
+      "meanSpells": 2.625,
+      "meanHealing": 14.444444444444454
+    },
+    {
+      "encounter": "short",
+      "build": "core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 8.938541666666667,
+      "meanHP": 1,
+      "meanSpells": 2.6875,
+      "meanHealing": 14.444444444444454
+    },
+    {
+      "encounter": "short",
+      "build": "codex",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 10.028125,
+      "meanHP": 0.9937895212285455,
+      "meanSpells": 3.1875,
+      "meanHealing": 19.259259259259267
+    },
+    {
+      "encounter": "short",
+      "build": "support",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 10.028125,
+      "meanHP": 0.9937895212285455,
+      "meanSpells": 3.1875,
+      "meanHealing": 19.259259259259267
+    },
+    {
+      "encounter": "short",
+      "build": "physical",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 7.463541666666666,
+      "meanHP": 1,
+      "meanSpells": 2,
+      "meanHealing": 13.61111111111112
+    },
+    {
+      "encounter": "short",
+      "build": "defense",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 10.028125,
+      "meanHP": 0.9986162034822963,
+      "meanSpells": 3.1875,
+      "meanHealing": 20.26143790849676
+    },
+    {
+      "encounter": "boss",
+      "build": "none",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 35.73125,
+      "meanHP": 0.4520817935452081,
+      "meanSpells": 10.375,
+      "meanHealing": 172.67592592592595
+    },
+    {
+      "encounter": "boss",
+      "build": "ap47",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 32.29895833333333,
+      "meanHP": 0.485546522131888,
+      "meanSpells": 9.25,
+      "meanHealing": 172.67592592592595
+    },
+    {
+      "encounter": "boss",
+      "build": "ap47_core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 32.70833333333333,
+      "meanHP": 0.4832881662149955,
+      "meanSpells": 9,
+      "meanHealing": 172.67592592592595
+    },
+    {
+      "encounter": "boss",
+      "build": "core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 33.858333333333334,
+      "meanHP": 0.4688654841093865,
+      "meanSpells": 9,
+      "meanHealing": 172.67592592592595
+    },
+    {
+      "encounter": "boss",
+      "build": "codex",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 35.797916666666666,
+      "meanHP": 0.5463689233361491,
+      "meanSpells": 10.375,
+      "meanHealing": 256.8128009259259
+    },
+    {
+      "encounter": "boss",
+      "build": "support",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 35.797916666666666,
+      "meanHP": 0.6080654172385879,
+      "meanSpells": 10.375,
+      "meanHealing": 307.4039259259259
+    },
+    {
+      "encounter": "boss",
+      "build": "physical",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 29.85000000000001,
+      "meanHP": 0.5745142610043523,
+      "meanSpells": 9,
+      "meanHealing": 182.73842592592595
+    },
+    {
+      "encounter": "boss",
+      "build": "defense",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 35.797916666666666,
+      "meanHP": 0.6189629887170494,
+      "meanSpells": 10.375,
+      "meanHealing": 236.31301062091507
+    },
+    {
+      "encounter": "swarm",
+      "build": "none",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 12.491666666666665,
+      "meanHP": 0.992473002381539,
+      "meanSpells": 4,
+      "meanHealing": 45.028703703703655
+    },
+    {
+      "encounter": "swarm",
+      "build": "ap47",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 11.510416666666664,
+      "meanHP": 0.991504167693192,
+      "meanSpells": 4,
+      "meanHealing": 43.632407407407364
+    },
+    {
+      "encounter": "swarm",
+      "build": "ap47_core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 11.510416666666664,
+      "meanHP": 0.991504167693192,
+      "meanSpells": 4,
+      "meanHealing": 43.632407407407364
+    },
+    {
+      "encounter": "swarm",
+      "build": "core",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 11.506249999999996,
+      "meanHP": 0.9919276094276095,
+      "meanSpells": 4,
+      "meanHealing": 43.979629629629585
+    },
+    {
+      "encounter": "swarm",
+      "build": "codex",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 12.491666666666665,
+      "meanHP": 0.9964252381538967,
+      "meanSpells": 4,
+      "meanHealing": 48.26953703703698
+    },
+    {
+      "encounter": "swarm",
+      "build": "support",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 12.491666666666665,
+      "meanHP": 0.996453354685062,
+      "meanSpells": 4,
+      "meanHealing": 48.29259259259253
+    },
+    {
+      "encounter": "swarm",
+      "build": "physical",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 11.340624999999998,
+      "meanHP": 0.9900360310421285,
+      "meanSpells": 4,
+      "meanHealing": 41.51388888888886
+    },
+    {
+      "encounter": "swarm",
+      "build": "defense",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 12.491666666666665,
+      "meanHP": 0.9940929365213218,
+      "meanSpells": 4,
+      "meanHealing": 39.95588235294121
+    },
+    {
+      "encounter": "pressure",
+      "build": "none",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.243750000000006,
+      "meanHP": 0,
+      "meanSpells": 8.125,
+      "meanHealing": 113.9525462962963
+    },
+    {
+      "encounter": "pressure",
+      "build": "ap47",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.28645833333334,
+      "meanHP": 0,
+      "meanSpells": 8.125,
+      "meanHealing": 113.9525462962963
+    },
+    {
+      "encounter": "pressure",
+      "build": "ap47_core",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.28645833333334,
+      "meanHP": 0,
+      "meanSpells": 8,
+      "meanHealing": 113.9525462962963
+    },
+    {
+      "encounter": "pressure",
+      "build": "core",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.243750000000006,
+      "meanHP": 0,
+      "meanSpells": 8,
+      "meanHealing": 113.9525462962963
+    },
+    {
+      "encounter": "pressure",
+      "build": "codex",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.40104166666667,
+      "meanHP": 0,
+      "meanSpells": 8.1875,
+      "meanHealing": 137.08192129629631
+    },
+    {
+      "encounter": "pressure",
+      "build": "support",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.583333333333336,
+      "meanHP": 0,
+      "meanSpells": 8.75,
+      "meanHealing": 166.68762129629633
+    },
+    {
+      "encounter": "pressure",
+      "build": "physical",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.36145833333333,
+      "meanHP": 0,
+      "meanSpells": 8,
+      "meanHealing": 113.9525462962963
+    },
+    {
+      "encounter": "pressure",
+      "build": "defense",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 34.869791666666664,
+      "meanHP": 0,
+      "meanSpells": 9,
+      "meanHealing": 111.89838643790853
+    }
+  ]
+}

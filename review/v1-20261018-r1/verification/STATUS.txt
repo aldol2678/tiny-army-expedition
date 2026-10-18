@@ -1,0 +1,1 @@
+PASS: commands completed; known receipt defect reproduced, not fixed. Not a 1.0 campaign balance certification.

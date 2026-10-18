@@ -1,0 +1,185 @@
+{
+  "scope": "arithmetic; idealized independent category slots before eligibility",
+  "pool_source": "relic-catalog.md, numbered rows 1..21 and 26..29",
+  "first25": {
+    "1": "banner",
+    "2": "seal",
+    "3": "spear_tip",
+    "4": "medic",
+    "5": "whistle",
+    "6": "drum",
+    "7": "keen_eye",
+    "8": "arcane_lens",
+    "9": "vanguard_plate",
+    "10": "vanguard_banner",
+    "11": "mid_resonance",
+    "12": "heavy_blade",
+    "13": "overcharge_core",
+    "14": "triage_codex",
+    "15": "echo_crystal",
+    "16": "emergency_case",
+    "17": "quick_hourglass",
+    "18": "iron_oath",
+    "19": "eagle_signet",
+    "20": "arcane_seed",
+    "21": "covenant_lamp",
+    "26": "wall_pin",
+    "27": "long_sight",
+    "28": "open_flank",
+    "29": "coalition_standard"
+  },
+  "profiles": {
+    "mixed_baseline": {
+      "milestones": [],
+      "total_shared_choice_opportunities": 34,
+      "ordinary_mixed_rewards": 34,
+      "relic_only_rewards": 0,
+      "reserved_growth_slots": 3,
+      "reserved_key_slots": 1,
+      "unreserved_random_slots": 98,
+      "chapter_relic_only_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "chapter_three_share": null,
+      "expected_relic_category_cards_before_eligibility": "98/3",
+      "expected_growth_category_cards_including_reservations": "107/3",
+      "expected_recruit_category_cards": "98/3",
+      "removed_growth_category_cards_vs_baseline": 0,
+      "removed_recruit_category_cards_vs_baseline": 0,
+      "removed_growth_available_rounds_idealized": "0",
+      "removed_recruit_available_rounds_idealized": "0",
+      "removed_any_nonrelic_available_rounds_idealized": "0",
+      "added_relic_available_rounds_idealized": "0",
+      "actual_nonrelic_choice_displacement_bounds": [
+        0,
+        0
+      ],
+      "replacement_purchase_proxy_recruit_only_gold_upper": 0,
+      "replacement_purchase_proxy_training_only_gold_upper": 0,
+      "automatic_extra_gold": 0,
+      "all_34_rerolls_gold": 170,
+      "normal_path_income": 450,
+      "normal_path_spendable_before_final": 420
+    },
+    "relic_three_trial": {
+      "milestones": [
+        {
+          "battle": 6,
+          "chapter": 1,
+          "xp": 9,
+          "cap": 8
+        },
+        {
+          "battle": 15,
+          "chapter": 3,
+          "xp": 23,
+          "cap": 9
+        },
+        {
+          "battle": 27,
+          "chapter": 4,
+          "xp": 39,
+          "cap": 9
+        }
+      ],
+      "total_shared_choice_opportunities": 34,
+      "ordinary_mixed_rewards": 31,
+      "relic_only_rewards": 3,
+      "reserved_growth_slots": 3,
+      "reserved_key_slots": 1,
+      "unreserved_random_slots": 89,
+      "chapter_relic_only_counts": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "chapter_three_share": "1/3",
+      "expected_relic_category_cards_before_eligibility": "116/3",
+      "expected_growth_category_cards_including_reservations": "98/3",
+      "expected_recruit_category_cards": "89/3",
+      "removed_growth_category_cards_vs_baseline": 3,
+      "removed_recruit_category_cards_vs_baseline": 3,
+      "removed_growth_available_rounds_idealized": "19/9",
+      "removed_recruit_available_rounds_idealized": "19/9",
+      "removed_any_nonrelic_available_rounds_idealized": "26/9",
+      "added_relic_available_rounds_idealized": "8/9",
+      "actual_nonrelic_choice_displacement_bounds": [
+        0,
+        3
+      ],
+      "replacement_purchase_proxy_recruit_only_gold_upper": 60,
+      "replacement_purchase_proxy_training_only_gold_upper": 90,
+      "automatic_extra_gold": 0,
+      "all_34_rerolls_gold": 170,
+      "normal_path_income": 450,
+      "normal_path_spendable_before_final": 420
+    },
+    "relic_four_comparison": {
+      "milestones": [
+        {
+          "battle": 6,
+          "chapter": 1,
+          "xp": 9,
+          "cap": 8
+        },
+        {
+          "battle": 15,
+          "chapter": 3,
+          "xp": 23,
+          "cap": 9
+        },
+        {
+          "battle": 20,
+          "chapter": 3,
+          "xp": 29,
+          "cap": 9
+        },
+        {
+          "battle": 27,
+          "chapter": 4,
+          "xp": 39,
+          "cap": 9
+        }
+      ],
+      "total_shared_choice_opportunities": 34,
+      "ordinary_mixed_rewards": 30,
+      "relic_only_rewards": 4,
+      "reserved_growth_slots": 3,
+      "reserved_key_slots": 1,
+      "unreserved_random_slots": 86,
+      "chapter_relic_only_counts": [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      "chapter_three_share": "1/2",
+      "expected_relic_category_cards_before_eligibility": "122/3",
+      "expected_growth_category_cards_including_reservations": "95/3",
+      "expected_recruit_category_cards": "86/3",
+      "removed_growth_category_cards_vs_baseline": 4,
+      "removed_recruit_category_cards_vs_baseline": 4,
+      "removed_growth_available_rounds_idealized": "76/27",
+      "removed_recruit_available_rounds_idealized": "76/27",
+      "removed_any_nonrelic_available_rounds_idealized": "104/27",
+      "added_relic_available_rounds_idealized": "32/27",
+      "actual_nonrelic_choice_displacement_bounds": [
+        0,
+        4
+      ],
+      "replacement_purchase_proxy_recruit_only_gold_upper": 80,
+      "replacement_purchase_proxy_training_only_gold_upper": 120,
+      "automatic_extra_gold": 0,
+      "all_34_rerolls_gold": 170,
+      "normal_path_income": 450,
+      "normal_path_spendable_before_final": 420
+    }
+  }
+}

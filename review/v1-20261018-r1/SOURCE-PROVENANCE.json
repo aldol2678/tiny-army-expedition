@@ -1,0 +1,365 @@
+{
+  "note": "Copied files matched source bytes at packaging. No operating source files were edited. Package README and verifier are new review utilities.",
+  "files": [
+    {
+      "path": "army-v10-implementation/INTEGRATION-CONTRACTS.md",
+      "sha256": "9b0741c2eb27af192aee952463f732331d95f38d4f876d926a7d2955ce978e25",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/README.md",
+      "sha256": "8d3094157917a9603786c1e5ebddea22803bac7126b63a03cd0a2eea95cd9419",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/SOURCE-HASHES.txt",
+      "sha256": "5d86672fbe827a6c1322c18bb8bc98f8b512b861d9b9c0586cb742d2eb947fe0",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/package.json",
+      "sha256": "c03cbd92e1746f349b700760386a3c8f9270b2527ec20c6cbaed076ba6597f10",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/seed-results.json",
+      "sha256": "dedad3d09b55025c98fd0fa85d9c489550273cbfadda03a0e195ea8697e07cbf",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/spear-skills/README.md",
+      "sha256": "29f104e65d5165640ae372635f8a3547a423589f41c5deebef2e97e031ce7e70",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/spear-skills/adapter.cjs",
+      "sha256": "6070b409513e18133555a16ff682968eb0e2babcdbe054ffdd08af817df587f3",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/spear-skills/spear-skills.cjs",
+      "sha256": "6d490963f1b7f27feffb371dbce3fafa6b16e6b15175bb8e251817b26c2e056c",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/spear-skills/test-results.txt",
+      "sha256": "7c36075acc772bdffeaf8935ae8c6151ad0f9e7562fa417be104aad491f1f72d",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/spear-skills/test.cjs",
+      "sha256": "0d7a0be4c9d5e95a3bfd4c2607306647f98c25cbfb0f7dabb88b20804f98ba3c",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/src/campaign.js",
+      "sha256": "0afafa6cda4cf7c1138f321548430e315573628d9f9a1960c490f0bb4f34e334",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/src/config.js",
+      "sha256": "da8c689bb8338e5003a3d2171babbf34657fdc7c0a74fffbe3247ed91adf592f",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/src/graph.js",
+      "sha256": "3181535ac4113550c7afc7311e16bc36f17bf5b9ee887865b8526a3754a1bda5",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/test/campaign.test.js",
+      "sha256": "0bd8274fc9895da1ba6c51c48714bc694b650af3421a7e39d8eb0c94e150c76d",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/test/verify-seeds.js",
+      "sha256": "ba8354bbf1f943404d09f506eed758090b3118051dd303018c4a2552a561bf77",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-implementation/test-results.txt",
+      "sha256": "cfdf6f29119b9e90e6a39206a44621feaaa39c38a64cbe3265d14d6ad5a06237",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/IMPLEMENTATION-BASELINE.md",
+      "sha256": "32119480f7ca3d93c9d19b2bbd9ba593a8e7b7cfbdba893b58318a9a328f8902",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/README.md",
+      "sha256": "af61d6299e4b006ad7bf3ffa1a1a47ec015f7528ed6f99c613a5080644e0871e",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/boss-pattern-readability.md",
+      "sha256": "30050dea5851ab18fafe17b863ad750251f6cea93f73867368b9c5ce2ebc087e",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/chapter-node-blueprint.md",
+      "sha256": "e80c406429c44992943d0e8c1ffcd560ff8378d5126d61832148a79700ad8879",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/class-skill-progression.md",
+      "sha256": "17535631947039e578df4bc537adb569e4e34767c767d6d11e77762e08c98db9",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/combat-visual-readability.md",
+      "sha256": "8506bfaa578fe251d2b494488c9549124c8c0d24c19bbfc64cc8a67f4616bea7",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/content-plan.md",
+      "sha256": "66e57000c9076dc5e747c36b95b7a4766c23bcce18e87202de72dcb6b89cc1c1",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/design-audit.md",
+      "sha256": "c0c1c552f5c731fd629fe4c537f85f591ef671a5bd1156509ca189432a2c7864",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/economy-audit.md",
+      "sha256": "fd25d2c4e6ea1d2366bd8f59328ed669be7fee6af3525156f8082dbfd80e564e",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/encounter-event-sets.md",
+      "sha256": "1af87ce6623d3c8157e23c110ff357ef062602257d2c89e1faca5140df444875",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/five-chapter-run.md",
+      "sha256": "2d9426ecf242c1fae18550f427bb9ca4db73e0258a87636044a44d4543a84b83",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-budget/README.md",
+      "sha256": "2d5abb457aa0981b9850434ce6afc474c07ddff47807227eb8d3802c3a61a746",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-budget/model.py",
+      "sha256": "26014e9b1f127a9b05e5037117dafdeb25e19adf94bdd8850629db6dd1fd3072",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-budget/results.json",
+      "sha256": "ccb98fca0dd6587422cea109fd0afaf1bba532f0e2836f6d073a3ae8c4d6af64",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-budget/test-results.txt",
+      "sha256": "324fefdef17b6fcd2b839551edec37b9ec45d0836f65d75c69059084a7ef6d4d",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-budget/test_model.py",
+      "sha256": "183b5cc43dcf445aa110810d7df8bf441aa02fb5095b6c11a188870907b533a5",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/legion-relic-rewards.md",
+      "sha256": "875a8d60f0f92904aee3b1fd345f0918b1d05aa7cd8df62f52537e011aafd4be",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/loading-opening-design.md",
+      "sha256": "0ac349dcc68ab4453f01e6a93f34dcf496e0bbe64dd78fa5fa0cad562c274a00",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/release-balance-plan.md",
+      "sha256": "9fe78b6a81c4714cf61abf94a4a51718e8758b64bf14abcb650a67f473b08747",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/relic-catalog.md",
+      "sha256": "3f2082526efb05963c09a073ef419e583d957dec0069fb9ea62aa480d111eef2",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/relic-review-response.md",
+      "sha256": "bebff55b09fbf6fd51e6175a71ad054f6ee770479eaa11eaf83a20065f9c24eb",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/save-version-transition.md",
+      "sha256": "3462b7e5c2da703bd99053bfc006de835cc86aebf1796a16ca32cc64415c37a5",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/second-class-branch-proposal.md",
+      "sha256": "f5527a8d99e8abf61e59ed080f989f451a4c8cf738510d22c77efeac6e5546c9",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/skill-implementation-contracts.md",
+      "sha256": "eebfbd8048530872d584757314614d0dc773e2a6c945e34af7a3f120a79af49b",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-planning/web-reference-application.md",
+      "sha256": "9020c21fe55c5f4119524768d14edae2f2e00baa9c18409c57e6c859e6cb3b0f",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/REPORT.md",
+      "sha256": "6676c29cf67380a71615f55e36e4745ca14e78ab3bfe6479291effcfb9fdfb32",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/branch-contract-review.json",
+      "sha256": "773b2b0a1b670271e4fe82907d502ef6c5cf15f8611293b190a5d66fd21e5b8b",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/compatibility-results.json",
+      "sha256": "19044a2f29ad91cb8b1e312075821b0f3b42611c6eaf99921ce74810a19adf4c",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/compatibility-test-results.txt",
+      "sha256": "1892b93c1c604c90ff15d1af289756401519e6a0d75c6df80c981af0d8130ecd",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/compatibility.cjs",
+      "sha256": "22116d2abc165e7fa58aec16991079ed8dfdd6d15c0432d774a6c3827f700c7a",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/existing-test-results.txt",
+      "sha256": "c40052937f4f09db6c682611b2da61e033f40c6650960ea75a0e1868ed0db055",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/inheritance-results.json",
+      "sha256": "b96b0db2b383b2acf69acc9ca62a0f567c3cbe703bc6979859e88008ca32f650",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/inheritance-test-results.txt",
+      "sha256": "e89c4f11dd067e2f0334e83dfbe0846fe5bd0d69cd6600890edd2fbe2afb96d8",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/inheritance.cjs",
+      "sha256": "1d30d4a5a19615655e7975360229a0802a72c679a1d267c167e487b8668adbdf",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/receipt-bug-results.json",
+      "sha256": "87d6b3b6d78d9f39dfe579b6705f384d8e55d7a5660889e53fc52e9b16f24c03",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/receipt-bug.cjs",
+      "sha256": "a725f58b2acd33c9eac1b0b0c9a4e6f8502191bb88521cf523c988f108db7c1c",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/rerun-existing.cjs",
+      "sha256": "da88a403178f9fc4dcdafd8c8216f3f6995247bf9b5fdb182b3587d007a69bde",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/results.json",
+      "sha256": "4865ee7a7ebad1f20a2e3b465b85dea1bbdf1e92ebb91fce64e29599119d1d12",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/source-hashes.json",
+      "sha256": "376d2429540ef081881a71d6858b4260a6bfc8bb97b65d1b744cbd1a886d37ea",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/build-compatibility/spear-test-results.txt",
+      "sha256": "a8ebb06cc493430f092cc88c6d6e0a660a91ad32051f7593b7a115dabd6ac8c8",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/REPORT.md",
+      "sha256": "be03a6a136de6ed2f1cba3a880ccd92bcf08e19b0766712ef7e7572372c724e2",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/example-seed-0.json",
+      "sha256": "8844e2556f65fda84c60f63f5446255055be9482ef60df2933faa30879951416",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/model.py",
+      "sha256": "4ee30bd9e5033c2e4dd36fc2f4e4b2124236e4e5ad3e8034084595a08df6efa7",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/paired-summary.json",
+      "sha256": "41482c5157a0f76802405c68bb6bf1ed60ad647bb0a5ac5689e40dc8e59bcd54",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/results.json",
+      "sha256": "75d92b78305866007f4fd82b65b11e39810b032c2d0959abe8b8a34a1024dd72",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/source-hashes.json",
+      "sha256": "a5704dd8187ef64431824128b2818c81077287fdcd4f4e611d1c36ea3fe6c45a",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/test-results.txt",
+      "sha256": "3c0fa457e5097210fcb70053241e7b98b6e913880976f11897a80b720f9632ab",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/growth-economy/test_model.py",
+      "sha256": "aab829a7cc12c51aca6f4687cacc93ec70f9875d412a7aa7d075e04072f0ffb0",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/routes-condition/REPORT.md",
+      "sha256": "805abbf279080ba4edbc6a0663506d82ff28548952aba95d42228c81b1b0acd3",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/routes-condition/results.json",
+      "sha256": "954b34c66af48c179f0767f7a4534a9439c8796788b1e2c79cc18c1fd3d57266",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/routes-condition/test-results.txt",
+      "sha256": "7a34d4d7a154f638f0f59307b9d36415abe8327dcadcf480fd7d0764cda2b327",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "army-v10-validation/routes-condition/validate.mjs",
+      "sha256": "d29b24dafda0cb8fe5000d38dd16d4f0889dcd14845e85eb485859780a22110e",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "tiny-army-sites/dist/js/campaign.js",
+      "sha256": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "tiny-army-sites/dist/js/content.js",
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "tiny-army-sites/dist/js/game-engine.js",
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20",
+      "copiedUnmodified": true
+    },
+    {
+      "path": "tiny-army-sites/dist/js/v09-content.js",
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe",
+      "copiedUnmodified": true
+    }
+  ]
+}

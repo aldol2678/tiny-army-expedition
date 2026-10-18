@@ -1,0 +1,14 @@
+✔ 35 supplied assumed-win receipts, 34 explicitly skipped rewards, chapter4 gate and final settlement boundary (1318.125771ms)
+✔ defeat, checkpoint retry, duplicate receipt and unsupported effects do not fabricate rewards (36.641053ms)
+✔ optional services preserve free direct edge, visit no XP and no fabricated service benefit (68.437891ms)
+✔ reject tampered versions, hashes, graphs, phases, receipts, paths, ledgers and legacy saves without mutations (43.469694ms)
+✔ seed normalization and stable hash fixture (2.119538ms)
+✔ reused receipt on another battle and stale reward claims are rejected without mutating state (55.619365ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1615.529434

@@ -1,0 +1,1935 @@
+{
+  "scope": "Actual v09 fixed encounter ablations; NOT v1.0 win rates. All units recruited/trained upfront, no costs modeled.",
+  "sourceHashes": {
+    "content.js": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1",
+    "v09-content.js": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe",
+    "game-engine.js": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20",
+    "campaign.js": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef"
+  },
+  "fixture": {
+    "variants": {
+      "reference": [
+        "guardian",
+        "charger",
+        "spear",
+        "pyromancer",
+        "frostmage",
+        "volley",
+        "medic",
+        "warder",
+        "sniper"
+      ],
+      "no_guardian": [
+        "charger",
+        "charger",
+        "spear",
+        "pyromancer",
+        "frostmage",
+        "volley",
+        "medic",
+        "warder",
+        "sniper"
+      ],
+      "no_sniper": [
+        "guardian",
+        "charger",
+        "spear",
+        "pyromancer",
+        "frostmage",
+        "volley",
+        "medic",
+        "warder",
+        "volley"
+      ],
+      "neither": [
+        "charger",
+        "charger",
+        "spear",
+        "pyromancer",
+        "frostmage",
+        "volley",
+        "medic",
+        "warder",
+        "volley"
+      ]
+    },
+    "slots": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "training": "specialty II except base spear",
+    "relics": [],
+    "seedRange": [
+      1,
+      16
+    ],
+    "encounters": {
+      "boss": {
+        "enemies": [
+          "boss",
+          "armored",
+          "bow",
+          "raider"
+        ],
+        "scale": 1
+      },
+      "pressure": {
+        "enemies": [
+          "boss",
+          "brute",
+          "armored",
+          "bow",
+          "bow",
+          "bow"
+        ],
+        "scale": 1.4
+      },
+      "high_pressure": {
+        "enemies": [
+          "boss",
+          "brute",
+          "armored",
+          "bow",
+          "bow",
+          "bow"
+        ],
+        "scale": 2
+      }
+    },
+    "commandPolicy": "guard/rally every 60 ticks"
+  },
+  "summaries": [
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 26.693749999999998
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 12,
+      "meanTime": 44.578124999999986
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 35.577083333333334
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 19.894791666666666
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 15,
+      "meanTime": 43.55104166666667
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 25.733333333333334
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 29.85000000000001
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 4,
+      "meanTime": 50.49791666666667
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 32.028125
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "n": 16,
+      "wins": 16,
+      "meanTime": 21.840625
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 40.676041666666656
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "n": 16,
+      "wins": 0,
+      "meanTime": 19.222916666666663
+    }
+  ],
+  "rows": [
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 1,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 2,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 3,
+      "win": true,
+      "time": 26.833333333333332,
+      "hpRatio": 0.7817267116023741,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 4,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 5,
+      "win": true,
+      "time": 27.03333333333333,
+      "hpRatio": 0.7810155278844516,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 6,
+      "win": true,
+      "time": 26.933333333333334,
+      "hpRatio": 0.8009062585483279,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 7,
+      "win": true,
+      "time": 26.833333333333332,
+      "hpRatio": 0.7810155278844515,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 8,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 9,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.797857262564392,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 10,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.797857262564392,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 11,
+      "win": true,
+      "time": 26.083333333333332,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 12,
+      "win": true,
+      "time": 26.2,
+      "hpRatio": 0.7854512997300036,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 13,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.797857262564392,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 14,
+      "win": true,
+      "time": 26.383333333333333,
+      "hpRatio": 0.7810155278844516,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 15,
+      "win": true,
+      "time": 26.266666666666666,
+      "hpRatio": 0.7748842314569113,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "boss",
+      "seed": 16,
+      "win": true,
+      "time": 26.816666666666666,
+      "hpRatio": 0.7749198230311398,
+      "survivors": 9
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 1,
+      "win": true,
+      "time": 45.05,
+      "hpRatio": 0.23711041586065773,
+      "survivors": 5
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 2,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 3,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.33158597736593826,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 4,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.34909958736147584,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 5,
+      "win": true,
+      "time": 45.05,
+      "hpRatio": 0.24171403294336768,
+      "survivors": 5
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 6,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.36637436840285276,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 7,
+      "win": true,
+      "time": 40.15,
+      "hpRatio": 0.37969818217646567,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 8,
+      "win": false,
+      "time": 47.28333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 9,
+      "win": true,
+      "time": 45.05,
+      "hpRatio": 0.23029140124008396,
+      "survivors": 5
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 10,
+      "win": true,
+      "time": 48.7,
+      "hpRatio": 0.1231057563587684,
+      "survivors": 3
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 11,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.33763173074984426,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 12,
+      "win": false,
+      "time": 55.516666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 13,
+      "win": true,
+      "time": 45.05,
+      "hpRatio": 0.23463652027832843,
+      "survivors": 5
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 14,
+      "win": false,
+      "time": 55.166666666666664,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 15,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.35931847773779607,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "pressure",
+      "seed": 16,
+      "win": true,
+      "time": 40.016666666666666,
+      "hpRatio": 0.36864395743436,
+      "survivors": 7
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 1,
+      "win": false,
+      "time": 35.18333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 2,
+      "win": false,
+      "time": 35.166666666666664,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 3,
+      "win": false,
+      "time": 35.11666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 4,
+      "win": false,
+      "time": 35.15,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 5,
+      "win": false,
+      "time": 35.15,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 6,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 7,
+      "win": false,
+      "time": 34.93333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 8,
+      "win": false,
+      "time": 34.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 9,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 10,
+      "win": false,
+      "time": 34.93333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 11,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 12,
+      "win": false,
+      "time": 34.81666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 13,
+      "win": false,
+      "time": 35.6,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 14,
+      "win": false,
+      "time": 34.833333333333336,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 15,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "reference",
+      "encounter": "high_pressure",
+      "seed": 16,
+      "win": false,
+      "time": 34.85,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 1,
+      "win": true,
+      "time": 19.583333333333332,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 2,
+      "win": true,
+      "time": 19.55,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 3,
+      "win": true,
+      "time": 20.216666666666665,
+      "hpRatio": 0.6890547834480829,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 4,
+      "win": true,
+      "time": 19.883333333333333,
+      "hpRatio": 0.6806223510156504,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 5,
+      "win": true,
+      "time": 19.883333333333333,
+      "hpRatio": 0.7336708280641274,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 6,
+      "win": true,
+      "time": 20.85,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 7,
+      "win": true,
+      "time": 20.183333333333334,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 8,
+      "win": true,
+      "time": 19.883333333333333,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 9,
+      "win": true,
+      "time": 19.65,
+      "hpRatio": 0.6806223510156504,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 10,
+      "win": true,
+      "time": 19.316666666666666,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 11,
+      "win": true,
+      "time": 20.183333333333334,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 12,
+      "win": true,
+      "time": 19.866666666666667,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 13,
+      "win": true,
+      "time": 19.566666666666666,
+      "hpRatio": 0.725238395631695,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 14,
+      "win": true,
+      "time": 19.65,
+      "hpRatio": 0.6806223510156504,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 15,
+      "win": true,
+      "time": 20.166666666666668,
+      "hpRatio": 0.6806223510156504,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "boss",
+      "seed": 16,
+      "win": true,
+      "time": 19.883333333333333,
+      "hpRatio": 0.7336708280641274,
+      "survivors": 9
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 1,
+      "win": true,
+      "time": 36.68333333333333,
+      "hpRatio": 0.1946946946946947,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 2,
+      "win": true,
+      "time": 40.93333333333333,
+      "hpRatio": 0.1946946946946947,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 3,
+      "win": true,
+      "time": 55.833333333333336,
+      "hpRatio": 0.026426426426426432,
+      "survivors": 1
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 4,
+      "win": true,
+      "time": 41.333333333333336,
+      "hpRatio": 0.1946946946946947,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 5,
+      "win": true,
+      "time": 38.75,
+      "hpRatio": 0.2721315982649316,
+      "survivors": 4
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 6,
+      "win": true,
+      "time": 38.583333333333336,
+      "hpRatio": 0.28458445111778446,
+      "survivors": 4
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 7,
+      "win": true,
+      "time": 52.666666666666664,
+      "hpRatio": 0.17143303303303303,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 8,
+      "win": true,
+      "time": 45.38333333333333,
+      "hpRatio": 0.05285285285285285,
+      "survivors": 1
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 9,
+      "win": true,
+      "time": 38.71666666666667,
+      "hpRatio": 0.22572752462607534,
+      "survivors": 4
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 10,
+      "win": true,
+      "time": 45.416666666666664,
+      "hpRatio": 0.05285285285285285,
+      "survivors": 1
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 11,
+      "win": true,
+      "time": 43.78333333333333,
+      "hpRatio": 0.36056060118089106,
+      "survivors": 5
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 12,
+      "win": true,
+      "time": 43.78333333333333,
+      "hpRatio": 0.18441775108441774,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 13,
+      "win": true,
+      "time": 41.233333333333334,
+      "hpRatio": 0.15022355689022354,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 14,
+      "win": true,
+      "time": 45.45,
+      "hpRatio": 0.06246246246246246,
+      "survivors": 1
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 15,
+      "win": false,
+      "time": 49.25,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "pressure",
+      "seed": 16,
+      "win": true,
+      "time": 39.016666666666666,
+      "hpRatio": 0.19376042709376043,
+      "survivors": 3
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 1,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 2,
+      "win": false,
+      "time": 27,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 3,
+      "win": false,
+      "time": 19.366666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 4,
+      "win": false,
+      "time": 27.233333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 5,
+      "win": false,
+      "time": 19.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 6,
+      "win": false,
+      "time": 28.083333333333332,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 7,
+      "win": false,
+      "time": 27.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 8,
+      "win": false,
+      "time": 28.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 9,
+      "win": false,
+      "time": 27.383333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 10,
+      "win": false,
+      "time": 28.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 11,
+      "win": false,
+      "time": 20.85,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 12,
+      "win": false,
+      "time": 29.483333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 13,
+      "win": false,
+      "time": 27.25,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 14,
+      "win": false,
+      "time": 27.683333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 15,
+      "win": false,
+      "time": 27.266666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_guardian",
+      "encounter": "high_pressure",
+      "seed": 16,
+      "win": false,
+      "time": 28.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 1,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838124,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 2,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7961218883336811,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 3,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838123,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 4,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838124,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 5,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838124,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 6,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838123,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 7,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.791721461283711,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 8,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838123,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 9,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7924269781991002,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 10,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838123,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 11,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.791721461283711,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 12,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7849688108684231,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 13,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7924269781991002,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 14,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838124,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 15,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838124,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "boss",
+      "seed": 16,
+      "win": true,
+      "time": 29.849999999999998,
+      "hpRatio": 0.7856743277838123,
+      "survivors": 9
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 1,
+      "win": false,
+      "time": 50.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 2,
+      "win": false,
+      "time": 50.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 3,
+      "win": true,
+      "time": 55.06666666666666,
+      "hpRatio": 0.007673011657075403,
+      "survivors": 1
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 4,
+      "win": false,
+      "time": 50.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 5,
+      "win": false,
+      "time": 50.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 6,
+      "win": true,
+      "time": 54.833333333333336,
+      "hpRatio": 0.007673011657075403,
+      "survivors": 1
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 7,
+      "win": false,
+      "time": 42.983333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 8,
+      "win": false,
+      "time": 45.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 9,
+      "win": true,
+      "time": 52.55,
+      "hpRatio": 0.021543455806404026,
+      "survivors": 2
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 10,
+      "win": true,
+      "time": 54.86666666666667,
+      "hpRatio": 0.007673011657075403,
+      "survivors": 1
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 11,
+      "win": false,
+      "time": 53.483333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 12,
+      "win": false,
+      "time": 53.55,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 13,
+      "win": false,
+      "time": 43.1,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 14,
+      "win": false,
+      "time": 43.88333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 15,
+      "win": false,
+      "time": 50.96666666666667,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "pressure",
+      "seed": 16,
+      "win": false,
+      "time": 53.516666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 1,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 2,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 3,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 4,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 5,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 6,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 7,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 8,
+      "win": false,
+      "time": 36.733333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 9,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 10,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 11,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 12,
+      "win": false,
+      "time": 36.78333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 13,
+      "win": false,
+      "time": 35.7,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 14,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 15,
+      "win": false,
+      "time": 29.183333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "no_sniper",
+      "encounter": "high_pressure",
+      "seed": 16,
+      "win": false,
+      "time": 37.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 1,
+      "win": true,
+      "time": 21.883333333333333,
+      "hpRatio": 0.7416674111670657,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 2,
+      "win": true,
+      "time": 21.816666666666666,
+      "hpRatio": 0.720310268309923,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 3,
+      "win": true,
+      "time": 21.4,
+      "hpRatio": 0.7574059099564121,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 4,
+      "win": true,
+      "time": 22.066666666666666,
+      "hpRatio": 0.7416674111670659,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 5,
+      "win": true,
+      "time": 21.883333333333333,
+      "hpRatio": 0.731151151004464,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 6,
+      "win": true,
+      "time": 21.8,
+      "hpRatio": 0.757405909956412,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 7,
+      "win": true,
+      "time": 21.366666666666667,
+      "hpRatio": 0.7574059099564121,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 8,
+      "win": true,
+      "time": 21.916666666666668,
+      "hpRatio": 0.7416674111670657,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 9,
+      "win": true,
+      "time": 21.933333333333334,
+      "hpRatio": 0.7416674111670657,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 10,
+      "win": true,
+      "time": 21.8,
+      "hpRatio": 0.7416674111670657,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 11,
+      "win": true,
+      "time": 21.733333333333334,
+      "hpRatio": 0.7416674111670657,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 12,
+      "win": true,
+      "time": 22.366666666666667,
+      "hpRatio": 0.7341008252106493,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 13,
+      "win": true,
+      "time": 22.083333333333332,
+      "hpRatio": 0.7416674111670658,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 14,
+      "win": true,
+      "time": 21.766666666666666,
+      "hpRatio": 0.7416674111670658,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 15,
+      "win": true,
+      "time": 21.516666666666666,
+      "hpRatio": 0.7416674111670658,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "boss",
+      "seed": 16,
+      "win": true,
+      "time": 22.116666666666667,
+      "hpRatio": 0.7416674111670658,
+      "survivors": 9
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 1,
+      "win": false,
+      "time": 35.6,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 2,
+      "win": false,
+      "time": 37.733333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 3,
+      "win": false,
+      "time": 34.88333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 4,
+      "win": false,
+      "time": 44.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 5,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 6,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 7,
+      "win": false,
+      "time": 34.766666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 8,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 9,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 10,
+      "win": false,
+      "time": 46.13333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 11,
+      "win": false,
+      "time": 44.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 12,
+      "win": false,
+      "time": 34.7,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 13,
+      "win": false,
+      "time": 44.28333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 14,
+      "win": false,
+      "time": 37.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 15,
+      "win": false,
+      "time": 37.55,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "pressure",
+      "seed": 16,
+      "win": false,
+      "time": 34.733333333333334,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 1,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 2,
+      "win": false,
+      "time": 19.383333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 3,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 4,
+      "win": false,
+      "time": 19.516666666666666,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 5,
+      "win": false,
+      "time": 19.3,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 6,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 7,
+      "win": false,
+      "time": 19.35,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 8,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 9,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 10,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 11,
+      "win": false,
+      "time": 19.55,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 12,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 13,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 14,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 15,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    },
+    {
+      "variant": "neither",
+      "encounter": "high_pressure",
+      "seed": 16,
+      "win": false,
+      "time": 19.133333333333333,
+      "hpRatio": 0,
+      "survivors": 0
+    }
+  ],
+  "receiptBug": {
+    "receipt": {
+      "eventId": "receipt-escalation:1:1:0",
+      "amount": 47.5,
+      "actualDamage": 95
+    },
+    "exception": "Invalid damage receipt",
+    "time": 90,
+    "seed": 1,
+    "description": "Legacy rage scaling after 60s makes actualDamage > event.amount; adapter mutates HP then reducer rejects receipt."
+  }
+}

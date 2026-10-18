@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "seeds": 1000,
+  "graphs": 5000,
+  "allRoutesProvenByDAG": 291283,
+  "validGraphPathPrefixes": 191229,
+  "distinctTopologies": 4989,
+  "battlesPerChapter": 7,
+  "minimumCampaignBattles": 35,
+  "scope": "ISOLATED_STRUCTURAL_PROOF",
+  "combatSimulation": false,
+  "productionSaveMigration": false
+}
