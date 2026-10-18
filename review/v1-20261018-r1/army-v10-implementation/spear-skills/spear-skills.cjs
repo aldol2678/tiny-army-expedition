@@ -38,9 +38,30 @@ function resolveAction(s,w,tick){let n=advance(s,w,tick);const a=n.action;if(!a|
  else {let target=linked(n,w).find(v=>v.id===a.targetIds[0]);if(!target)target=guardCandidates(n,w,tick)[0];if(target){const e=event(n,a,0,target.id,'protection',{amount:p.abilityPower*p.conditionMultiplier*.5});events=[e];n.protections.push({sourceId:n.unitId,targetId:target.id,rootActionId:a.actionId,skillId:a.skillId,remainingBudget:e.amount,rate:.15,hitsLeft:a.ultimateModifier?3:1,untilTick:tick+ticks(a.ultimateModifier?2:1.5)});}n.action=null;n.phase='recovery';}
  return {state:n,events};
 }
+// Host (v09 game-engine.js hit) amplifies projected amount before DEF/barrier/HP:
+//   incoming = amount x (time>60s ? 1+(time-60)/30 : 1) x (prepared && tick<preparedDuration ? 1.10 : 1)
+// The receipt bound is therefore amount x maxAmplification(tick), never the raw event amount.
+const HOST_DAMAGE_RULES=Object.freeze({escalationStartSeconds:60,escalationPerSecond:1/30});
+function maxAmplification(s,tick){const t=tick/60,R=HOST_DAMAGE_RULES,p=s.projection||{};const longBattle=t>R.escalationStartSeconds?1+(t-R.escalationStartSeconds)*R.escalationPerSecond:1;
+ const prepMul=Number.isFinite(p.preparedDamageMultiplier)?Math.max(1,p.preparedDamageMultiplier):1.1,prepDur=Number.isFinite(p.preparedDuration)?p.preparedDuration:10;
+ return longBattle*(prepMul>1&&tick<ticks(prepDur)?prepMul:1);}
+const RECEIPT_DETAIL=['targetId','amplification','incoming','hpBefore','hpAfter'];
+function validReceipt(s,e,r,tick){if(!r||!Number.isFinite(r.actualDamage)||r.actualDamage<0)return false;
+ // Legacy bare receipt {eventId, actualDamage}: only valid when no amplification is claimed.
+ if(!RECEIPT_DETAIL.some(k=>r[k]!==undefined)&&r.mitigated===undefined&&r.absorbed===undefined)return r.actualDamage<=e.amount+1e-9;
+ if(r.targetId!==e.targetId||r.amount!==undefined&&Math.abs(r.amount-e.amount)>1e-9)return false;
+ if(!['amplification','incoming','hpBefore','hpAfter'].every(k=>Number.isFinite(r[k])))return false;
+ const maxAmp=maxAmplification(s,tick),tol=1e-6*Math.max(1,e.amount*maxAmp);
+ if(r.amplification<1-1e-9||r.amplification>maxAmp*(1+1e-6))return false;
+ if(Math.abs(r.incoming-e.amount*r.amplification)>tol)return false;
+ if(r.hpBefore<0||r.hpAfter<0||r.hpAfter>r.hpBefore+tol||Math.abs(r.hpBefore-r.hpAfter-r.actualDamage)>tol)return false;
+ if(r.actualDamage>Math.min(r.hpBefore,r.incoming)+tol)return false;
+ if(r.mitigated!==undefined||r.absorbed!==undefined){const m=r.mitigated,b=r.absorbed??0;if(!Number.isFinite(m)||!Number.isFinite(b)||m<0||m>r.incoming+tol||b<0||b>m+tol||Math.abs(r.actualDamage-Math.min(r.hpBefore,m-b))>tol)return false;}
+ return true;}
 function acknowledgeEffects(s,receipts,tick){const n=checked(s,tick),a=n.action;if(!a||a.status!=='awaiting_receipts')return n;if(tick!==a.resolvedTick)throw Error('Invalid receipt tick');
  if(receipts.length!==a.events.length||new Set(receipts.map(r=>r.eventId)).size!==receipts.length)throw Error('Exactly one receipt per event required');
- for(const e of a.events){const r=receipts.find(r=>r.eventId===e.eventId);if(!r||!Number.isFinite(r.actualDamage)||r.actualDamage<0||r.actualDamage>e.amount+1e-9)throw Error('Invalid damage receipt');}
+ if(receipts.some(r=>n.processedEvents.includes(r.eventId)))throw Error('Receipt already processed');
+ for(const e of a.events){const r=receipts.find(r=>r.eventId===e.eventId);if(!validReceipt(n,e,r,tick))throw Error('Invalid damage receipt');}
  const effective=receipts.some(r=>r.actualDamage>0);n.processedEvents.push(...receipts.map(r=>r.eventId));
  if(effective&&n.tier>=2&&tick>=n.coverCooldownUntil){n.protections.push({sourceId:n.unitId,targetId:n.unitId,rootActionId:a.actionId,skillId:'charge_cover',remainingBudget:n.projection.abilityPower*n.projection.conditionMultiplier*.4,rate:.12,hitsLeft:1,untilTick:tick+ticks(1.2)});n.coverCooldownUntil=tick+ticks(9);n.recoveryUntil+=ticks(.25);n.nextBasicTick+=ticks(.25);}
  n.lastResolved={actionId:a.actionId,effective,temporaryDefense:effective?(n.projection.skill.defenseAfter||0):0,temporaryDefenseUntil:tick+ticks(n.projection.skill.defenseDuration||2)};n.action=null;n.phase='recovery';return n;
@@ -49,4 +70,4 @@ function cancelAction(s,tick,{endBattle=false}={}){const n=checked(s,tick);n.act
 // Invoke after existing DEF/link/commander mitigation, before barrier absorption.
 function applyProtection(states,w,{tick,targetId,incoming,mitigated}){if(!Number.isFinite(incoming)||!Number.isFinite(mitigated)||incoming<0||mitigated<0||mitigated>incoming)throw Error('Invalid damage');const next=states.map(s=>advance(s,w,tick));const candidates=next.flatMap((s,i)=>s.protections.filter(p=>p.targetId===targetId).map(p=>({i,p,reduction:Math.min(p.remainingBudget,mitigated*p.rate,Math.max(0,mitigated-.45*incoming))}))).sort((a,b)=>b.reduction-a.reduction||idOrder(a.p.sourceId,b.p.sourceId));const c=candidates[0];if(!c||c.reduction<=0)return {states:next,damage:mitigated,prevented:0};c.p.remainingBudget-=c.reduction;c.p.hitsLeft--;return {states:next,damage:mitigated-c.reduction,prevented:c.reduction,sourceId:c.p.sourceId};}
 function claimTrigger(s,{rootActionId,triggerId,sourceKind='normal'}){const n=clone(s),root=n.action?.actionId??n.lastResolved?.actionId,key=`${rootActionId}:${triggerId}`;if(sourceKind!=='normal'||rootActionId!==root||n.remainingTriggerBudget<=0||n.triggerClaims.includes(key))return {state:n,allowed:false};n.triggerClaims.push(key);n.remainingTriggerBudget--;return {state:n,allowed:true};}
-module.exports={PROFILE_ID,RULES_VERSION,ticks,skillLoadout,createUnitState,advance,canBasicAttack,commitAction,resolveAction,acknowledgeEffects,cancelAction,applyProtection,claimTrigger};
+module.exports={PROFILE_ID,RULES_VERSION,HOST_DAMAGE_RULES,maxAmplification,ticks,skillLoadout,createUnitState,advance,canBasicAttack,commitAction,resolveAction,acknowledgeEffects,cancelAction,applyProtection,claimTrigger};

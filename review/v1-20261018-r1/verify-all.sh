@@ -7,6 +7,7 @@ python3 --version >> verification/environment.txt
 node --test army-v10-implementation/test/campaign.test.js > verification/campaign.txt 2>&1
 node army-v10-implementation/test/verify-seeds.js > verification/seeds.txt 2>&1
 node --test army-v10-implementation/spear-skills/test.cjs > verification/spear.txt 2>&1
+node --test army-v10-implementation/spear-skills/receipt-amplification.test.cjs > verification/receipt-amplification.txt 2>&1
 node army-v10-validation/build-compatibility/receipt-bug.cjs > verification/known-bug-reproduced.json 2>&1
 node army-v10-validation/build-compatibility/inheritance.cjs > verification/inheritance.txt 2>&1
 node army-v10-validation/build-compatibility/compatibility.cjs > verification/compatibility.txt 2>&1
