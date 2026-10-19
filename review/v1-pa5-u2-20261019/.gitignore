@@ -1,0 +1,6 @@
+/assets-local/
+/dist/
+/build-local-*/
+/node_modules/
+__pycache__/
+*.log

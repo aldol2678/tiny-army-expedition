@@ -35,3 +35,7 @@ To package separately supplied original PNGs, place the eight filenames from the
 ## License
 
 No new license has been chosen or granted for this snapshot. There is no LICENSE file. Public visibility does not itself grant an open-source license. No separate asset license is included or implied.
+
+## Draft v1.0 source review
+
+The separate [PA5 + U2 review package](review/v1-pa5-u2-20261019/README.md) contains versioned core/UI integration source and synthetic tests. It deliberately omits media and unverified original art registries, requires separately supplied inputs for a full local build, and is not a production release. The v0.8.2 files described above remain the root snapshot.
