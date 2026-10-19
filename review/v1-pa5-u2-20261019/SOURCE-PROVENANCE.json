@@ -1,0 +1,1339 @@
+{
+  "status": "PUBLIC_SOURCE_REVIEW_NOT_RELEASE",
+  "repositoryBase": {
+    "repository": "aldol2678/tiny-army-expedition",
+    "main": "baaa9a44d9d1918d2f8925bd3d82d526e891c5b2",
+    "historicalReviewBranch": "collab/v1-review-20261018",
+    "historicalReviewHead": "e23f540a0fc60e8a7fc27bf29f76c2c0d97555b4"
+  },
+  "archiveBaselines": {
+    "PA5": "c7e316af83b180b321bcfe7f70537ea3c4d31f5fa46d587a55d5e8f670db37f4",
+    "U2": "635a0f8838e01b21c44a2e79e69417672a57b9a56e069379dbf59c7aeff039dc"
+  },
+  "authority": "U2 browser entry and its closure; PA5 core support and synthetic tests, never overwriting an existing U2 member",
+  "copiedUnchanged": [
+    {
+      "path": "core/browser-event-ui/battle-view.js",
+      "baseline": "U2",
+      "sourcePath": "core/browser-event-ui/battle-view.js",
+      "sha256": "ef7a038f737c9259ee753403ade46791d739fbe2af0fcb61824a346f33d2c2fa",
+      "kind": "exact-source",
+      "publicSha256": "ef7a038f737c9259ee753403ade46791d739fbe2af0fcb61824a346f33d2c2fa"
+    },
+    {
+      "path": "core/encounters/adapter.js",
+      "baseline": "U2",
+      "sourcePath": "core/encounters/adapter.js",
+      "sha256": "9cf8d29db52773a7ca12c5661b27d189bd8f02beb25ec4199cb03c12e3976b1b",
+      "kind": "exact-source",
+      "publicSha256": "9cf8d29db52773a7ca12c5661b27d189bd8f02beb25ec4199cb03c12e3976b1b"
+    },
+    {
+      "path": "core/encounters/content.js",
+      "baseline": "U2",
+      "sourcePath": "core/encounters/content.js",
+      "sha256": "698acdb2ceaf0f7da04ec705f8bab98e0369404cc46b7e708d9b14787ea16894",
+      "kind": "exact-source",
+      "publicSha256": "698acdb2ceaf0f7da04ec705f8bab98e0369404cc46b7e708d9b14787ea16894"
+    },
+    {
+      "path": "core/encounters/index.js",
+      "baseline": "U2",
+      "sourcePath": "core/encounters/index.js",
+      "sha256": "2f72df25fefba9d22c00b97c7a943b144c943c02065125dfef5d9ba6515e1600",
+      "kind": "exact-source",
+      "publicSha256": "2f72df25fefba9d22c00b97c7a943b144c943c02065125dfef5d9ba6515e1600"
+    },
+    {
+      "path": "core/encounters/patterns.js",
+      "baseline": "U2",
+      "sourcePath": "core/encounters/patterns.js",
+      "sha256": "4d9cbae966b0e0e23436a9c7c02a8ea7c815b562dcc6be9734a23c6259f92a7b",
+      "kind": "exact-source",
+      "publicSha256": "4d9cbae966b0e0e23436a9c7c02a8ea7c815b562dcc6be9734a23c6259f92a7b"
+    },
+    {
+      "path": "core/encounters/status.js",
+      "baseline": "U2",
+      "sourcePath": "core/encounters/status.js",
+      "sha256": "8a3805a0571b0e0175dc6768e1ee683b97e06fceae41f42f73b43e00f16180dd",
+      "kind": "exact-source",
+      "publicSha256": "8a3805a0571b0e0175dc6768e1ee683b97e06fceae41f42f73b43e00f16180dd"
+    },
+    {
+      "path": "core/events/config.js",
+      "baseline": "U2",
+      "sourcePath": "core/events/config.js",
+      "sha256": "7465c93c86c4e3b9c420dfab1b573a5a1b260c09056b5d20c75f42884d26e0ce",
+      "kind": "exact-source",
+      "publicSha256": "7465c93c86c4e3b9c420dfab1b573a5a1b260c09056b5d20c75f42884d26e0ce"
+    },
+    {
+      "path": "core/events/index.js",
+      "baseline": "U2",
+      "sourcePath": "core/events/index.js",
+      "sha256": "cba5bd0f275d41114bc88e74d41458b3151e6bfc6c6e0a58d0bccee84d65d666",
+      "kind": "exact-source",
+      "publicSha256": "cba5bd0f275d41114bc88e74d41458b3151e6bfc6c6e0a58d0bccee84d65d666"
+    },
+    {
+      "path": "core/events/registry.js",
+      "baseline": "U2",
+      "sourcePath": "core/events/registry.js",
+      "sha256": "fa434dddbdcbd73816375840e6d046929626fed21d13cac30a34cf5f2d8e0828",
+      "kind": "exact-source",
+      "publicSha256": "fa434dddbdcbd73816375840e6d046929626fed21d13cac30a34cf5f2d8e0828"
+    },
+    {
+      "path": "core/profile-bridge/bridge.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/bridge.js",
+      "sha256": "925bd8baa1d734a03d12155e8af8168f57f06f88c5cdfeed520d856bca7a7e7b",
+      "kind": "exact-source",
+      "publicSha256": "925bd8baa1d734a03d12155e8af8168f57f06f88c5cdfeed520d856bca7a7e7b"
+    },
+    {
+      "path": "core/profile-bridge/hash.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/hash.js",
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495",
+      "kind": "exact-source",
+      "publicSha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "core/profile-bridge/index.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/index.js",
+      "sha256": "409cecf561475f55db07b1a58d535b58d51d0ef195683287411b6abf20a74112",
+      "kind": "exact-source",
+      "publicSha256": "409cecf561475f55db07b1a58d535b58d51d0ef195683287411b6abf20a74112"
+    },
+    {
+      "path": "core/profile-bridge/strict-json.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/strict-json.js",
+      "sha256": "42956855f74dec9fd326fc1a5be6009add13882bc4bbdf32b340ad0a57ec3ec1",
+      "kind": "exact-source",
+      "publicSha256": "42956855f74dec9fd326fc1a5be6009add13882bc4bbdf32b340ad0a57ec3ec1"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign-legacy.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/campaign-legacy.js",
+      "sha256": "053653571485f7fe8a4b2809dfa938ba41d58cd40c14a146e57dfa6a509bc057",
+      "kind": "exact-source",
+      "publicSha256": "053653571485f7fe8a4b2809dfa938ba41d58cd40c14a146e57dfa6a509bc057"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign-map.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/campaign-map.js",
+      "sha256": "3b8c9e49709a40d1db9b303f275ed8b3491a4959f26462be04ade80e63aa1bd5",
+      "kind": "exact-source",
+      "publicSha256": "3b8c9e49709a40d1db9b303f275ed8b3491a4959f26462be04ade80e63aa1bd5"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/campaign.js",
+      "sha256": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef",
+      "kind": "exact-source",
+      "publicSha256": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef"
+    },
+    {
+      "path": "core/profile-bridge/vendor/content.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/content.js",
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1",
+      "kind": "exact-source",
+      "publicSha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "path": "core/profile-bridge/vendor/game-engine.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/game-engine.js",
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20",
+      "kind": "exact-source",
+      "publicSha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20"
+    },
+    {
+      "path": "core/profile-bridge/vendor/v09-content.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-bridge/vendor/v09-content.js",
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe",
+      "kind": "exact-source",
+      "publicSha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe"
+    },
+    {
+      "path": "core/profile-integration/browser.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/browser.js",
+      "sha256": "74667ab521e283d902aa0d46aca75291d1e37509c043934d52d37fab99956c05",
+      "kind": "exact-source",
+      "publicSha256": "74667ab521e283d902aa0d46aca75291d1e37509c043934d52d37fab99956c05"
+    },
+    {
+      "path": "core/profile-integration/current-store.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/current-store.js",
+      "sha256": "24f09e0e771bab0e804193f30934af2b6cb2610e510b2754b4333c26ebe0ccef",
+      "kind": "exact-source",
+      "publicSha256": "24f09e0e771bab0e804193f30934af2b6cb2610e510b2754b4333c26ebe0ccef"
+    },
+    {
+      "path": "core/profile-integration/initialize-node.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/initialize-node.js",
+      "sha256": "920aecc8b247aee8f49956c9e8f06027971ac7dde8a07444e0abec43ccede489",
+      "kind": "exact-source",
+      "publicSha256": "920aecc8b247aee8f49956c9e8f06027971ac7dde8a07444e0abec43ccede489"
+    },
+    {
+      "path": "core/profile-integration/portable.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/portable.js",
+      "sha256": "bb0e396a9b1444e32bdd356ed35ae5cf35e826d2268993a5b4a29f917450d7e1",
+      "kind": "exact-source",
+      "publicSha256": "bb0e396a9b1444e32bdd356ed35ae5cf35e826d2268993a5b4a29f917450d7e1"
+    },
+    {
+      "path": "core/profile-integration/source-pins.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/source-pins.js",
+      "sha256": "c682c09d3c643f03cab665621760accf7e29f5d40bcdc3e7d811c4b0abfbf820",
+      "kind": "exact-source",
+      "publicSha256": "c682c09d3c643f03cab665621760accf7e29f5d40bcdc3e7d811c4b0abfbf820"
+    },
+    {
+      "path": "core/profile-integration/start.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/start.js",
+      "sha256": "11af752b5205efb2c6feeb54eafa0d57dcc6d22d6f081771fd4a9bfebb11681f",
+      "kind": "exact-source",
+      "publicSha256": "11af752b5205efb2c6feeb54eafa0d57dcc6d22d6f081771fd4a9bfebb11681f"
+    },
+    {
+      "path": "core/profile-integration/store.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/store.js",
+      "sha256": "18d27b64561a02a2d008590ae0518a8cfd31615658912e1ef0cdc9d636c8f7fa",
+      "kind": "exact-source",
+      "publicSha256": "18d27b64561a02a2d008590ae0518a8cfd31615658912e1ef0cdc9d636c8f7fa"
+    },
+    {
+      "path": "core/profile-integration/strict-json.js",
+      "baseline": "U2",
+      "sourcePath": "core/profile-integration/strict-json.js",
+      "sha256": "02cb710f28815dbe02a9aecc41077c4e5e1bb99c1c6761ce412bbe1d52b72a25",
+      "kind": "exact-source",
+      "publicSha256": "02cb710f28815dbe02a9aecc41077c4e5e1bb99c1c6761ce412bbe1d52b72a25"
+    },
+    {
+      "path": "core/progression/combat.js",
+      "baseline": "U2",
+      "sourcePath": "core/progression/combat.js",
+      "sha256": "0c5a4ef2b32b5d1f6c1444d2501ae992c9b135e70097239467c63f9745a84857",
+      "kind": "exact-source",
+      "publicSha256": "0c5a4ef2b32b5d1f6c1444d2501ae992c9b135e70097239467c63f9745a84857"
+    },
+    {
+      "path": "core/progression/index.js",
+      "baseline": "U2",
+      "sourcePath": "core/progression/index.js",
+      "sha256": "0912dee26e4137aa5ae04ec91eed0919bd4955e69adc5aca301491768d7431a8",
+      "kind": "exact-source",
+      "publicSha256": "0912dee26e4137aa5ae04ec91eed0919bd4955e69adc5aca301491768d7431a8"
+    },
+    {
+      "path": "core/progression/registry.js",
+      "baseline": "U2",
+      "sourcePath": "core/progression/registry.js",
+      "sha256": "70408b05c183eb91ec142f3e36c84334eaa6ed4d70fe1b391f2f5d559c6a8da5",
+      "kind": "exact-source",
+      "publicSha256": "70408b05c183eb91ec142f3e36c84334eaa6ed4d70fe1b391f2f5d559c6a8da5"
+    },
+    {
+      "path": "core/progression/resolver.js",
+      "baseline": "U2",
+      "sourcePath": "core/progression/resolver.js",
+      "sha256": "8b1e584603926b28672f85353f832512723a3b551637f00c30c7473dd5165edd",
+      "kind": "exact-source",
+      "publicSha256": "8b1e584603926b28672f85353f832512723a3b551637f00c30c7473dd5165edd"
+    },
+    {
+      "path": "core/progression/transactions.js",
+      "baseline": "U2",
+      "sourcePath": "core/progression/transactions.js",
+      "sha256": "18bcf6b967b0c6780a1c8cfd5f0bbac45d18dbff83ca375a0b0699504cee530b",
+      "kind": "exact-source",
+      "publicSha256": "18bcf6b967b0c6780a1c8cfd5f0bbac45d18dbff83ca375a0b0699504cee530b"
+    },
+    {
+      "path": "core/relic-services/command-combat.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/command-combat.js",
+      "sha256": "4d8cea1c8ac6b2ec0b194676c772307144d6767fed0a0bd7089eb3e37baf68d1",
+      "kind": "exact-source",
+      "publicSha256": "4d8cea1c8ac6b2ec0b194676c772307144d6767fed0a0bd7089eb3e37baf68d1"
+    },
+    {
+      "path": "core/relic-services/family-weight.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/family-weight.js",
+      "sha256": "1cf2d18a85ba060723a0033f1c34f3520c6e67fe3f6394dae2085dc0a395d12f",
+      "kind": "exact-source",
+      "publicSha256": "1cf2d18a85ba060723a0033f1c34f3520c6e67fe3f6394dae2085dc0a395d12f"
+    },
+    {
+      "path": "core/relic-services/index.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/index.js",
+      "sha256": "f732054635fc2bc074eb2fd894f81010f07afd08c7fbcaa55b4f57549f4f6218",
+      "kind": "exact-source",
+      "publicSha256": "f732054635fc2bc074eb2fd894f81010f07afd08c7fbcaa55b4f57549f4f6218"
+    },
+    {
+      "path": "core/relic-services/projection.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/projection.js",
+      "sha256": "aefc91a6b970bef71907167ae939c823188cacd3e8df51e164c9797fa7c910a4",
+      "kind": "exact-source",
+      "publicSha256": "aefc91a6b970bef71907167ae939c823188cacd3e8df51e164c9797fa7c910a4"
+    },
+    {
+      "path": "core/relic-services/provider-capabilities.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/provider-capabilities.js",
+      "sha256": "6f9efd629ed231cd00a2ccdcee6e9479e4a2063f0b0489daa679a87d95bdf624",
+      "kind": "exact-source",
+      "publicSha256": "6f9efd629ed231cd00a2ccdcee6e9479e4a2063f0b0489daa679a87d95bdf624"
+    },
+    {
+      "path": "core/relic-services/registry.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/registry.js",
+      "sha256": "28496d2db711527c28efb5156acc26b71434a3a37a35cdd27d7bec026d1c86cb",
+      "kind": "exact-source",
+      "publicSha256": "28496d2db711527c28efb5156acc26b71434a3a37a35cdd27d7bec026d1c86cb"
+    },
+    {
+      "path": "core/relic-services/strategy.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/strategy.js",
+      "sha256": "30033b27c201a4eb71f60be8b981f7b42ca0da6faf8c61af97b997e0d570afab",
+      "kind": "exact-source",
+      "publicSha256": "30033b27c201a4eb71f60be8b981f7b42ca0da6faf8c61af97b997e0d570afab"
+    },
+    {
+      "path": "core/relic-services/training-access.js",
+      "baseline": "U2",
+      "sourcePath": "core/relic-services/training-access.js",
+      "sha256": "64c9d732868b74bdc0a01f134722b86e06d4fcc43cda0dc4c365eaeb62123069",
+      "kind": "exact-source",
+      "publicSha256": "64c9d732868b74bdc0a01f134722b86e06d4fcc43cda0dc4c365eaeb62123069"
+    },
+    {
+      "path": "core/runtime/browser-api.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/browser-api.js",
+      "sha256": "4e494e98f10cb2f63914bbf8d9fc3102bfe0af1618cecf9ccbf01256f0b5e0b7",
+      "kind": "exact-source",
+      "publicSha256": "4e494e98f10cb2f63914bbf8d9fc3102bfe0af1618cecf9ccbf01256f0b5e0b7"
+    },
+    {
+      "path": "core/runtime/core.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/core.js",
+      "sha256": "431af81a3277b73a87fa4441af0cf56d2b9a6200921be578eeed0566c4657f05",
+      "kind": "exact-source",
+      "publicSha256": "431af81a3277b73a87fa4441af0cf56d2b9a6200921be578eeed0566c4657f05"
+    },
+    {
+      "path": "core/runtime/current-validation.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/current-validation.js",
+      "sha256": "19ef15476dc8d1fa1ed5694e833d68f08b11f32391fb7bbd4f57c15d7b2c93ea",
+      "kind": "exact-source",
+      "publicSha256": "19ef15476dc8d1fa1ed5694e833d68f08b11f32391fb7bbd4f57c15d7b2c93ea"
+    },
+    {
+      "path": "core/runtime/engine.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/engine.js",
+      "sha256": "783e0f2e9310d06dbe3ffaea7e8ce0980fa0a9343b8c79a4d3c50310e8d28830",
+      "kind": "exact-source",
+      "publicSha256": "783e0f2e9310d06dbe3ffaea7e8ce0980fa0a9343b8c79a4d3c50310e8d28830"
+    },
+    {
+      "path": "core/runtime/hash.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/hash.js",
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495",
+      "kind": "exact-source",
+      "publicSha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "core/runtime/identity.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/identity.js",
+      "sha256": "8c7abe167aac288e40b6a9891f30411c230967ab785685dba1e0c6d8e8ba549d",
+      "kind": "exact-source",
+      "publicSha256": "8c7abe167aac288e40b6a9891f30411c230967ab785685dba1e0c6d8e8ba549d"
+    },
+    {
+      "path": "core/runtime/integrated-rules.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/integrated-rules.js",
+      "sha256": "c44a9cb70ed6018dfa0509fee25c62ad05c7cdb25daa8c12a6eaa531f5a09bd8",
+      "kind": "exact-source",
+      "publicSha256": "c44a9cb70ed6018dfa0509fee25c62ad05c7cdb25daa8c12a6eaa531f5a09bd8"
+    },
+    {
+      "path": "core/runtime/interest-config.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/interest-config.js",
+      "sha256": "33947fb5d8a06d9a82338512c110de0d1d88bd38cec5019c9f523830a768350c",
+      "kind": "exact-source",
+      "publicSha256": "33947fb5d8a06d9a82338512c110de0d1d88bd38cec5019c9f523830a768350c"
+    },
+    {
+      "path": "core/runtime/interest.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/interest.js",
+      "sha256": "f48a570ffe3de05d027096b947066408f641050ecf096eb4e655bc4fbffb8fda",
+      "kind": "exact-source",
+      "publicSha256": "f48a570ffe3de05d027096b947066408f641050ecf096eb4e655bc4fbffb8fda"
+    },
+    {
+      "path": "core/runtime/portable-engine.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/portable-engine.js",
+      "sha256": "b836bd229a672bbeb6a9184b963500c6249c6f78520dca60041c4ce16b75d532",
+      "kind": "exact-source",
+      "publicSha256": "b836bd229a672bbeb6a9184b963500c6249c6f78520dca60041c4ce16b75d532"
+    },
+    {
+      "path": "core/runtime/portable-graph.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/portable-graph.js",
+      "sha256": "500c43a734681b4f9947486aafceaf5532e286fe254eabe0c2f7ff2330f5449b",
+      "kind": "exact-source",
+      "publicSha256": "500c43a734681b4f9947486aafceaf5532e286fe254eabe0c2f7ff2330f5449b"
+    },
+    {
+      "path": "core/runtime/terminal-result.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/terminal-result.js",
+      "sha256": "e431a976312e8fe32bf3929d187b3bd12e869998cea41bbd5fe27db070372df3",
+      "kind": "exact-source",
+      "publicSha256": "e431a976312e8fe32bf3929d187b3bd12e869998cea41bbd5fe27db070372df3"
+    },
+    {
+      "path": "core/runtime/vendor/content.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/vendor/content.js",
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1",
+      "kind": "exact-source",
+      "publicSha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "path": "core/runtime/vendor/game-engine.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/vendor/game-engine.js",
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20",
+      "kind": "exact-source",
+      "publicSha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20"
+    },
+    {
+      "path": "core/runtime/vendor/v09-content.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/vendor/v09-content.js",
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe",
+      "kind": "exact-source",
+      "publicSha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe"
+    },
+    {
+      "path": "core/runtime/views.js",
+      "baseline": "U2",
+      "sourcePath": "core/runtime/views.js",
+      "sha256": "5dc455a5eeb2a2d38f46f8f68c351a67fc9e3a8ad544ce4e69438d7cc997297f",
+      "kind": "exact-source",
+      "publicSha256": "5dc455a5eeb2a2d38f46f8f68c351a67fc9e3a8ad544ce4e69438d7cc997297f"
+    },
+    {
+      "path": "core/spear-skills/browser.js",
+      "baseline": "U2",
+      "sourcePath": "core/spear-skills/browser.js",
+      "sha256": "2a8c142e930912b30e4f8c9e86c733cce8b7a44f5310b556615d593bb6edd329",
+      "kind": "exact-source",
+      "publicSha256": "2a8c142e930912b30e4f8c9e86c733cce8b7a44f5310b556615d593bb6edd329"
+    },
+    {
+      "path": "core/src/config.js",
+      "baseline": "U2",
+      "sourcePath": "core/src/config.js",
+      "sha256": "84ce46f8bab6f5b8a55de037cd524bcbcb70e1b9f20da9e1217e618cffca8042",
+      "kind": "exact-source",
+      "publicSha256": "84ce46f8bab6f5b8a55de037cd524bcbcb70e1b9f20da9e1217e618cffca8042"
+    },
+    {
+      "path": "core/src/graph.js",
+      "baseline": "U2",
+      "sourcePath": "core/src/graph.js",
+      "sha256": "4f5424c89fefccbd3212e6d4c9e0a2d2a4c31db2d5160da750924f9ee8f94cf6",
+      "kind": "exact-source",
+      "publicSha256": "4f5424c89fefccbd3212e6d4c9e0a2d2a4c31db2d5160da750924f9ee8f94cf6"
+    },
+    {
+      "path": "core/ultimate-actions/adapter.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/adapter.js",
+      "sha256": "dbbf39723c4cc4785d1fe9c81c1ba39b9cad19a26f249ee7fd35a66c212509ca",
+      "kind": "exact-source",
+      "publicSha256": "dbbf39723c4cc4785d1fe9c81c1ba39b9cad19a26f249ee7fd35a66c212509ca"
+    },
+    {
+      "path": "core/ultimate-actions/effects.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/effects.js",
+      "sha256": "cb619e138aacdd9b14b6dd1e476464174c2e7f2d380713d3a33bf45c51138276",
+      "kind": "exact-source",
+      "publicSha256": "cb619e138aacdd9b14b6dd1e476464174c2e7f2d380713d3a33bf45c51138276"
+    },
+    {
+      "path": "core/ultimate-actions/foundation.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/foundation.js",
+      "sha256": "19b8aab574e8fa7c57addc2423f7089e3ab81cda348de54908de96dd902712c5",
+      "kind": "exact-source",
+      "publicSha256": "19b8aab574e8fa7c57addc2423f7089e3ab81cda348de54908de96dd902712c5"
+    },
+    {
+      "path": "core/ultimate-actions/resource-budget.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/resource-budget.js",
+      "sha256": "2d32050ffa1be63da9d9a21875855b2353e52654b1a5b5bded25a02029f85a38",
+      "kind": "exact-source",
+      "publicSha256": "2d32050ffa1be63da9d9a21875855b2353e52654b1a5b5bded25a02029f85a38"
+    },
+    {
+      "path": "core/ultimate-actions/trial-adapter.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/trial-adapter.js",
+      "sha256": "4f60b59cdc2e534dacbe0526abb6026035bd21bd583b53ff5b3458162e658600",
+      "kind": "exact-source",
+      "publicSha256": "4f60b59cdc2e534dacbe0526abb6026035bd21bd583b53ff5b3458162e658600"
+    },
+    {
+      "path": "core/ultimate-actions/trial-config.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/trial-config.js",
+      "sha256": "cdc37fabd68179d4e011350762fd20a9f697d50911557b1192f87c93411f2950",
+      "kind": "exact-source",
+      "publicSha256": "cdc37fabd68179d4e011350762fd20a9f697d50911557b1192f87c93411f2950"
+    },
+    {
+      "path": "core/ultimate-actions/trial-planner.js",
+      "baseline": "U2",
+      "sourcePath": "core/ultimate-actions/trial-planner.js",
+      "sha256": "bf3ec1be1d1575fa0048158e2b58ac9052d2c1ce3f2a6a59e89947e50c13316a",
+      "kind": "exact-source",
+      "publicSha256": "bf3ec1be1d1575fa0048158e2b58ac9052d2c1ce3f2a6a59e89947e50c13316a"
+    },
+    {
+      "path": "adapter/command-boundary.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/command-boundary.js",
+      "sha256": "080c79962a10b9e453f9f1afc0bc451bcf1d2e2bb7d42ef10aeef778ba099e35",
+      "kind": "exact-source",
+      "publicSha256": "080c79962a10b9e453f9f1afc0bc451bcf1d2e2bb7d42ef10aeef778ba099e35"
+    },
+    {
+      "path": "adapter/core-presentation.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/core-presentation.js",
+      "sha256": "2daa353435d2d4d386c7ff3815bf9d685efe53e22758c3fe518447537ffcd6af",
+      "kind": "exact-source",
+      "publicSha256": "2daa353435d2d4d386c7ff3815bf9d685efe53e22758c3fe518447537ffcd6af"
+    },
+    {
+      "path": "adapter/data.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/data.js",
+      "sha256": "d9be315e02cadddd43c5bd0e5cb3815dab6d1a3143882ebacd0615279057bd05",
+      "kind": "exact-source",
+      "publicSha256": "d9be315e02cadddd43c5bd0e5cb3815dab6d1a3143882ebacd0615279057bd05"
+    },
+    {
+      "path": "adapter/game-render-provider.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/game-render-provider.js",
+      "sha256": "f6e325a866953ce2a932a7e6f1022a3ed1955c728ec8fa21a7ba39de89a4eee0",
+      "kind": "exact-source",
+      "publicSha256": "f6e325a866953ce2a932a7e6f1022a3ed1955c728ec8fa21a7ba39de89a4eee0"
+    },
+    {
+      "path": "adapter/official-adapter.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-adapter.js",
+      "sha256": "938f80f2aec0c55a2d899075c7f98bbff77f141579ad173810bef91bf8f12f11",
+      "kind": "exact-source",
+      "publicSha256": "938f80f2aec0c55a2d899075c7f98bbff77f141579ad173810bef91bf8f12f11"
+    },
+    {
+      "path": "adapter/official-canvas-renderer.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-canvas-renderer.js",
+      "sha256": "3c68e3840184a19d40421a1e073796af13cd880aa17fc2dded7a7ef05ec932d6",
+      "kind": "exact-source",
+      "publicSha256": "3c68e3840184a19d40421a1e073796af13cd880aa17fc2dded7a7ef05ec932d6"
+    },
+    {
+      "path": "adapter/official-components.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-components.js",
+      "sha256": "fe41c7037929bc8c75efe9e29dcd72db93215112ebbecdbf1204109550096932",
+      "kind": "exact-source",
+      "publicSha256": "fe41c7037929bc8c75efe9e29dcd72db93215112ebbecdbf1204109550096932"
+    },
+    {
+      "path": "adapter/official-extracted-components.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-extracted-components.js",
+      "sha256": "00739b296b0b8e44de637c1f01b0a0982fba3101b90183fdd5e47ea04cca256c",
+      "kind": "exact-source",
+      "publicSha256": "00739b296b0b8e44de637c1f01b0a0982fba3101b90183fdd5e47ea04cca256c"
+    },
+    {
+      "path": "adapter/official-modal.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-modal.js",
+      "sha256": "08530509d19dace5b3ce4241dcdbcf0b41b5d9d43b1c53a7f9892f985d855b87",
+      "kind": "exact-source",
+      "publicSha256": "08530509d19dace5b3ce4241dcdbcf0b41b5d9d43b1c53a7f9892f985d855b87"
+    },
+    {
+      "path": "adapter/official-render-bridge.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-render-bridge.js",
+      "sha256": "7814222b80c6a7b134308c72c4c7c039a4e7010d7c642e9f109803c1e8ba40b3",
+      "kind": "exact-source",
+      "publicSha256": "7814222b80c6a7b134308c72c4c7c039a4e7010d7c642e9f109803c1e8ba40b3"
+    },
+    {
+      "path": "adapter/official-unit-name.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/official-unit-name.js",
+      "sha256": "d56c5a3a2b9901b2e3dd137bea7c5a3ff0f6487469449da7216fb3c45fed0416",
+      "kind": "exact-source",
+      "publicSha256": "d56c5a3a2b9901b2e3dd137bea7c5a3ff0f6487469449da7216fb3c45fed0416"
+    },
+    {
+      "path": "adapter/render-facade.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/render-facade.js",
+      "sha256": "69e08e0998be6da0f60ea7279e05e2b376713ea5cf05a5210698dd38eed4168b",
+      "kind": "exact-source",
+      "publicSha256": "69e08e0998be6da0f60ea7279e05e2b376713ea5cf05a5210698dd38eed4168b"
+    },
+    {
+      "path": "adapter/render-projection-adapter.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/render-projection-adapter.js",
+      "sha256": "321d3792f4c9be75ffc5c6c4bf3f433b8feaed5715a58d89129923e3a3f30887",
+      "kind": "exact-source",
+      "publicSha256": "321d3792f4c9be75ffc5c6c4bf3f433b8feaed5715a58d89129923e3a3f30887"
+    },
+    {
+      "path": "adapter/slots.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/slots.js",
+      "sha256": "841b7d43e9f984e5fec7100e94b756fdefeb4bc8de7ded31f01ed54ac92ad735",
+      "kind": "exact-source",
+      "publicSha256": "841b7d43e9f984e5fec7100e94b756fdefeb4bc8de7ded31f01ed54ac92ad735"
+    },
+    {
+      "path": "adapter/view-model.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/view-model.js",
+      "sha256": "acd3c5573ef8e24eb212a3d40a693b39ed5573fd44889c73ba3ef39b345cdfe3",
+      "kind": "exact-source",
+      "publicSha256": "acd3c5573ef8e24eb212a3d40a693b39ed5573fd44889c73ba3ef39b345cdfe3"
+    },
+    {
+      "path": "adapter/warning-layers.js",
+      "baseline": "U2",
+      "sourcePath": "adapter/warning-layers.js",
+      "sha256": "dc4cac2ac7f3463ef03b3a2d0a419593017185c1de079d13993a62eb2258bb57",
+      "kind": "exact-source",
+      "publicSha256": "dc4cac2ac7f3463ef03b3a2d0a419593017185c1de079d13993a62eb2258bb57"
+    },
+    {
+      "path": "loading/official-loading.css",
+      "baseline": "U2",
+      "sourcePath": "loading/official-loading.css",
+      "sha256": "e6621bc96ddf43b3eb4d1f16f6224025a0b32a9f2ae8cab7b860d6be024ce7a3",
+      "kind": "exact-source",
+      "publicSha256": "e6621bc96ddf43b3eb4d1f16f6224025a0b32a9f2ae8cab7b860d6be024ce7a3"
+    },
+    {
+      "path": "loading/official-loading.js",
+      "baseline": "U2",
+      "sourcePath": "loading/official-loading.js",
+      "sha256": "cac82bc73c4cd1f87fd5c6583c37ca7e43c977f2d009f30d0e398a8cac641c3f",
+      "kind": "exact-source",
+      "publicSha256": "cac82bc73c4cd1f87fd5c6583c37ca7e43c977f2d009f30d0e398a8cac641c3f"
+    },
+    {
+      "path": "loading/original-shell.css",
+      "baseline": "U2",
+      "sourcePath": "loading/original-shell.css",
+      "sha256": "3ff0a9a11775e4032198baad1a5ec4c1d67f9e66374709f01c6909c98da6c146",
+      "kind": "exact-source",
+      "publicSha256": "3ff0a9a11775e4032198baad1a5ec4c1d67f9e66374709f01c6909c98da6c146"
+    },
+    {
+      "path": "model/battle-statistics.js",
+      "baseline": "U2",
+      "sourcePath": "model/battle-statistics.js",
+      "sha256": "ca087f5c9b71074dc6c2712d02f5fc890c055c748aec8efacdfa2453557e95da",
+      "kind": "exact-source",
+      "publicSha256": "ca087f5c9b71074dc6c2712d02f5fc890c055c748aec8efacdfa2453557e95da"
+    },
+    {
+      "path": "model/event-presentation.js",
+      "baseline": "U2",
+      "sourcePath": "model/event-presentation.js",
+      "sha256": "88692af05e2f1ef4dbe4c217939820f9daf82c10892cae49fe5585be7ab29f89",
+      "kind": "exact-source",
+      "publicSha256": "88692af05e2f1ef4dbe4c217939820f9daf82c10892cae49fe5585be7ab29f89"
+    },
+    {
+      "path": "model/model.js",
+      "baseline": "U2",
+      "sourcePath": "model/model.js",
+      "sha256": "fb56309689d8db075b305e01a2f0fee320e064f3e833b258d7ebd2821396cee4",
+      "kind": "exact-source",
+      "publicSha256": "fb56309689d8db075b305e01a2f0fee320e064f3e833b258d7ebd2821396cee4"
+    },
+    {
+      "path": "model/presentation.js",
+      "baseline": "U2",
+      "sourcePath": "model/presentation.js",
+      "sha256": "1a1358df8958445d8ea8f640a526e23537d2c535410731fa2a5aebf05d81e789",
+      "kind": "exact-source",
+      "publicSha256": "1a1358df8958445d8ea8f640a526e23537d2c535410731fa2a5aebf05d81e789"
+    },
+    {
+      "path": "model/profile-model.js",
+      "baseline": "U2",
+      "sourcePath": "model/profile-model.js",
+      "sha256": "3dfd4beee7f91c12d8a0e8cb68ce2d36e4b0cc5f7ff41fcb182a8cd460767863",
+      "kind": "exact-source",
+      "publicSha256": "3dfd4beee7f91c12d8a0e8cb68ce2d36e4b0cc5f7ff41fcb182a8cd460767863"
+    },
+    {
+      "path": "model/profile-recovery.js",
+      "baseline": "U2",
+      "sourcePath": "model/profile-recovery.js",
+      "sha256": "522521cb68827f59be56bfbf917f8488f5a24bdbc32255f4dc84ba0fcb50b640",
+      "kind": "exact-source",
+      "publicSha256": "522521cb68827f59be56bfbf917f8488f5a24bdbc32255f4dc84ba0fcb50b640"
+    },
+    {
+      "path": "model/reconstructed/audio-events.js",
+      "baseline": "U2",
+      "sourcePath": "model/reconstructed/audio-events.js",
+      "sha256": "10c97282a917a3eaaf8fc6fb3dba64ced57bce788b43679b1b3b5c58841731cf",
+      "kind": "exact-source",
+      "publicSha256": "10c97282a917a3eaaf8fc6fb3dba64ced57bce788b43679b1b3b5c58841731cf"
+    },
+    {
+      "path": "model/reconstructed/hash.js",
+      "baseline": "U2",
+      "sourcePath": "model/reconstructed/hash.js",
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495",
+      "kind": "exact-source",
+      "publicSha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "model/service-presentation.js",
+      "baseline": "U2",
+      "sourcePath": "model/service-presentation.js",
+      "sha256": "e7b141c49c35fc6e33dcbce2f5f9a55d2b24e41d14ca85b680e5c40dc5c1106c",
+      "kind": "exact-source",
+      "publicSha256": "e7b141c49c35fc6e33dcbce2f5f9a55d2b24e41d14ca85b680e5c40dc5c1106c"
+    },
+    {
+      "path": "ui/audio-observation.js",
+      "baseline": "U2",
+      "sourcePath": "ui/audio-observation.js",
+      "sha256": "830ae6836e403b43243b722d6c24c41422facab606c96fc64e795aca8fd149f0",
+      "kind": "exact-source",
+      "publicSha256": "830ae6836e403b43243b722d6c24c41422facab606c96fc64e795aca8fd149f0"
+    },
+    {
+      "path": "ui/boot.js",
+      "baseline": "U2",
+      "sourcePath": "ui/boot.js",
+      "sha256": "f6bddcbbd46f1402a1f867a107d6a86f1e22eb5ff3d505376548b4138b1719ac",
+      "kind": "exact-source",
+      "publicSha256": "f6bddcbbd46f1402a1f867a107d6a86f1e22eb5ff3d505376548b4138b1719ac"
+    },
+    {
+      "path": "ui/official-app.js",
+      "baseline": "U2",
+      "sourcePath": "ui/official-app.js",
+      "sha256": "6e04694a6731c5d9cee4fa2c864d3a78c62ce8e13c8863f2e439d61dd49db6d5",
+      "kind": "exact-source",
+      "publicSha256": "6e04694a6731c5d9cee4fa2c864d3a78c62ce8e13c8863f2e439d61dd49db6d5"
+    },
+    {
+      "path": "ui/official-host.css",
+      "baseline": "U2",
+      "sourcePath": "ui/official-host.css",
+      "sha256": "c7a57fc30e9bf69367a98d699570df47167db5a71df86a2339c62082eba59782",
+      "kind": "exact-source",
+      "publicSha256": "c7a57fc30e9bf69367a98d699570df47167db5a71df86a2339c62082eba59782"
+    },
+    {
+      "path": "ui/official-routes.js",
+      "baseline": "U2",
+      "sourcePath": "ui/official-routes.js",
+      "sha256": "a7dbbf59bd46f20916835cf5212ffa8ef360654fcb2b517f0228fe304beecde2",
+      "kind": "exact-source",
+      "publicSha256": "a7dbbf59bd46f20916835cf5212ffa8ef360654fcb2b517f0228fe304beecde2"
+    },
+    {
+      "path": "audio/audio-scope.js",
+      "baseline": "U2",
+      "sourcePath": "audio/audio-scope.js",
+      "sha256": "4df6f75e788948f5317ccb30c877b4ea49b27ade15787f7b9054b0bac1637fc8",
+      "kind": "exact-source",
+      "publicSha256": "4df6f75e788948f5317ccb30c877b4ea49b27ade15787f7b9054b0bac1637fc8"
+    },
+    {
+      "path": "audio/audio.js",
+      "baseline": "U2",
+      "sourcePath": "audio/audio.js",
+      "sha256": "8ab0d65e5db3cb45ffce0a268ab1fc1bd4615740b2be8165897043f43d5685f8",
+      "kind": "exact-source",
+      "publicSha256": "8ab0d65e5db3cb45ffce0a268ab1fc1bd4615740b2be8165897043f43d5685f8"
+    },
+    {
+      "path": "index.html",
+      "baseline": "U2",
+      "sourcePath": "index.html",
+      "sha256": "1cc528b2fe74d259a9f361362493b69bc9f4bf3bb047066e953d550270133b3b",
+      "kind": "exact-source",
+      "publicSha256": "1cc528b2fe74d259a9f361362493b69bc9f4bf3bb047066e953d550270133b3b"
+    },
+    {
+      "path": "profile-loader.js",
+      "baseline": "U2",
+      "sourcePath": "profile-loader.js",
+      "sha256": "570afd8a13b32ac9078b65e86730dcda6098b3593e42322d8a3290412387468c",
+      "kind": "exact-source",
+      "publicSha256": "570afd8a13b32ac9078b65e86730dcda6098b3593e42322d8a3290412387468c"
+    },
+    {
+      "path": "boot-manifest.json",
+      "baseline": "U2",
+      "sourcePath": "boot-manifest.json",
+      "sha256": "8f4a8630bdcf78f5769ca07572e618937adf1606f4dbf7519a40d0048b2e0bf5",
+      "kind": "exact-source",
+      "publicSha256": "8f4a8630bdcf78f5769ca07572e618937adf1606f4dbf7519a40d0048b2e0bf5"
+    },
+    {
+      "path": "core/src/campaign.js",
+      "baseline": "PA5",
+      "sourcePath": "src/campaign.js",
+      "sha256": "3970ce8a415d09b3ca8d98ce9c987b3ca6102226a9f210427ff15e75d03e7d8f",
+      "kind": "node-source",
+      "publicSha256": "3970ce8a415d09b3ca8d98ce9c987b3ca6102226a9f210427ff15e75d03e7d8f"
+    },
+    {
+      "path": "core/runtime/campaign.js",
+      "baseline": "PA5",
+      "sourcePath": "runtime/campaign.js",
+      "sha256": "49f03b2e6bbea8c712e25637b55db62d0d7ecdce7fce54015643fb669749aa6e",
+      "kind": "node-source",
+      "publicSha256": "49f03b2e6bbea8c712e25637b55db62d0d7ecdce7fce54015643fb669749aa6e"
+    },
+    {
+      "path": "core/runtime/candidate-policy.js",
+      "baseline": "PA5",
+      "sourcePath": "runtime/candidate-policy.js",
+      "sha256": "cd56eae2f4bf93777bebe9747bbe29328861828d6b1ba2ad9aeafd4333ddd521",
+      "kind": "node-source",
+      "publicSha256": "cd56eae2f4bf93777bebe9747bbe29328861828d6b1ba2ad9aeafd4333ddd521"
+    },
+    {
+      "path": "core/runtime/store.js",
+      "baseline": "PA5",
+      "sourcePath": "runtime/store.js",
+      "sha256": "1f7d35a71e41f3fac8f8ea89275e48a6a3a4c99c406ef25cd77298a232d2a040",
+      "kind": "node-source",
+      "publicSha256": "1f7d35a71e41f3fac8f8ea89275e48a6a3a4c99c406ef25cd77298a232d2a040"
+    },
+    {
+      "path": "core/progression/combat.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/combat.test.js",
+      "sha256": "b672a0832ae3699200ae6100cc8d182e5cda5a6a37c47c9c25cfbed12e5d55e8",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "b672a0832ae3699200ae6100cc8d182e5cda5a6a37c47c9c25cfbed12e5d55e8"
+    },
+    {
+      "path": "core/progression/event-provider-readiness.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/event-provider-readiness.test.js",
+      "sha256": "e527932c876681dcece8f6fc5c255f46819b18c22b8d387453eaf3feb8ba21ba",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "e527932c876681dcece8f6fc5c255f46819b18c22b8d387453eaf3feb8ba21ba"
+    },
+    {
+      "path": "core/progression/focus-research.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/focus-research.test.js",
+      "sha256": "87337b6a4a3b582a016803d9ff715b29559b08fda3b60919938622834a228c0a",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "87337b6a4a3b582a016803d9ff715b29559b08fda3b60919938622834a228c0a"
+    },
+    {
+      "path": "core/progression/mage-scheduler.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/mage-scheduler.test.js",
+      "sha256": "36472d1541f7bc1926e29a4c360a1d89adca233db76b3d600e91d6991419ffc9",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "36472d1541f7bc1926e29a4c360a1d89adca233db76b3d600e91d6991419ffc9"
+    },
+    {
+      "path": "core/progression/multi-awakening.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/multi-awakening.test.js",
+      "sha256": "001236ad2179b011260ccfe3b2f0bb4f164c2a4ee9e3dac55d42476e25c6fcc6",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "001236ad2179b011260ccfe3b2f0bb4f164c2a4ee9e3dac55d42476e25c6fcc6"
+    },
+    {
+      "path": "core/progression/progression.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/progression.test.js",
+      "sha256": "c6376a2ade9a20e5a13527e5f3b23b6506680e6a2db81c95fd629f66aaf80df2",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "c6376a2ade9a20e5a13527e5f3b23b6506680e6a2db81c95fd629f66aaf80df2"
+    },
+    {
+      "path": "core/progression/test-fixture.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/test-fixture.js",
+      "sha256": "8e276aef55a7946134cce5ce71945daae44190332a6f093e765bff24c59cf0cd",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "8e276aef55a7946134cce5ce71945daae44190332a6f093e765bff24c59cf0cd"
+    },
+    {
+      "path": "core/progression/ultimate-identity.test.js",
+      "baseline": "PA5",
+      "sourcePath": "progression/ultimate-identity.test.js",
+      "sha256": "6484e2dc5fc43451162b3100cccfc983815e04bd292c5276d22f062021c51543",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6484e2dc5fc43451162b3100cccfc983815e04bd292c5276d22f062021c51543"
+    },
+    {
+      "path": "core/encounters/encounters.test.js",
+      "baseline": "PA5",
+      "sourcePath": "encounters/encounters.test.js",
+      "sha256": "91b92831da764c5a070e78dd8689d33e1f7bf7ae140e2ea5f302d6fff97426ea",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "91b92831da764c5a070e78dd8689d33e1f7bf7ae140e2ea5f302d6fff97426ea"
+    },
+    {
+      "path": "core/encounters/fixtures.js",
+      "baseline": "PA5",
+      "sourcePath": "encounters/fixtures.js",
+      "sha256": "5289389e0731adf1243a76b5f154041bc2adbcde62e7664b7b1851eefb37aa7c",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "5289389e0731adf1243a76b5f154041bc2adbcde62e7664b7b1851eefb37aa7c"
+    },
+    {
+      "path": "core/encounters/integration.test.js",
+      "baseline": "PA5",
+      "sourcePath": "encounters/integration.test.js",
+      "sha256": "6b417fe4c2dfb161519dc06e1cee72ecab7d3ffa5b23409c2981566e94f7942a",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6b417fe4c2dfb161519dc06e1cee72ecab7d3ffa5b23409c2981566e94f7942a"
+    },
+    {
+      "path": "core/relic-services/event-providers.test.js",
+      "baseline": "PA5",
+      "sourcePath": "relic-services/event-providers.test.js",
+      "sha256": "9d269dc14ba6a2d93155d82777259a8de92b7ba8bd500a14fb4d70b771c51a70",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "9d269dc14ba6a2d93155d82777259a8de92b7ba8bd500a14fb4d70b771c51a70"
+    },
+    {
+      "path": "core/relic-services/provider-id-boundary.test.js",
+      "baseline": "PA5",
+      "sourcePath": "relic-services/provider-id-boundary.test.js",
+      "sha256": "afa69e84e840b38d2872b87930c13696b0ecac2a60b02b2654dac2e18313d483",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "afa69e84e840b38d2872b87930c13696b0ecac2a60b02b2654dac2e18313d483"
+    },
+    {
+      "path": "core/relic-services/service-nodes.test.js",
+      "baseline": "PA5",
+      "sourcePath": "relic-services/service-nodes.test.js",
+      "sha256": "a4bae9576ac5c663a1a50ff45479d23c1cd462300f30971e61aea80b87458a35",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "a4bae9576ac5c663a1a50ff45479d23c1cd462300f30971e61aea80b87458a35"
+    },
+    {
+      "path": "core/relic-services/test-fixture.js",
+      "baseline": "PA5",
+      "sourcePath": "relic-services/test-fixture.js",
+      "sha256": "6dfe437ce022efb631edb1f782637cadc48108b6119e6cbfd2be71393c44719d",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6dfe437ce022efb631edb1f782637cadc48108b6119e6cbfd2be71393c44719d"
+    },
+    {
+      "path": "core/relic-services/test.js",
+      "baseline": "PA5",
+      "sourcePath": "relic-services/test.js",
+      "sha256": "44ec96517bf3830d03761ef1829ae6f0ec5bf39d68d7d97dc317c68f5142190c",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "44ec96517bf3830d03761ef1829ae6f0ec5bf39d68d7d97dc317c68f5142190c"
+    },
+    {
+      "path": "core/spear-skills/adapter.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/adapter.cjs",
+      "sha256": "24c774eadf0042816fad17e4e464e65daf6610cc6b156cc36093d6166ccf0778",
+      "kind": "node-source",
+      "publicSha256": "24c774eadf0042816fad17e4e464e65daf6610cc6b156cc36093d6166ccf0778"
+    },
+    {
+      "path": "core/spear-skills/build-browser.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/build-browser.cjs",
+      "sha256": "9180955ce3779d4e406edcaaee852172cdf3f595fa02e2ab4686e52f26029c78",
+      "kind": "node-source",
+      "publicSha256": "9180955ce3779d4e406edcaaee852172cdf3f595fa02e2ab4686e52f26029c78"
+    },
+    {
+      "path": "core/spear-skills/checkpoint-core.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/checkpoint-core.cjs",
+      "sha256": "39e144f639105e5956c8af72759edf19f4ba538405447a737792d5c14d25ff4a",
+      "kind": "node-source",
+      "publicSha256": "39e144f639105e5956c8af72759edf19f4ba538405447a737792d5c14d25ff4a"
+    },
+    {
+      "path": "core/spear-skills/checkpoint-store.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/checkpoint-store.cjs",
+      "sha256": "42e8a62da03eed38ceb46cc9756ba784470b34e715a83b5bdd34ebef0c4dc700",
+      "kind": "node-source",
+      "publicSha256": "42e8a62da03eed38ceb46cc9756ba784470b34e715a83b5bdd34ebef0c4dc700"
+    },
+    {
+      "path": "core/spear-skills/checkpoint-store.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/checkpoint-store.test.cjs",
+      "sha256": "f361b12a3c34deda9a4c327a9083911e83743b5f5dc0fe65560a55def5ae6e09",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "f361b12a3c34deda9a4c327a9083911e83743b5f5dc0fe65560a55def5ae6e09"
+    },
+    {
+      "path": "core/spear-skills/combat.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/combat.cjs",
+      "sha256": "19a0592341632f045087eaab8ebdca3f1c870b3529902bf27180a2baf70caf1c",
+      "kind": "node-source",
+      "publicSha256": "19a0592341632f045087eaab8ebdca3f1c870b3529902bf27180a2baf70caf1c"
+    },
+    {
+      "path": "core/spear-skills/combat.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/combat.test.cjs",
+      "sha256": "a49bb27b99f2b5b17c88fb4763b6bf124240cca5197940a2ed9269a11fbe2668",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "a49bb27b99f2b5b17c88fb4763b6bf124240cca5197940a2ed9269a11fbe2668"
+    },
+    {
+      "path": "core/spear-skills/command-guard.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/command-guard.test.cjs",
+      "sha256": "99a8bed7b6c2e7b806c2b50fedf9b3ac90fc9acaad29de1c943f7939aa37fce2",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "99a8bed7b6c2e7b806c2b50fedf9b3ac90fc9acaad29de1c943f7939aa37fce2"
+    },
+    {
+      "path": "core/spear-skills/parent-composition.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/parent-composition.test.cjs",
+      "sha256": "4f4cb48c9303aa1f7291ca26f15d466a75409cd99f61d29aca21ada27ed4bf50",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "4f4cb48c9303aa1f7291ca26f15d466a75409cd99f61d29aca21ada27ed4bf50"
+    },
+    {
+      "path": "core/spear-skills/receipt-validation.strict.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/receipt-validation.strict.test.cjs",
+      "sha256": "4d5b4e97ab2dffdd46efb02fe8cb93cc3ec908b9317761d1db33d01c53d5f85d",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "4d5b4e97ab2dffdd46efb02fe8cb93cc3ec908b9317761d1db33d01c53d5f85d"
+    },
+    {
+      "path": "core/spear-skills/spear-skills.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/spear-skills.cjs",
+      "sha256": "4456a3b2881e7ea5bd46dcc0568574711f4ca37d0d1e63294c05770d5dc53705",
+      "kind": "node-source",
+      "publicSha256": "4456a3b2881e7ea5bd46dcc0568574711f4ca37d0d1e63294c05770d5dc53705"
+    },
+    {
+      "path": "core/spear-skills/test-support.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/test-support.cjs",
+      "sha256": "674dd8da4e7471e2ead9f819b3a4c542beb24861f2ac4370626187c0bcf9daf8",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "674dd8da4e7471e2ead9f819b3a4c542beb24861f2ac4370626187c0bcf9daf8"
+    },
+    {
+      "path": "core/spear-skills/test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/test.cjs",
+      "sha256": "12577406a1220883e89974600df9af8fa93f4880b4f238ae07de4743454e0814",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "12577406a1220883e89974600df9af8fa93f4880b4f238ae07de4743454e0814"
+    },
+    {
+      "path": "core/spear-skills/transactional-host.test.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/transactional-host.test.cjs",
+      "sha256": "6a7ee825d4411e2406df482a6cbb2171d8b767748bf16c3c219dbf6c213e13c0",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6a7ee825d4411e2406df482a6cbb2171d8b767748bf16c3c219dbf6c213e13c0"
+    },
+    {
+      "path": "core/spear-skills/v09-host.cjs",
+      "baseline": "PA5",
+      "sourcePath": "spear-skills/v09-host.cjs",
+      "sha256": "93b03cdd30d19d3232337dcf032a203038e4099dca3866ffefff3e8de55d4e72",
+      "kind": "node-source",
+      "publicSha256": "93b03cdd30d19d3232337dcf032a203038e4099dca3866ffefff3e8de55d4e72"
+    },
+    {
+      "path": "core/events/events.test.js",
+      "baseline": "PA5",
+      "sourcePath": "events/events.test.js",
+      "sha256": "868b5fc9ed59e891f6a7e7215bba691328aac3983fcad623c355eee1cb28e9f8",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "868b5fc9ed59e891f6a7e7215bba691328aac3983fcad623c355eee1cb28e9f8"
+    },
+    {
+      "path": "core/profile-integration/file-store.js",
+      "baseline": "PA5",
+      "sourcePath": "profile-integration/file-store.js",
+      "sha256": "ba831dd7c53f563c844af37a9036991d69a65a00b91d46a2c31e8adf8ab44188",
+      "kind": "node-source",
+      "publicSha256": "ba831dd7c53f563c844af37a9036991d69a65a00b91d46a2c31e8adf8ab44188"
+    },
+    {
+      "path": "core/profile-integration/index.js",
+      "baseline": "PA5",
+      "sourcePath": "profile-integration/index.js",
+      "sha256": "238c222a51b9f2b6938783d41ad99a04aa388709ff7d469239d32625b7a35b20",
+      "kind": "node-source",
+      "publicSha256": "238c222a51b9f2b6938783d41ad99a04aa388709ff7d469239d32625b7a35b20"
+    },
+    {
+      "path": "core/ultimate-actions/adapter.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/adapter.test.js",
+      "sha256": "7f1f34527c6b5d994250a617ca02ba7f4c05b7d508e9abe92e5bc50b73e92888",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "7f1f34527c6b5d994250a617ca02ba7f4c05b7d508e9abe92e5bc50b73e92888"
+    },
+    {
+      "path": "core/ultimate-actions/composite.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/composite.test.js",
+      "sha256": "345a738bb95457ab66c4cf396b25c6555b9ca31dce42cafa8d611a85601329f6",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "345a738bb95457ab66c4cf396b25c6555b9ca31dce42cafa8d611a85601329f6"
+    },
+    {
+      "path": "core/ultimate-actions/effect-boundaries.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/effect-boundaries.test.js",
+      "sha256": "2341101ae170e2fcbac066573ba66588100c87caffaa47ff43ce73d88b43b691",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "2341101ae170e2fcbac066573ba66588100c87caffaa47ff43ce73d88b43b691"
+    },
+    {
+      "path": "core/ultimate-actions/effects.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/effects.test.js",
+      "sha256": "7983812c66f43b65d1ef9c0cc90abf1c2dac362189bab0bb31dd1eea387b9b1a",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "7983812c66f43b65d1ef9c0cc90abf1c2dac362189bab0bb31dd1eea387b9b1a"
+    },
+    {
+      "path": "core/ultimate-actions/fixture-helper.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/fixture-helper.js",
+      "sha256": "b6f8a2108a3af8be383f3453a11efc35c808020453a677bc04c3a2688320c4b1",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "b6f8a2108a3af8be383f3453a11efc35c808020453a677bc04c3a2688320c4b1"
+    },
+    {
+      "path": "core/ultimate-actions/foundation.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/foundation.test.js",
+      "sha256": "49dea905d0fcba3f8b9edfab595c0ec5c6ff439a4404bdadb884d72adc2748dc",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "49dea905d0fcba3f8b9edfab595c0ec5c6ff439a4404bdadb884d72adc2748dc"
+    },
+    {
+      "path": "core/ultimate-actions/neutral-config.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/neutral-config.js",
+      "sha256": "f569aa9bded76c6a1a2fe372bbf546e28d1c3ed179b8149c5fccc563592fd76a",
+      "kind": "node-source",
+      "publicSha256": "f569aa9bded76c6a1a2fe372bbf546e28d1c3ed179b8149c5fccc563592fd76a"
+    },
+    {
+      "path": "core/ultimate-actions/neutral-profile.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/neutral-profile.js",
+      "sha256": "ddc2c96b3dd028e7f5df1e67ba65b8409829af9bafd4c4d68053de1bfb63292d",
+      "kind": "node-source",
+      "publicSha256": "ddc2c96b3dd028e7f5df1e67ba65b8409829af9bafd4c4d68053de1bfb63292d"
+    },
+    {
+      "path": "core/ultimate-actions/planner.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/planner.test.js",
+      "sha256": "a3c9e44bad6ecc4fa8d164947a2fdb1a5caea09562b24dc4c02e2b21e9fcf8a4",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "a3c9e44bad6ecc4fa8d164947a2fdb1a5caea09562b24dc4c02e2b21e9fcf8a4"
+    },
+    {
+      "path": "core/ultimate-actions/repair-regression.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/repair-regression.test.js",
+      "sha256": "a17baedaa1e67ed6ed40c390e6509e5394f89a213e6ff33b1d96f33ac1ace095",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "a17baedaa1e67ed6ed40c390e6509e5394f89a213e6ff33b1d96f33ac1ace095"
+    },
+    {
+      "path": "core/ultimate-actions/resource-budget.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/resource-budget.test.js",
+      "sha256": "adcd9aa27fa2f1205d62aab582170834be1c653cf2e8ba992ff5848401dedb0b",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "adcd9aa27fa2f1205d62aab582170834be1c653cf2e8ba992ff5848401dedb0b"
+    },
+    {
+      "path": "core/ultimate-actions/restart-fixture.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/restart-fixture.js",
+      "sha256": "6c2c07e43431d36f4c1a2eb25ebfe5e666bfc7f0196d6badb4b1bc07580b752b",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6c2c07e43431d36f4c1a2eb25ebfe5e666bfc7f0196d6badb4b1bc07580b752b"
+    },
+    {
+      "path": "core/ultimate-actions/restart.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/restart.test.js",
+      "sha256": "3567b0ccf50390e3987166e7d6f0f233a1c5a1e146e7510a5e85cf165dbc6187",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "3567b0ccf50390e3987166e7d6f0f233a1c5a1e146e7510a5e85cf165dbc6187"
+    },
+    {
+      "path": "core/ultimate-actions/trial-effects.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/trial-effects.test.js",
+      "sha256": "a13a42736105df4b0bedb8b6cbce30c0130b1488fbbd3ab232246eb3fc0780ac",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "a13a42736105df4b0bedb8b6cbce30c0130b1488fbbd3ab232246eb3fc0780ac"
+    },
+    {
+      "path": "core/ultimate-actions/trial-fixture.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/trial-fixture.js",
+      "sha256": "773efba9c6eb42132f40ce649480b6311021cbb68851188af163e1a3a83c036e",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "773efba9c6eb42132f40ce649480b6311021cbb68851188af163e1a3a83c036e"
+    },
+    {
+      "path": "core/ultimate-actions/trial-restart-fixture.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/trial-restart-fixture.js",
+      "sha256": "6d7ffbdcef3d4f2d23e7a9c574c386bbb4787a1c6191978280d18398ed87a7d5",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "6d7ffbdcef3d4f2d23e7a9c574c386bbb4787a1c6191978280d18398ed87a7d5"
+    },
+    {
+      "path": "core/ultimate-actions/trial-restart.test.js",
+      "baseline": "PA5",
+      "sourcePath": "ultimate-actions/trial-restart.test.js",
+      "sha256": "cf259a6ecc940390ec8a6229ec7e861d931ffc7f430ae27765407c0e0df541f8",
+      "kind": "synthetic-test-or-support",
+      "publicSha256": "cf259a6ecc940390ec8a6229ec7e861d931ffc7f430ae27765407c0e0df541f8"
+    },
+    {
+      "path": "core/family-weight/unit.test.js",
+      "baseline": "PA5",
+      "sourcePath": "family-weight/unit.test.js",
+      "sha256": "eea25ff510c7c9f7870ef1464b757fef0884f189f9c8ee23f9362cfdf3ed0ddf",
+      "kind": "synthetic-family-weight-test",
+      "publicSha256": "eea25ff510c7c9f7870ef1464b757fef0884f189f9c8ee23f9362cfdf3ed0ddf"
+    },
+    {
+      "path": "core/family-weight/services.test.js",
+      "baseline": "PA5",
+      "sourcePath": "family-weight/services.test.js",
+      "sha256": "1b578b0c988ed137c5979bdf24f80b1153abea6b55542c12a7800d33fd54a378",
+      "kind": "synthetic-family-weight-test",
+      "publicSha256": "1b578b0c988ed137c5979bdf24f80b1153abea6b55542c12a7800d33fd54a378"
+    },
+    {
+      "path": "core/training-access/mechanism.test.js",
+      "baseline": "PA5",
+      "sourcePath": "training-access/mechanism.test.js",
+      "sha256": "24dc7b2d07e371b88de9ebdf4e8c6432958e8f5e5c546979067b5a20ae41461f",
+      "kind": "synthetic-training-test",
+      "publicSha256": "24dc7b2d07e371b88de9ebdf4e8c6432958e8f5e5c546979067b5a20ae41461f"
+    },
+    {
+      "path": "test/boot.test.js",
+      "baseline": "U2",
+      "sourcePath": "test/boot.test.js",
+      "sha256": "a0d16896a8865d2800d8b3399c2c39bb03d80031ba705ab7b27ec4bb53dc8b9d",
+      "kind": "synthetic-boot-test",
+      "publicSha256": "a0d16896a8865d2800d8b3399c2c39bb03d80031ba705ab7b27ec4bb53dc8b9d"
+    }
+  ],
+  "publicOnlyFiles": [
+    ".gitignore",
+    "README.md",
+    "assemble.py",
+    "assets-required.json",
+    "docs/design-status.md",
+    "docs/verification-scope.md",
+    "package.json",
+    "test/assembly-inputs.test.js",
+    "test/current-profile-generated.test.js",
+    "test/public-package.test.js",
+    "test/runtime-smoke.test.js",
+    "tools/run-tests.mjs",
+    "tools/verify-manifest.py"
+  ],
+  "adaptedRuntimeFiles": [],
+  "omittedInputs": "99 exact separately supplied asset/registry/render inputs in assets-required.json. Missing rights clearance; no license is implied.",
+  "dataScope": "No serialized profile or historical full-run fixtures. Tests construct synthetic mechanism states or new zero-entitlement engine runs in memory; no player data.",
+  "publicTransition": "Add this review directory and a root README link only; no workflow/deploy/main-source changes."
+}

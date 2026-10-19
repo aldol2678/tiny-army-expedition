@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {familyWeights,choosePool,weightedKey,WEIGHT_RULES} from '../relic-services/family-weight.js';
+const unit=(id,type,slot=null)=>({id,type,slot});
+test('counts promoted owned units including reserves, not basic rank0 or training',()=>{const w=familyWeights({roster:[unit(1,'spear'),{...unit(2,'guardian'),training:0},unit(3,'guardian',0),{...unit(4,'archer'),training:2}]});assert.equal(w.spear,3);assert.equal(w.archer,1);});
+test('all-family floor, cap and no duplicate IDs',()=>{assert.deepEqual(Object.values(familyWeights({roster:[]})),[1,1,1,1]);assert.equal(familyWeights({roster:Array.from({length:20},(_,i)=>unit(i+1,'guardian'))}).spear,5);assert.throws(()=>familyWeights({roster:[unit(1,'guardian'),unit(1,'guardian')]}),/Duplicate/);});
+test('separate pool gate is not guaranteed and no implicit fallback',()=>{assert.equal(choosePool(0),'key');assert.equal(choosePool(.249),'key');assert.equal(choosePool(.25),'ordinary');assert.equal(choosePool(.99),'ordinary');assert.equal(weightedKey([],{},.1),null);});
+test('weighted deterministic boundary and no rank multiplier',()=>{const w=familyWeights({roster:[{...unit(1,'guardian'),classStage:3,secondClassId:'test'}]});assert.equal(w.spear,2);const pool=[{id:'a',family:'spear'},{id:'b',family:'archer'}];assert.equal(weightedKey(pool,w,0),'a');assert.equal(weightedKey(pool,w,.9),'b');assert.equal(WEIGHT_RULES.status,'experimental-not-final-balance');});

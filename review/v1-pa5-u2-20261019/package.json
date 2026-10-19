@@ -1,0 +1,17 @@
+{
+  "name": "tiny-army-v1-pa5-u2-source-review",
+  "version": "1.0.0-review.pa5-u2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tools/run-tests.mjs",
+    "test:core": "node --test --test-concurrency=1 core/progression/*.test.js core/encounters/*.test.js core/relic-services/test.js core/relic-services/*.test.js core/spear-skills/test.cjs core/spear-skills/*.test.cjs core/events/*.test.js core/ultimate-actions/*.test.js core/family-weight/*.test.js core/training-access/*.test.js",
+    "test:public": "node --test --test-concurrency=1 test/*.test.js",
+    "check:assets": "python3 assemble.py --check",
+    "build": "python3 assemble.py",
+    "check:source": "python3 tools/verify-manifest.py"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
