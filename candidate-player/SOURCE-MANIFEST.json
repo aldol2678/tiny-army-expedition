@@ -1,0 +1,1541 @@
+{
+  "schema": "tiny-army-code-only-candidate-1",
+  "releaseEligible": false,
+  "files": [
+    {
+      "path": "adapter/core-presentation.js",
+      "size": 2250,
+      "sha256": "2daa353435d2d4d386c7ff3815bf9d685efe53e22758c3fe518447537ffcd6af"
+    },
+    {
+      "path": "adapter/data.js",
+      "size": 1754,
+      "sha256": "d9be315e02cadddd43c5bd0e5cb3815dab6d1a3143882ebacd0615279057bd05"
+    },
+    {
+      "path": "adapter/draw-bounds.js",
+      "size": 3379,
+      "sha256": "c7fcacf65471ac35aa7f0929d787d381a9a16840f8dc3dc3f30946b2cffc7ef9"
+    },
+    {
+      "path": "adapter/enemy-cue.js",
+      "size": 1868,
+      "sha256": "13081f02d21ef6b3b2618e740a7149fce70e82856d775db691a8e5b58cf7e8ba"
+    },
+    {
+      "path": "adapter/enemy-presentation.js",
+      "size": 12344,
+      "sha256": "862b89718f4338ea495abec8e0d32d809b5e53aa7b0bad4ab9500d4a714508cb"
+    },
+    {
+      "path": "adapter/game-render-provider.js",
+      "size": 2959,
+      "sha256": "f6e325a866953ce2a932a7e6f1022a3ed1955c728ec8fa21a7ba39de89a4eee0"
+    },
+    {
+      "path": "adapter/official-canvas-renderer.js",
+      "size": 18993,
+      "sha256": "906f05850b4ee37a5bf64105462a68341689ee53eeb646489ee9cf17210986e9"
+    },
+    {
+      "path": "adapter/official-extracted-components.js",
+      "size": 24715,
+      "sha256": "b8536a709742708c1aac4c540c7b34f2d3ed7ebda7deb087ae9e7a50a6e3c457"
+    },
+    {
+      "path": "adapter/official-modal.js",
+      "size": 3954,
+      "sha256": "08530509d19dace5b3ce4241dcdbcf0b41b5d9d43b1c53a7f9892f985d855b87"
+    },
+    {
+      "path": "adapter/official-unit-name.js",
+      "size": 561,
+      "sha256": "d56c5a3a2b9901b2e3dd137bea7c5a3ff0f6487469449da7216fb3c45fed0416"
+    },
+    {
+      "path": "adapter/render-facade.js",
+      "size": 1260,
+      "sha256": "69e08e0998be6da0f60ea7279e05e2b376713ea5cf05a5210698dd38eed4168b"
+    },
+    {
+      "path": "adapter/render-projection-adapter.js",
+      "size": 4694,
+      "sha256": "321d3792f4c9be75ffc5c6c4bf3f433b8feaed5715a58d89129923e3a3f30887"
+    },
+    {
+      "path": "adapter/slots.js",
+      "size": 1895,
+      "sha256": "841b7d43e9f984e5fec7100e94b756fdefeb4bc8de7ded31f01ed54ac92ad735"
+    },
+    {
+      "path": "adapter/status-authority.js",
+      "size": 4661,
+      "sha256": "88b7f728c609ee3f16578d6ca1fb65a431755f403cddd7c07363f8284bfb8cbb"
+    },
+    {
+      "path": "adapter/status-geometry.js",
+      "size": 5746,
+      "sha256": "5cbf356384428b82bdb49cb8061db324938a2369a738f07f30c8a739e0656ce3"
+    },
+    {
+      "path": "adapter/status-layout.js",
+      "size": 4551,
+      "sha256": "ce3f6585d14806d16d14642ef4c780ff89555f2f4de5f2a4a5b0beca6675f96e"
+    },
+    {
+      "path": "adapter/status-overlay.js",
+      "size": 5356,
+      "sha256": "94aeae669511e53010136bdd67af8c8316120f997051889cb10c660a88cf417b"
+    },
+    {
+      "path": "adapter/view-model.js",
+      "size": 1886,
+      "sha256": "acd3c5573ef8e24eb212a3d40a693b39ed5573fd44889c73ba3ef39b345cdfe3"
+    },
+    {
+      "path": "adapter/warning-layers.js",
+      "size": 2724,
+      "sha256": "dc4cac2ac7f3463ef03b3a2d0a419593017185c1de079d13993a62eb2258bb57"
+    },
+    {
+      "path": "audio/audio.js",
+      "size": 10572,
+      "sha256": "8ab0d65e5db3cb45ffce0a268ab1fc1bd4615740b2be8165897043f43d5685f8"
+    },
+    {
+      "path": "boot-manifest.json",
+      "size": 3044,
+      "sha256": "463b8b3348f244850e3c6e5bb8030f625a5181391f58e2cb760029c75a46faed"
+    },
+    {
+      "path": "core/browser-event-ui/battle-view.js",
+      "size": 4332,
+      "sha256": "ef7a038f737c9259ee753403ade46791d739fbe2af0fcb61824a346f33d2c2fa"
+    },
+    {
+      "path": "core/encounters/adapter.js",
+      "size": 10976,
+      "sha256": "67bbb88dde519480e586371c257f991637280437f8ad30910b4da3c89f1575e5"
+    },
+    {
+      "path": "core/encounters/content.js",
+      "size": 8016,
+      "sha256": "698acdb2ceaf0f7da04ec705f8bab98e0369404cc46b7e708d9b14787ea16894"
+    },
+    {
+      "path": "core/encounters/index.js",
+      "size": 120,
+      "sha256": "2f72df25fefba9d22c00b97c7a943b144c943c02065125dfef5d9ba6515e1600"
+    },
+    {
+      "path": "core/encounters/patterns.js",
+      "size": 7030,
+      "sha256": "4d9cbae966b0e0e23436a9c7c02a8ea7c815b562dcc6be9734a23c6259f92a7b"
+    },
+    {
+      "path": "core/encounters/status.js",
+      "size": 4408,
+      "sha256": "8a3805a0571b0e0175dc6768e1ee683b97e06fceae41f42f73b43e00f16180dd"
+    },
+    {
+      "path": "core/events/config.js",
+      "size": 260,
+      "sha256": "7465c93c86c4e3b9c420dfab1b573a5a1b260c09056b5d20c75f42884d26e0ce"
+    },
+    {
+      "path": "core/events/index.js",
+      "size": 19313,
+      "sha256": "e2479c8ff7adf0c095f987bb8377047b124323f5a9d69b58d4898e7201e8f807"
+    },
+    {
+      "path": "core/events/registry.js",
+      "size": 2726,
+      "sha256": "fa434dddbdcbd73816375840e6d046929626fed21d13cac30a34cf5f2d8e0828"
+    },
+    {
+      "path": "core/family-selection/contract.js",
+      "size": 7452,
+      "sha256": "db840bb7a0f7f062690e87a2f377752c2fb3deaf184d72efaba778ebb60b34a4"
+    },
+    {
+      "path": "core/formation-qa/projection.js",
+      "size": 2067,
+      "sha256": "eaa4b02c597f6f172fe7e89f676811841c9ecb0aa2c85b81cb9c32d0dfbf7ed2"
+    },
+    {
+      "path": "core/lf3/checkpoint-capture.js",
+      "size": 5147,
+      "sha256": "32364b8742e5af79cc714000691d78062396f0f6d4e396054f470cdb2eb1c64f"
+    },
+    {
+      "path": "core/lf3/checkpoint-shapes.js",
+      "size": 10394,
+      "sha256": "60d0d319702e605931e535225337fd90d30d3e441547bac18abe0321fb3d87eb"
+    },
+    {
+      "path": "core/lightweight-records/identity.js",
+      "size": 388,
+      "sha256": "30f08e72abc51ca0e7a7ff304b817fb030e6bd824e878f6dc747c4f4e0d17f8e"
+    },
+    {
+      "path": "core/lightweight-records/install.js",
+      "size": 562,
+      "sha256": "97be94dd687468c421b99ee9064c0d91334ac12f8905adcf3f52245aed37ad85"
+    },
+    {
+      "path": "core/lightweight-release/identity.js",
+      "size": 676,
+      "sha256": "690ce441b2b7d925908061820d6d899f4eda083d004e2267fa6ee7daf1a2ffe5"
+    },
+    {
+      "path": "core/lightweight-release/integration.js",
+      "size": 3422,
+      "sha256": "bb0aaa3d2931578b535a1a3de06e18ec9192ecd8299fce003e19080b07dad014"
+    },
+    {
+      "path": "core/lightweight-release/projection.js",
+      "size": 1365,
+      "sha256": "09f2e6cc89e22125a74150a8e37bb04211c25af8b48bb6134098c4b29b6c0c78"
+    },
+    {
+      "path": "core/lightweight-release/services.js",
+      "size": 45855,
+      "sha256": "8ce93e71643293d1e65d2d2cd1c459ddc5220c666a69d20538eb5f566216fc7f"
+    },
+    {
+      "path": "core/long-battle/adapter.js",
+      "size": 3162,
+      "sha256": "4ad26e623926bea88b65899240cb7a56341f8f7851761c19662a3b11eda01c28"
+    },
+    {
+      "path": "core/long-battle/trial-config.js",
+      "size": 2249,
+      "sha256": "92d00dc6b927226cad0d2387a75c513696638f4f7dc5569f213b51a5e2d0ea54"
+    },
+    {
+      "path": "core/profile-bridge/bridge.js",
+      "size": 9647,
+      "sha256": "925bd8baa1d734a03d12155e8af8168f57f06f88c5cdfeed520d856bca7a7e7b"
+    },
+    {
+      "path": "core/profile-bridge/hash.js",
+      "size": 2833,
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "core/profile-bridge/index.js",
+      "size": 1398,
+      "sha256": "409cecf561475f55db07b1a58d535b58d51d0ef195683287411b6abf20a74112"
+    },
+    {
+      "path": "core/profile-bridge/strict-json.js",
+      "size": 1915,
+      "sha256": "42956855f74dec9fd326fc1a5be6009add13882bc4bbdf32b340ad0a57ec3ec1"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign-legacy.js",
+      "size": 46919,
+      "sha256": "053653571485f7fe8a4b2809dfa938ba41d58cd40c14a146e57dfa6a509bc057"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign-map.js",
+      "size": 10262,
+      "sha256": "3b8c9e49709a40d1db9b303f275ed8b3491a4959f26462be04ade80e63aa1bd5"
+    },
+    {
+      "path": "core/profile-bridge/vendor/campaign.js",
+      "size": 110518,
+      "sha256": "1691f97a8ca82db4bc0e87aeac9523efdb93016acb781e6e1e7db13fee5161ef"
+    },
+    {
+      "path": "core/profile-bridge/vendor/content.js",
+      "size": 33538,
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "path": "core/profile-bridge/vendor/game-engine.js",
+      "size": 64940,
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20"
+    },
+    {
+      "path": "core/profile-bridge/vendor/v09-content.js",
+      "size": 44997,
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe"
+    },
+    {
+      "path": "core/profile-integration/browser.js",
+      "size": 862,
+      "sha256": "74667ab521e283d902aa0d46aca75291d1e37509c043934d52d37fab99956c05"
+    },
+    {
+      "path": "core/profile-integration/current-store.js",
+      "size": 3109,
+      "sha256": "24f09e0e771bab0e804193f30934af2b6cb2610e510b2754b4333c26ebe0ccef"
+    },
+    {
+      "path": "core/profile-integration/initialize-node.js",
+      "size": 238,
+      "sha256": "920aecc8b247aee8f49956c9e8f06027971ac7dde8a07444e0abec43ccede489"
+    },
+    {
+      "path": "core/profile-integration/native-checkpoint.js",
+      "size": 2317,
+      "sha256": "480a1092fd42122bf5b9250676036c13237ba307e8cf449121ad64c1abe8db02"
+    },
+    {
+      "path": "core/profile-integration/native.js",
+      "size": 8026,
+      "sha256": "1ba85b6164139724f8243f6c243efbfcfb1558108d0276283bdf5f0df240bd99"
+    },
+    {
+      "path": "core/profile-integration/portable.js",
+      "size": 37501,
+      "sha256": "a51342c2a832f80aadecd1b3827a2581d7114a30c184340c1e2cb7ac4e39a2b4"
+    },
+    {
+      "path": "core/profile-integration/source-pins.js",
+      "size": 619,
+      "sha256": "c682c09d3c643f03cab665621760accf7e29f5d40bcdc3e7d811c4b0abfbf820"
+    },
+    {
+      "path": "core/profile-integration/start.js",
+      "size": 4603,
+      "sha256": "a49de27588d5623616993bb5beb4f059885f3c640db35d14bb4d2ee690f14c00"
+    },
+    {
+      "path": "core/profile-integration/store.js",
+      "size": 2895,
+      "sha256": "18d27b64561a02a2d008590ae0518a8cfd31615658912e1ef0cdc9d636c8f7fa"
+    },
+    {
+      "path": "core/profile-integration/strict-json.js",
+      "size": 2457,
+      "sha256": "4ae080674e122e401c68466d6197cab388854ed5fa2707d63760570de7512ca8"
+    },
+    {
+      "path": "core/profile-integration/token-settlement.js",
+      "size": 5605,
+      "sha256": "381a97ce027b99b6944d7721530d6005ba49cf3b3415baec00d0320d21942061"
+    },
+    {
+      "path": "core/progression/combat.js",
+      "size": 33645,
+      "sha256": "0c5a4ef2b32b5d1f6c1444d2501ae992c9b135e70097239467c63f9745a84857"
+    },
+    {
+      "path": "core/progression/index.js",
+      "size": 126,
+      "sha256": "0912dee26e4137aa5ae04ec91eed0919bd4955e69adc5aca301491768d7431a8"
+    },
+    {
+      "path": "core/progression/registry.js",
+      "size": 6194,
+      "sha256": "70408b05c183eb91ec142f3e36c84334eaa6ed4d70fe1b391f2f5d559c6a8da5"
+    },
+    {
+      "path": "core/progression/resolver.js",
+      "size": 2869,
+      "sha256": "8b1e584603926b28672f85353f832512723a3b551637f00c30c7473dd5165edd"
+    },
+    {
+      "path": "core/progression/transactions.js",
+      "size": 21876,
+      "sha256": "bee86dd10957e3a59a090a6ff4655c4a797b0f106690505e8c1c57df510de03b"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/checkpoint.js",
+      "size": 756,
+      "sha256": "3631c000c779b2a6a4d4e7d4d8b3aea1d0307e642b525d11453c59fd0dafc451"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/class-combat.js",
+      "size": 36937,
+      "sha256": "f3a99eafd78e8f69351ac8bf2ffb387a46e3f07deca59bc2d3ee196aa023f332"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/command-combat.js",
+      "size": 10589,
+      "sha256": "6c2219f2f8e34082bf3bb0ac7a910611902b4f1cd240ea1546e32583fdc250cf"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/command-effects.js",
+      "size": 20789,
+      "sha256": "47c015bf756237a5744c98623bbcf9e9605e57f8297e63b94de14aae021bbe68"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/final-authority.js",
+      "size": 25682,
+      "sha256": "8e0e92de8733259ca58c9e764a2b7ddcbff029ee4a40b45e4e81b0d5be605c80"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/first-hp-adapter.js",
+      "size": 10456,
+      "sha256": "c11577edfbce02a2a2f29772cd6b56ce35bea18198648bd4e0aceab823963851"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/heal-barrier-authority.js",
+      "size": 21899,
+      "sha256": "444ec8894af6bce2e8e4ba3447cec002ca54d62a8342e348d4e2b27033f4b09a"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/paid-companion.js",
+      "size": 25252,
+      "sha256": "097347cd4d6a7f2d6bce727940f1cc7f70731580732d09340ae6fb38ae20d852"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/paid-lifecycle.js",
+      "size": 17560,
+      "sha256": "c34c1f5911c589d7c59bf1dace37d6c6f958df00552075c03bbfd55d5e0932a8"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/projection.js",
+      "size": 3003,
+      "sha256": "a870586a9290dacc21dd4eb9ae07e43e75eb8d6ed07acbac3aba76414aa02c60"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/restore-gate.js",
+      "size": 7210,
+      "sha256": "a6f5722483822340820c6a3b7c5e001b1c8293661d5ab85945b136d77323053c"
+    },
+    {
+      "path": "core/rc2-fast/contracts-rc2/ultimate-adapter.js",
+      "size": 6407,
+      "sha256": "bceb8ce2694df0f64d536876bb330b0d870ca38838edcd1da3a31cb82616050a"
+    },
+    {
+      "path": "core/rc2-fast/encounters/adapter.js",
+      "size": 10976,
+      "sha256": "67bbb88dde519480e586371c257f991637280437f8ad30910b4da3c89f1575e5"
+    },
+    {
+      "path": "core/rc2-fast/encounters/content.js",
+      "size": 8016,
+      "sha256": "698acdb2ceaf0f7da04ec705f8bab98e0369404cc46b7e708d9b14787ea16894"
+    },
+    {
+      "path": "core/rc2-fast/encounters/index.js",
+      "size": 120,
+      "sha256": "2f72df25fefba9d22c00b97c7a943b144c943c02065125dfef5d9ba6515e1600"
+    },
+    {
+      "path": "core/rc2-fast/encounters/patterns.js",
+      "size": 7030,
+      "sha256": "4d9cbae966b0e0e23436a9c7c02a8ea7c815b562dcc6be9734a23c6259f92a7b"
+    },
+    {
+      "path": "core/rc2-fast/encounters/status.js",
+      "size": 4408,
+      "sha256": "8a3805a0571b0e0175dc6768e1ee683b97e06fceae41f42f73b43e00f16180dd"
+    },
+    {
+      "path": "core/rc2-fast/final-damage-rb6/protection.js",
+      "size": 3952,
+      "sha256": "a3926f91672c542a99b2b629fae778389ad84bceb53ea9bce24b7f73797817e3"
+    },
+    {
+      "path": "core/rc2-fast/first-hp-hit/contract.js",
+      "size": 3269,
+      "sha256": "fed8fe013d82c37f6baae4946cff354a23acc67d0383a1b17755547d1e4b6585"
+    },
+    {
+      "path": "core/rc2-fast/first-hp-hit/projection.js",
+      "size": 2866,
+      "sha256": "fddb1a03466e641fd2b8aa59ee0065d7105be40b569850508cf39e43f6634c6e"
+    },
+    {
+      "path": "core/rc2-fast/heal-barrier-hb1/authority.js",
+      "size": 20454,
+      "sha256": "406c9513b72622f5e2b60f0776b1bbb8b9d62f8a97fa201279ef18cbd88eda33"
+    },
+    {
+      "path": "core/rc2-fast/heal-barrier-hb1/index.js",
+      "size": 2936,
+      "sha256": "39bff94db78d3201059e59292b7d55701e00da3ee2cb6cdb991daa9519bc8362"
+    },
+    {
+      "path": "core/rc2-fast/heal-barrier-hb1/rb1-adapter.js",
+      "size": 16701,
+      "sha256": "1f1d569b59d3e9e6afee5f4eb52479513fe132842d4ed8d0c2bf9c4cf64e20cd"
+    },
+    {
+      "path": "core/rc2-fast/paid-actions-rb5/atomic-host.js",
+      "size": 9055,
+      "sha256": "d0e88a8db47a220d0df930f981ee6ce35ab024ea5178b844af2155021adfb7ec"
+    },
+    {
+      "path": "core/rc2-fast/paid-actions-rb5/base-tick.js",
+      "size": 7974,
+      "sha256": "ee6f4733619384f09f13b288cdc36f49e34adb6cac2be725d597d663b2e9caca"
+    },
+    {
+      "path": "core/rc2-fast/progression/combat.js",
+      "size": 33645,
+      "sha256": "0c5a4ef2b32b5d1f6c1444d2501ae992c9b135e70097239467c63f9745a84857"
+    },
+    {
+      "path": "core/rc2-fast/progression/registry.js",
+      "size": 6194,
+      "sha256": "70408b05c183eb91ec142f3e36c84334eaa6ed4d70fe1b391f2f5d559c6a8da5"
+    },
+    {
+      "path": "core/rc2-fast/progression/resolver.js",
+      "size": 2869,
+      "sha256": "8b1e584603926b28672f85353f832512723a3b551637f00c30c7473dd5165edd"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-2/adapter.js",
+      "size": 17071,
+      "sha256": "e0d911656478f13f8e72d6e0b7e76ed6c1463ac63add1972a94e9b878f4011af"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-2/index.js",
+      "size": 94,
+      "sha256": "d25a6315f0eeb7311ded55b755d9d5faedc36a88e91d10e59471e47c7db4a1b2"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-2/projection.js",
+      "size": 3644,
+      "sha256": "5981d1c6dd5de5a0f138b713d98cc0d1f242b3bcad74a736c6a477f8bc21653b"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-2/registry.js",
+      "size": 2413,
+      "sha256": "17395f3bb9ceeb107eeee5fe2a1b59b9e2c5f01ff67bfd09865cd6f076b6d3c0"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-3/adapter.js",
+      "size": 13758,
+      "sha256": "393b28aa629fb8e4b6ff97692786b6c630a187a2a47db106f0eb716f3c5310c9"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-3/index.js",
+      "size": 112,
+      "sha256": "956e6df0fe313bce217870e2f767692df78cffc05476258223fad0f4b18ed502"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-3/projection.js",
+      "size": 4743,
+      "sha256": "7a47837a4dcacd42a1e6ea692ea5b91f94d9c8f26af23f00a2213d6b3132675c"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-3/registry.js",
+      "size": 3898,
+      "sha256": "64cdabaf6783745670c603cbffb4de2c768b5f07b834df0f92a91f7088e260c4"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-4/projection.js",
+      "size": 4861,
+      "sha256": "1e54f79c705e81a33788dcab040ef53e33c33a04c6b8e7c3e6d3f8cd8233469a"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-4/registry.js",
+      "size": 8320,
+      "sha256": "8e5914fc1526ffa586fa1b55358a2e3d6beb8a1563b81b91ae5ec2040cd868b1"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-5/projection.js",
+      "size": 8547,
+      "sha256": "f30f4d5a7691c9a4341b165e6054607b4c58837ef734803a2f18fd574330b8e5"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-5/registry.js",
+      "size": 15326,
+      "sha256": "4f036643f7da4e7803aeeb24719f4bf25607f15c5b04680b665fa7106a8761fa"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-6/index.js",
+      "size": 3765,
+      "sha256": "f97dafed02df34e0dd6ee78f9c924124ae9b4001ea13473e9e99c4b9172d20bf"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch-7/index.js",
+      "size": 3214,
+      "sha256": "178199ec475c7b3523c4c0e536bfb0b72ab3837d24063dfb3acf78dc9bbdcd69"
+    },
+    {
+      "path": "core/rc2-fast/relic-batch/index.js",
+      "size": 16501,
+      "sha256": "b225ea9c33aac7219185eb3da65e325d210c8acc4bae99bd83d32e0d3fe6fa9e"
+    },
+    {
+      "path": "core/rc2-fast/relic-chain-cd1/engine-adapter.js",
+      "size": 3985,
+      "sha256": "fd6ff44adb3f40a68d10baa1a20c6d456fc1edd659bf477f591fe4b091b31329"
+    },
+    {
+      "path": "core/rc2-fast/relic-chain-cd1/index.js",
+      "size": 3275,
+      "sha256": "41f4dc0ce39207bc8f76a172bd55519f66d99706af818b5cc49080455397c01f"
+    },
+    {
+      "path": "core/rc2-fast/relic-services/projection.js",
+      "size": 4927,
+      "sha256": "aefc91a6b970bef71907167ae939c823188cacd3e8df51e164c9797fa7c910a4"
+    },
+    {
+      "path": "core/rc2-fast/relic-services/provider-capabilities.js",
+      "size": 3983,
+      "sha256": "6f9efd629ed231cd00a2ccdcee6e9479e4a2063f0b0489daa679a87d95bdf624"
+    },
+    {
+      "path": "core/rc2-fast/relic-services/registry.js",
+      "size": 4051,
+      "sha256": "28496d2db711527c28efb5156acc26b71434a3a37a35cdd27d7bec026d1c86cb"
+    },
+    {
+      "path": "core/rc2-fast/relic-services/strategy.js",
+      "size": 9165,
+      "sha256": "30033b27c201a4eb71f60be8b981f7b42ca0da6faf8c61af97b997e0d570afab"
+    },
+    {
+      "path": "core/rc2-fast/relic-services/training-access.js",
+      "size": 4897,
+      "sha256": "64c9d732868b74bdc0a01f134722b86e06d4fcc43cda0dc4c365eaeb62123069"
+    },
+    {
+      "path": "core/rc2-fast/runtime/hash.js",
+      "size": 2833,
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "core/rc2-fast/runtime/interest-config.js",
+      "size": 311,
+      "sha256": "33947fb5d8a06d9a82338512c110de0d1d88bd38cec5019c9f523830a768350c"
+    },
+    {
+      "path": "core/rc2-fast/spear-skills-rb6/browser.js",
+      "size": 47509,
+      "sha256": "292672f47de81ecce137a54953f2aecff75adac3ddab8c1c5f0a5f0b71344a57"
+    },
+    {
+      "path": "core/rc2-fast/spear-skills/browser.js",
+      "size": 46229,
+      "sha256": "2a8c142e930912b30e4f8c9e86c733cce8b7a44f5310b556615d593bb6edd329"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/adapter.js",
+      "size": 8853,
+      "sha256": "dbbf39723c4cc4785d1fe9c81c1ba39b9cad19a26f249ee7fd35a66c212509ca"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/effects.js",
+      "size": 10796,
+      "sha256": "cb619e138aacdd9b14b6dd1e476464174c2e7f2d380713d3a33bf45c51138276"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/foundation.js",
+      "size": 8940,
+      "sha256": "19b8aab574e8fa7c57addc2423f7089e3ab81cda348de54908de96dd902712c5"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/resource-budget.js",
+      "size": 2384,
+      "sha256": "2d32050ffa1be63da9d9a21875855b2353e52654b1a5b5bded25a02029f85a38"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/trial-config.js",
+      "size": 3999,
+      "sha256": "cdc37fabd68179d4e011350762fd20a9f697d50911557b1192f87c93411f2950"
+    },
+    {
+      "path": "core/rc2-fast/ultimate-actions/trial-planner.js",
+      "size": 22807,
+      "sha256": "bf3ec1be1d1575fa0048158e2b58ac9052d2c1ce3f2a6a59e89947e50c13316a"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/checkpoint.js",
+      "size": 756,
+      "sha256": "3631c000c779b2a6a4d4e7d4d8b3aea1d0307e642b525d11453c59fd0dafc451"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/class-combat.js",
+      "size": 36937,
+      "sha256": "f3a99eafd78e8f69351ac8bf2ffb387a46e3f07deca59bc2d3ee196aa023f332"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/command-combat.js",
+      "size": 10589,
+      "sha256": "6c2219f2f8e34082bf3bb0ac7a910611902b4f1cd240ea1546e32583fdc250cf"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/command-effects.js",
+      "size": 20789,
+      "sha256": "47c015bf756237a5744c98623bbcf9e9605e57f8297e63b94de14aae021bbe68"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/final-authority.js",
+      "size": 25615,
+      "sha256": "ed575e7b6db6d20e12c2d3a4135e51dca703ed6399871af9af57b05b2bf61a0a"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/first-hp-adapter.js",
+      "size": 10456,
+      "sha256": "c11577edfbce02a2a2f29772cd6b56ce35bea18198648bd4e0aceab823963851"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/heal-barrier-authority.js",
+      "size": 20648,
+      "sha256": "010e20f1d6f140a8b269c0a42d4d6425c5ac7d3e910100f0068467a8c56ad5ba"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/index.js",
+      "size": 5502,
+      "sha256": "b199cfe2cfccda1a984eccca94af4011926947ca4a469e0f5d5f0eeec40c8021"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/paid-companion.js",
+      "size": 25252,
+      "sha256": "097347cd4d6a7f2d6bce727940f1cc7f70731580732d09340ae6fb38ae20d852"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/paid-lifecycle.js",
+      "size": 17560,
+      "sha256": "c34c1f5911c589d7c59bf1dace37d6c6f958df00552075c03bbfd55d5e0932a8"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/projection.js",
+      "size": 3003,
+      "sha256": "a870586a9290dacc21dd4eb9ae07e43e75eb8d6ed07acbac3aba76414aa02c60"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/restore-gate.js",
+      "size": 6918,
+      "sha256": "6300f310b3f192dd16d9d1c21c79cc443965a205f83b1e24e99a4f46435abc3a"
+    },
+    {
+      "path": "core/rc2/contracts-rc2/ultimate-adapter.js",
+      "size": 6407,
+      "sha256": "bceb8ce2694df0f64d536876bb330b0d870ca38838edcd1da3a31cb82616050a"
+    },
+    {
+      "path": "core/rc2/encounters/adapter.js",
+      "size": 10633,
+      "sha256": "9cf8d29db52773a7ca12c5661b27d189bd8f02beb25ec4199cb03c12e3976b1b"
+    },
+    {
+      "path": "core/rc2/encounters/content.js",
+      "size": 8016,
+      "sha256": "698acdb2ceaf0f7da04ec705f8bab98e0369404cc46b7e708d9b14787ea16894"
+    },
+    {
+      "path": "core/rc2/encounters/index.js",
+      "size": 120,
+      "sha256": "2f72df25fefba9d22c00b97c7a943b144c943c02065125dfef5d9ba6515e1600"
+    },
+    {
+      "path": "core/rc2/encounters/patterns.js",
+      "size": 7030,
+      "sha256": "4d9cbae966b0e0e23436a9c7c02a8ea7c815b562dcc6be9734a23c6259f92a7b"
+    },
+    {
+      "path": "core/rc2/encounters/status.js",
+      "size": 4408,
+      "sha256": "8a3805a0571b0e0175dc6768e1ee683b97e06fceae41f42f73b43e00f16180dd"
+    },
+    {
+      "path": "core/rc2/final-damage-rb6/protection.js",
+      "size": 3875,
+      "sha256": "346784a216038c4c2e3a2c22879e524141df3a19bc28773c17609e77f4279d1e"
+    },
+    {
+      "path": "core/rc2/first-hp-hit/contract.js",
+      "size": 3269,
+      "sha256": "fed8fe013d82c37f6baae4946cff354a23acc67d0383a1b17755547d1e4b6585"
+    },
+    {
+      "path": "core/rc2/first-hp-hit/projection.js",
+      "size": 2866,
+      "sha256": "fddb1a03466e641fd2b8aa59ee0065d7105be40b569850508cf39e43f6634c6e"
+    },
+    {
+      "path": "core/rc2/heal-barrier-hb1/authority.js",
+      "size": 20454,
+      "sha256": "406c9513b72622f5e2b60f0776b1bbb8b9d62f8a97fa201279ef18cbd88eda33"
+    },
+    {
+      "path": "core/rc2/heal-barrier-hb1/index.js",
+      "size": 2936,
+      "sha256": "39bff94db78d3201059e59292b7d55701e00da3ee2cb6cdb991daa9519bc8362"
+    },
+    {
+      "path": "core/rc2/heal-barrier-hb1/rb1-adapter.js",
+      "size": 16701,
+      "sha256": "1f1d569b59d3e9e6afee5f4eb52479513fe132842d4ed8d0c2bf9c4cf64e20cd"
+    },
+    {
+      "path": "core/rc2/paid-actions-rb5/atomic-host.js",
+      "size": 9055,
+      "sha256": "d0e88a8db47a220d0df930f981ee6ce35ab024ea5178b844af2155021adfb7ec"
+    },
+    {
+      "path": "core/rc2/paid-actions-rb5/base-tick.js",
+      "size": 7974,
+      "sha256": "ee6f4733619384f09f13b288cdc36f49e34adb6cac2be725d597d663b2e9caca"
+    },
+    {
+      "path": "core/rc2/progression/combat.js",
+      "size": 33645,
+      "sha256": "0c5a4ef2b32b5d1f6c1444d2501ae992c9b135e70097239467c63f9745a84857"
+    },
+    {
+      "path": "core/rc2/progression/registry.js",
+      "size": 6194,
+      "sha256": "70408b05c183eb91ec142f3e36c84334eaa6ed4d70fe1b391f2f5d559c6a8da5"
+    },
+    {
+      "path": "core/rc2/progression/resolver.js",
+      "size": 2869,
+      "sha256": "8b1e584603926b28672f85353f832512723a3b551637f00c30c7473dd5165edd"
+    },
+    {
+      "path": "core/rc2/relic-batch-2/adapter.js",
+      "size": 17071,
+      "sha256": "e0d911656478f13f8e72d6e0b7e76ed6c1463ac63add1972a94e9b878f4011af"
+    },
+    {
+      "path": "core/rc2/relic-batch-2/index.js",
+      "size": 94,
+      "sha256": "d25a6315f0eeb7311ded55b755d9d5faedc36a88e91d10e59471e47c7db4a1b2"
+    },
+    {
+      "path": "core/rc2/relic-batch-2/projection.js",
+      "size": 3644,
+      "sha256": "5981d1c6dd5de5a0f138b713d98cc0d1f242b3bcad74a736c6a477f8bc21653b"
+    },
+    {
+      "path": "core/rc2/relic-batch-2/registry.js",
+      "size": 2413,
+      "sha256": "17395f3bb9ceeb107eeee5fe2a1b59b9e2c5f01ff67bfd09865cd6f076b6d3c0"
+    },
+    {
+      "path": "core/rc2/relic-batch-3/adapter.js",
+      "size": 13758,
+      "sha256": "393b28aa629fb8e4b6ff97692786b6c630a187a2a47db106f0eb716f3c5310c9"
+    },
+    {
+      "path": "core/rc2/relic-batch-3/index.js",
+      "size": 112,
+      "sha256": "956e6df0fe313bce217870e2f767692df78cffc05476258223fad0f4b18ed502"
+    },
+    {
+      "path": "core/rc2/relic-batch-3/projection.js",
+      "size": 4743,
+      "sha256": "7a47837a4dcacd42a1e6ea692ea5b91f94d9c8f26af23f00a2213d6b3132675c"
+    },
+    {
+      "path": "core/rc2/relic-batch-3/registry.js",
+      "size": 3898,
+      "sha256": "64cdabaf6783745670c603cbffb4de2c768b5f07b834df0f92a91f7088e260c4"
+    },
+    {
+      "path": "core/rc2/relic-batch-4/projection.js",
+      "size": 4861,
+      "sha256": "1e54f79c705e81a33788dcab040ef53e33c33a04c6b8e7c3e6d3f8cd8233469a"
+    },
+    {
+      "path": "core/rc2/relic-batch-4/registry.js",
+      "size": 8320,
+      "sha256": "8e5914fc1526ffa586fa1b55358a2e3d6beb8a1563b81b91ae5ec2040cd868b1"
+    },
+    {
+      "path": "core/rc2/relic-batch-5/projection.js",
+      "size": 8547,
+      "sha256": "f30f4d5a7691c9a4341b165e6054607b4c58837ef734803a2f18fd574330b8e5"
+    },
+    {
+      "path": "core/rc2/relic-batch-5/registry.js",
+      "size": 15326,
+      "sha256": "4f036643f7da4e7803aeeb24719f4bf25607f15c5b04680b665fa7106a8761fa"
+    },
+    {
+      "path": "core/rc2/relic-batch-6/index.js",
+      "size": 3765,
+      "sha256": "f97dafed02df34e0dd6ee78f9c924124ae9b4001ea13473e9e99c4b9172d20bf"
+    },
+    {
+      "path": "core/rc2/relic-batch-7/index.js",
+      "size": 3214,
+      "sha256": "178199ec475c7b3523c4c0e536bfb0b72ab3837d24063dfb3acf78dc9bbdcd69"
+    },
+    {
+      "path": "core/rc2/relic-batch/index.js",
+      "size": 16501,
+      "sha256": "b225ea9c33aac7219185eb3da65e325d210c8acc4bae99bd83d32e0d3fe6fa9e"
+    },
+    {
+      "path": "core/rc2/relic-chain-cd1/engine-adapter.js",
+      "size": 3985,
+      "sha256": "fd6ff44adb3f40a68d10baa1a20c6d456fc1edd659bf477f591fe4b091b31329"
+    },
+    {
+      "path": "core/rc2/relic-chain-cd1/index.js",
+      "size": 3275,
+      "sha256": "41f4dc0ce39207bc8f76a172bd55519f66d99706af818b5cc49080455397c01f"
+    },
+    {
+      "path": "core/rc2/relic-services/projection.js",
+      "size": 4927,
+      "sha256": "aefc91a6b970bef71907167ae939c823188cacd3e8df51e164c9797fa7c910a4"
+    },
+    {
+      "path": "core/rc2/relic-services/provider-capabilities.js",
+      "size": 3983,
+      "sha256": "6f9efd629ed231cd00a2ccdcee6e9479e4a2063f0b0489daa679a87d95bdf624"
+    },
+    {
+      "path": "core/rc2/relic-services/registry.js",
+      "size": 4051,
+      "sha256": "28496d2db711527c28efb5156acc26b71434a3a37a35cdd27d7bec026d1c86cb"
+    },
+    {
+      "path": "core/rc2/relic-services/strategy.js",
+      "size": 9165,
+      "sha256": "30033b27c201a4eb71f60be8b981f7b42ca0da6faf8c61af97b997e0d570afab"
+    },
+    {
+      "path": "core/rc2/relic-services/training-access.js",
+      "size": 4897,
+      "sha256": "64c9d732868b74bdc0a01f134722b86e06d4fcc43cda0dc4c365eaeb62123069"
+    },
+    {
+      "path": "core/rc2/runtime/hash.js",
+      "size": 2833,
+      "sha256": "3e8a22a8423f785735657cffad23e58bf5a563d60b84452865b64eac20a04495"
+    },
+    {
+      "path": "core/rc2/runtime/interest-config.js",
+      "size": 311,
+      "sha256": "33947fb5d8a06d9a82338512c110de0d1d88bd38cec5019c9f523830a768350c"
+    },
+    {
+      "path": "core/rc2/spear-skills-rb6/browser.js",
+      "size": 47385,
+      "sha256": "32e81c4aa217d3da65c247e38a4dc97c3c945577e44d2e5daee742b6b8d84d4b"
+    },
+    {
+      "path": "core/rc2/spear-skills/browser.js",
+      "size": 46229,
+      "sha256": "2a8c142e930912b30e4f8c9e86c733cce8b7a44f5310b556615d593bb6edd329"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/adapter.js",
+      "size": 8853,
+      "sha256": "dbbf39723c4cc4785d1fe9c81c1ba39b9cad19a26f249ee7fd35a66c212509ca"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/effects.js",
+      "size": 10796,
+      "sha256": "cb619e138aacdd9b14b6dd1e476464174c2e7f2d380713d3a33bf45c51138276"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/foundation.js",
+      "size": 8940,
+      "sha256": "19b8aab574e8fa7c57addc2423f7089e3ab81cda348de54908de96dd902712c5"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/resource-budget.js",
+      "size": 2384,
+      "sha256": "2d32050ffa1be63da9d9a21875855b2353e52654b1a5b5bded25a02029f85a38"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/trial-config.js",
+      "size": 3999,
+      "sha256": "cdc37fabd68179d4e011350762fd20a9f697d50911557b1192f87c93411f2950"
+    },
+    {
+      "path": "core/rc2/ultimate-actions/trial-planner.js",
+      "size": 22807,
+      "sha256": "bf3ec1be1d1575fa0048158e2b58ac9052d2c1ce3f2a6a59e89947e50c13316a"
+    },
+    {
+      "path": "core/rci1/checkpoint-copy.js",
+      "size": 1454,
+      "sha256": "31077b09b4d24a9622025b437f341f39a383cb9c7b50a3795ac5df8189c70de0"
+    },
+    {
+      "path": "core/rci1/contracts-fast.js",
+      "size": 5937,
+      "sha256": "2520603997eda2a379ad550e35a8cac419f6bc4fc42d825d93e01bedf31da738"
+    },
+    {
+      "path": "core/rci1/engine-identity.json",
+      "size": 269,
+      "sha256": "2986c38ef43312df7e58e33206374183238e2af66a7ecb6603a949b86477100f"
+    },
+    {
+      "path": "core/rci1/game-engine.js",
+      "size": 65082,
+      "sha256": "8a9d3844d049dec73aebd4124c46a48c0f2a385a6fcc6694b5dc951f028ee523"
+    },
+    {
+      "path": "core/rci1/identity.js",
+      "size": 573,
+      "sha256": "b6d5ce9f8a76b902baed4ee21b5d9a2599d7f7a9381604dba0d300c3c8afba64"
+    },
+    {
+      "path": "core/rci1/integration.js",
+      "size": 2958,
+      "sha256": "61983a75d62174b4215b6598c9b71528d0cf75cedcae62208ef79cab5029da9e"
+    },
+    {
+      "path": "core/rci2/contracts.js",
+      "size": 5923,
+      "sha256": "bc9f9f7291f8ced00c76e8843231cfee39e35d53dfb80aa396326348947d8801"
+    },
+    {
+      "path": "core/rci2/identity.js",
+      "size": 699,
+      "sha256": "1743830c8c2264c67978dbe7cf0fe7759ffa6a9156bf238c60c434083378f0b9"
+    },
+    {
+      "path": "core/rci2/integration.js",
+      "size": 2534,
+      "sha256": "b75270b5b394b70da5387998b5f6f958051c2ad75a73ddf916d3e0cd6ebc4081"
+    },
+    {
+      "path": "core/rci2/spear-skills/browser.js",
+      "size": 51061,
+      "sha256": "d7dd666716d2a3a3b15e37d953d7549753653b6789dd1a9fc2af6a3f1e06925b"
+    },
+    {
+      "path": "core/relic-services/command-combat.js",
+      "size": 9684,
+      "sha256": "4d8cea1c8ac6b2ec0b194676c772307144d6767fed0a0bd7089eb3e37baf68d1"
+    },
+    {
+      "path": "core/relic-services/family-weight.js",
+      "size": 1390,
+      "sha256": "1cf2d18a85ba060723a0033f1c34f3520c6e67fe3f6394dae2085dc0a395d12f"
+    },
+    {
+      "path": "core/relic-services/index.js",
+      "size": 45585,
+      "sha256": "9d8777fbf0c6446b7d1e48bd4ed402317c7b1c94a85939e2873b1d54c3a30331"
+    },
+    {
+      "path": "core/relic-services/projection.js",
+      "size": 4927,
+      "sha256": "aefc91a6b970bef71907167ae939c823188cacd3e8df51e164c9797fa7c910a4"
+    },
+    {
+      "path": "core/relic-services/provider-capabilities.js",
+      "size": 3983,
+      "sha256": "6f9efd629ed231cd00a2ccdcee6e9479e4a2063f0b0489daa679a87d95bdf624"
+    },
+    {
+      "path": "core/relic-services/registry.js",
+      "size": 4051,
+      "sha256": "28496d2db711527c28efb5156acc26b71434a3a37a35cdd27d7bec026d1c86cb"
+    },
+    {
+      "path": "core/relic-services/strategy.js",
+      "size": 9165,
+      "sha256": "30033b27c201a4eb71f60be8b981f7b42ca0da6faf8c61af97b997e0d570afab"
+    },
+    {
+      "path": "core/relic-services/training-access.js",
+      "size": 4897,
+      "sha256": "64c9d732868b74bdc0a01f134722b86e06d4fcc43cda0dc4c365eaeb62123069"
+    },
+    {
+      "path": "core/runtime/browser-api.js",
+      "size": 1073,
+      "sha256": "2d274af74dbe2f7ca1ac5f7c876167cef1bad9bc4dae5fb6767f457a82224478"
+    },
+    {
+      "path": "core/runtime/core.js",
+      "size": 32196,
+      "sha256": "7f8c62267a42d6d8762bf70bfedb955338d76407fc7e33b2ea3fbe554ce1840e"
+    },
+    {
+      "path": "core/runtime/current-validation.js",
+      "size": 53317,
+      "sha256": "15087501631f51876b284c8e3c4f003ba5be3f913f1e60f1cc60afc97df5295f"
+    },
+    {
+      "path": "core/runtime/engine.js",
+      "size": 1287,
+      "sha256": "5b30f96c5c7879a53547e2f7defc873bd84cbea2ed51346a76f6c07267359873"
+    },
+    {
+      "path": "core/runtime/hash.js",
+      "size": 4707,
+      "sha256": "0993b99bba4415cd120e1eba20e2b71b8ec6708cfba4f5e0c32d06dee450f141"
+    },
+    {
+      "path": "core/runtime/identity.js",
+      "size": 947,
+      "sha256": "8c7abe167aac288e40b6a9891f30411c230967ab785685dba1e0c6d8e8ba549d"
+    },
+    {
+      "path": "core/runtime/integrated-rules.js",
+      "size": 4931,
+      "sha256": "9a9403970926c83964db9639a0009b2b1dc8eb167e2a43de8f7452e10e298f12"
+    },
+    {
+      "path": "core/runtime/interest-config.js",
+      "size": 311,
+      "sha256": "33947fb5d8a06d9a82338512c110de0d1d88bd38cec5019c9f523830a768350c"
+    },
+    {
+      "path": "core/runtime/interest.js",
+      "size": 1416,
+      "sha256": "f48a570ffe3de05d027096b947066408f641050ecf096eb4e655bc4fbffb8fda"
+    },
+    {
+      "path": "core/runtime/portable-engine.js",
+      "size": 11194,
+      "sha256": "537c82778508870f487da6ed1e7c17548f7a699bf190bc105aeac5f2e7284576"
+    },
+    {
+      "path": "core/runtime/portable-graph.js",
+      "size": 110,
+      "sha256": "500c43a734681b4f9947486aafceaf5532e286fe254eabe0c2f7ff2330f5449b"
+    },
+    {
+      "path": "core/runtime/terminal-result.js",
+      "size": 2258,
+      "sha256": "e431a976312e8fe32bf3929d187b3bd12e869998cea41bbd5fe27db070372df3"
+    },
+    {
+      "path": "core/runtime/vendor/content.js",
+      "size": 33538,
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "path": "core/runtime/vendor/game-engine.js",
+      "size": 64940,
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20"
+    },
+    {
+      "path": "core/runtime/vendor/v09-content.js",
+      "size": 44997,
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe"
+    },
+    {
+      "path": "core/runtime/views.js",
+      "size": 11241,
+      "sha256": "5dc455a5eeb2a2d38f46f8f68c351a67fc9e3a8ad544ce4e69438d7cc997297f"
+    },
+    {
+      "path": "core/spear-skills/browser.js",
+      "size": 46229,
+      "sha256": "2a8c142e930912b30e4f8c9e86c733cce8b7a44f5310b556615d593bb6edd329"
+    },
+    {
+      "path": "core/src/config.js",
+      "size": 1701,
+      "sha256": "84ce46f8bab6f5b8a55de037cd524bcbcb70e1b9f20da9e1217e618cffca8042"
+    },
+    {
+      "path": "core/src/graph.js",
+      "size": 9919,
+      "sha256": "4f5424c89fefccbd3212e6d4c9e0a2d2a4c31db2d5160da750924f9ee8f94cf6"
+    },
+    {
+      "path": "core/ultimate-actions/adapter.js",
+      "size": 8853,
+      "sha256": "dbbf39723c4cc4785d1fe9c81c1ba39b9cad19a26f249ee7fd35a66c212509ca"
+    },
+    {
+      "path": "core/ultimate-actions/effects.js",
+      "size": 10796,
+      "sha256": "cb619e138aacdd9b14b6dd1e476464174c2e7f2d380713d3a33bf45c51138276"
+    },
+    {
+      "path": "core/ultimate-actions/foundation.js",
+      "size": 8940,
+      "sha256": "19b8aab574e8fa7c57addc2423f7089e3ab81cda348de54908de96dd902712c5"
+    },
+    {
+      "path": "core/ultimate-actions/resource-budget.js",
+      "size": 2384,
+      "sha256": "2d32050ffa1be63da9d9a21875855b2353e52654b1a5b5bded25a02029f85a38"
+    },
+    {
+      "path": "core/ultimate-actions/trial-adapter.js",
+      "size": 6126,
+      "sha256": "4f60b59cdc2e534dacbe0526abb6026035bd21bd583b53ff5b3458162e658600"
+    },
+    {
+      "path": "core/ultimate-actions/trial-config.js",
+      "size": 3999,
+      "sha256": "cdc37fabd68179d4e011350762fd20a9f697d50911557b1192f87c93411f2950"
+    },
+    {
+      "path": "core/ultimate-actions/trial-planner.js",
+      "size": 22807,
+      "sha256": "bf3ec1be1d1575fa0048158e2b58ac9052d2c1ce3f2a6a59e89947e50c13316a"
+    },
+    {
+      "path": "index.html",
+      "size": 8470,
+      "sha256": "677b6ecf22357801aaaf1798cbf490dbc276517d8336b675fbb2137865383d9b"
+    },
+    {
+      "path": "js/battle-readability.js",
+      "size": 9788,
+      "sha256": "cbc0d1129216e0b6dbc00b3a19073a9a089fa6187e55f4725a072a1ad257b142"
+    },
+    {
+      "path": "js/card-assets.js",
+      "size": 22105,
+      "sha256": "f041518c95da3b9edbcad57d6fe78d5755904c7501b6d7b271250d534554035d"
+    },
+    {
+      "path": "js/chapter-backdrop.js",
+      "size": 4829,
+      "sha256": "949404cbfb10684db369cd9f9bac13c31a3453be5023fee9f14dfb061664f044"
+    },
+    {
+      "path": "js/commander-effects.js",
+      "size": 11634,
+      "sha256": "547b343db4c8d4a58ceed1ea5d4a31a1646db18a5124b53195d6f5167a66c42a"
+    },
+    {
+      "path": "js/condition-art.js",
+      "size": 6482,
+      "sha256": "a6cb2c75719389294d1a953d1eb078e6ba950164a98e4a341d6d9e1ce122d8c1"
+    },
+    {
+      "path": "js/formation-input.js",
+      "size": 7772,
+      "sha256": "9b2088da59b728715c65049791b39227040e3cd724161132a9c6fe455cda9d5e"
+    },
+    {
+      "path": "js/formation-preview.js",
+      "size": 14919,
+      "sha256": "cf61cb7b3b0824b597789cc4f6784bd503e0de99cdb22741dac7ff7f25edbd4d"
+    },
+    {
+      "path": "js/game-art.js",
+      "size": 35124,
+      "sha256": "90c1b0b92383695c502e50ab5429601e1160de2b2b4c49503a1b1952130f95a1"
+    },
+    {
+      "path": "js/game-ui-art.js",
+      "size": 93590,
+      "sha256": "a7dc40694f5bb59f8801184450ed32f49f2d0c91e95ae70ef0828bde19219b9a"
+    },
+    {
+      "path": "js/portrait-sheets.js",
+      "size": 5051,
+      "sha256": "6cbf4e89631074575306ea862948e5ced98f1f6b76bd47e3b9f40c24cf8c512c"
+    },
+    {
+      "path": "js/rarity-art.js",
+      "size": 7521,
+      "sha256": "4579650931bfdd8a06de781c7ab44be8ba5c10a570b19be880456b59d550b8e4"
+    },
+    {
+      "path": "js/relic-art.js",
+      "size": 20198,
+      "sha256": "936543caf563d39f8bd23999ee5c2a8782421d9e756e0939d5052470a1e42371"
+    },
+    {
+      "path": "js/screen-art.js",
+      "size": 23811,
+      "sha256": "861442d99a06579a5ec17d315ffb49e6338ee0d6bce58bcb012c93adb8adbbb2"
+    },
+    {
+      "path": "js/site-resources.js",
+      "size": 19645,
+      "sha256": "9dc2ad41ba808e38a7293a6bd539fe591ec836082229a822568be5b68036e9d7"
+    },
+    {
+      "path": "js/skill-effects.js",
+      "size": 15391,
+      "sha256": "81c8fc9fd8dd049457b407d5bdd4e91c12cfb442ed053d1354aa3b545ca4a6e7"
+    },
+    {
+      "path": "js/strategy-view.js",
+      "size": 13773,
+      "sha256": "c97f61783d8937296f580e6ecb8aa48dcb9e721a1940259e54a82ea0fe837cb8"
+    },
+    {
+      "path": "js/v09-art.js",
+      "size": 19650,
+      "sha256": "08695430e43632dce69db30f784e1b6dfed2052248abc886cc84cde23d5d0b61"
+    },
+    {
+      "path": "js/v09-media.js",
+      "size": 5803,
+      "sha256": "705b216ea44b93b6f896951df20dca8c3cd8882f1c562fa0bf17719637dd8bac"
+    },
+    {
+      "path": "loading/official-loading.css",
+      "size": 2397,
+      "sha256": "e6621bc96ddf43b3eb4d1f16f6224025a0b32a9f2ae8cab7b860d6be024ce7a3"
+    },
+    {
+      "path": "loading/official-loading.js",
+      "size": 10676,
+      "sha256": "cde986ed4d825945bb51aca1ef5cf0428574b0d7744ef3259a37e56b29ba9d32"
+    },
+    {
+      "path": "model/battle-statistics.js",
+      "size": 5123,
+      "sha256": "ca087f5c9b71074dc6c2712d02f5fc890c055c748aec8efacdfa2453557e95da"
+    },
+    {
+      "path": "model/event-presentation.js",
+      "size": 6493,
+      "sha256": "88692af05e2f1ef4dbe4c217939820f9daf82c10892cae49fe5585be7ab29f89"
+    },
+    {
+      "path": "model/presentation.js",
+      "size": 13870,
+      "sha256": "0b239ae4eacb9f3192d35b265e53a879cd5d755c9f8899ba962369b6a10e713b"
+    },
+    {
+      "path": "model/reconstructed/audio-events.js",
+      "size": 1931,
+      "sha256": "10c97282a917a3eaaf8fc6fb3dba64ced57bce788b43679b1b3b5c58841731cf"
+    },
+    {
+      "path": "model/service-presentation.js",
+      "size": 12006,
+      "sha256": "ba4bb3572f812b6fa2f2c629796fe161b6e73edd9951f18f6db3c0372ba0ee15"
+    },
+    {
+      "path": "model/sg2-app-model.js",
+      "size": 15291,
+      "sha256": "09c9acd71c9382b9c1bc007a4a75c831b778d083c27aa32d2a01ea0f4845478a"
+    },
+    {
+      "path": "model/sg2-profile-model.js",
+      "size": 3818,
+      "sha256": "3365e0aab3d0d39c453ef9072ae193cf6a5b951e2ffddfa444f11a6d139150a3"
+    },
+    {
+      "path": "model/storage-codec.js",
+      "size": 6028,
+      "sha256": "b3af54fa7b7a50f5a68cf3a66bcfab88199d36b6c03337c3648e6a447ed8a131"
+    },
+    {
+      "path": "presentation/battle-presentation.css",
+      "size": 2999,
+      "sha256": "1c47ea1556671e1d3dcedc0ec00cd7fb2ecf4781b0e16a77fccccb3424296a44"
+    },
+    {
+      "path": "presentation/battle-summary.js",
+      "size": 5842,
+      "sha256": "378c8b6d344d76af0c3dacc9774c1f18764c3b7dbbe33815326b576a9666adb7"
+    },
+    {
+      "path": "presentation/defeat-summary.js",
+      "size": 2695,
+      "sha256": "4ef30fcd1f3df27cb9634e9bfbcbe24fc8d2710e19da4e495bd0c6a7444fd91b"
+    },
+    {
+      "path": "presentation/status-r4/readability-layout.js",
+      "size": 2064,
+      "sha256": "883a9707ce74f666dac6f73753573268986760a0cc51ee6b77326232119639c7"
+    },
+    {
+      "path": "presentation/status-r4/status-placement.js",
+      "size": 4877,
+      "sha256": "76a73755b4330ac4ca239490c5ea249c9fe852495894ccc3f3098c6d463e9557"
+    },
+    {
+      "path": "presentation/status-r4/status-rotation.js",
+      "size": 5178,
+      "sha256": "19a364bb2e7b2430a88647d6f1c8233f8548a6f75fe0f7d598ce0308bde74b5e"
+    },
+    {
+      "path": "presentation/status-r4/visual-kit.js",
+      "size": 23023,
+      "sha256": "660902111c9063108ce1db46c017058353ab8bdd9729ffd7fbdf05d8f8a5451f"
+    },
+    {
+      "path": "presentation/terminal-vignette.js",
+      "size": 9471,
+      "sha256": "d69029b4c031c6ffdb981ae21c678d33e152fbaabb6b469c5baca09b6d304701"
+    },
+    {
+      "path": "src/draw-observed-unit.js",
+      "size": 1544,
+      "sha256": "a7d4a52a4498ef7983277f810dbfdbf4b3bb68a7696ee2feb5d2009367e08c58"
+    },
+    {
+      "path": "src/unit-motion.js",
+      "size": 7596,
+      "sha256": "b4c55eeaf7810c956b3d1c5b8a22c3e8400d7c9c636b723624389d013e4b325a"
+    },
+    {
+      "path": "storage-sg2/bundle-json.js",
+      "size": 2724,
+      "sha256": "e1fe47ea9e7c4724ac75800117dcf6c4dfb058e991f228fe3b6978b442a5ad68"
+    },
+    {
+      "path": "storage-sg2/codec-worker-lr29-r2.js",
+      "size": 773,
+      "sha256": "cec83a668d60e9784c8813d2687cb6f3be61fac54a670f66b08533380628d070"
+    },
+    {
+      "path": "storage-sg2/codec-worker.js",
+      "size": 370,
+      "sha256": "d8598625ad504b052b4b77357582ded99dc2dde33ee1f24af04a74e751e68d48"
+    },
+    {
+      "path": "storage-sg2/idb-store.js",
+      "size": 15204,
+      "sha256": "63e4f75bc8c2c86e8a7db68c60e98a42eebe7c17166b2bc5f25bc05417889927"
+    },
+    {
+      "path": "storage-sg2/native-profile-tasks.js",
+      "size": 13191,
+      "sha256": "0dfce7d8c8e14c96ec65cb3d97fb277812ce74ae861ee23d7a9ebba875658809"
+    },
+    {
+      "path": "storage-sg2/native-record-bundle.js",
+      "size": 7739,
+      "sha256": "2dd7a812a717e8cf31b9115b797d55894c5bf03a3a4370fdb0f8993ed5e08489"
+    },
+    {
+      "path": "storage-sg2/native-session.js",
+      "size": 2221,
+      "sha256": "3545759848f1f3315b8bbee549333db0e73da76d6afd27ddc5bd64d0ca8cc9e8"
+    },
+    {
+      "path": "storage-sg2/profile-tasks.js",
+      "size": 9263,
+      "sha256": "7398f96f5bc330022cc23dc78541b137875b81a66e71fff7c987bd8d9d2a75d9"
+    },
+    {
+      "path": "storage-sg2/record-bundle-async.js",
+      "size": 9480,
+      "sha256": "68ed37724171eea57de7a7fd7099add397a452cf0a6ca2e9a12ec4d68dfc9b0f"
+    },
+    {
+      "path": "storage-sg2/record-bundle.js",
+      "size": 4835,
+      "sha256": "34c151a804685cd75865546894b58556af6c76f09df9c2974d29b2a9da1ce8dc"
+    },
+    {
+      "path": "storage-sg2/record-codec-async.js",
+      "size": 13766,
+      "sha256": "e031a6100123a3834a8577c57734731cae3d326f2b0f4dce560055ff21d45030"
+    },
+    {
+      "path": "storage-sg2/session.js",
+      "size": 7202,
+      "sha256": "18e3e3263bda0c98e04f5266fe464224d3d62fe4fde355ffbe68cdb3cffdc5c9"
+    },
+    {
+      "path": "storage-sg2/worker-client.js",
+      "size": 6331,
+      "sha256": "9a39ad36a5cd6f4338fc723160ee7b8b737f5c906df2173b56590de784049676"
+    },
+    {
+      "path": "storage-sg2/worker-engine.js",
+      "size": 2008,
+      "sha256": "acba7c0b4a7b8ada27ec16ee5861fe1e340da24d7baaedc621a4e1c143a24a01"
+    },
+    {
+      "path": "storage-sg2/worker-port.js",
+      "size": 4102,
+      "sha256": "5515ea17ec6cf1aca619289b0f48e5957f66c4e37b7c7f8b949dff411335c75a"
+    },
+    {
+      "path": "storage-sg2/worker-tasks.js",
+      "size": 4435,
+      "sha256": "c69c6735c65a13899a63cccb988afaef11ccc16330b960eb5317c847e16a544b"
+    },
+    {
+      "path": "ui/audio-observation.js",
+      "size": 895,
+      "sha256": "830ae6836e403b43243b722d6c24c41422facab606c96fc64e795aca8fd149f0"
+    },
+    {
+      "path": "ui/battle-presentation-host.js",
+      "size": 2221,
+      "sha256": "45e350943be94f3ec939e37191a2cabd85908ceb81f137da5856ab7d2f5afbbf"
+    },
+    {
+      "path": "ui/family-selection.js",
+      "size": 2007,
+      "sha256": "1da3664a125eda576d5732f0bcc20cf17b1d74dd716f8d35891ec7f5131c28d4"
+    },
+    {
+      "path": "ui/information-panels.js",
+      "size": 9500,
+      "sha256": "452ccac2a5c506ce92a10a26ae188ecfc5511b618a56427e395a45314120209b"
+    },
+    {
+      "path": "ui/information-view.js",
+      "size": 8350,
+      "sha256": "82b4447fe3527438345cac27686e101902fa6bc7ebec119f22ff0606c796d70b"
+    },
+    {
+      "path": "ui/lightweight-records-options.js",
+      "size": 424,
+      "sha256": "3acea564781a23b253a11f0883c33c21808e49661b1826ec19e3a49d84885980"
+    },
+    {
+      "path": "ui/live-frame-budget.js",
+      "size": 1088,
+      "sha256": "1af31ca6140b8a655aa9fa4c28c24cf06e09a0b015ea0d1cfab2081d7f493084"
+    },
+    {
+      "path": "ui/long-battle.js",
+      "size": 2900,
+      "sha256": "01fddd421a5bf0b56d13bdb9623dd8d67495ef66fc3fcd6d435d7ce212c212f1"
+    },
+    {
+      "path": "ui/official-app-sg2.js",
+      "size": 62619,
+      "sha256": "1555eed8f92113d6fcfb238ab9f85fba92e793559b43546e80a68c04d4e9ff4a"
+    },
+    {
+      "path": "ui/official-app.css",
+      "size": 3861,
+      "sha256": "cf8aeb91127d1aff79d78a1b7512d81f80608946a27ddaf9b8e14941e850ea5c"
+    },
+    {
+      "path": "ui/official-host.css",
+      "size": 8158,
+      "sha256": "9cba952d50ab6010ed5ec887f91bbe2e1c2c4926bbfd03a380b714195260b303"
+    },
+    {
+      "path": "ui/official-routes.js",
+      "size": 17432,
+      "sha256": "8271a5c3c9eac47517cf9551bc5225e85a967a09c521ff00a33b44a54e39c703"
+    },
+    {
+      "path": "ui/player-boot.js",
+      "size": 7595,
+      "sha256": "107804d8747475c78e908489f5190c2a640f99fceb20281d071dd7439a5527a3"
+    },
+    {
+      "path": "ui/player-shell.css",
+      "size": 2421,
+      "sha256": "6c446560607a00e2327bf2b8a8156d76b96c661c8bba09c9174678f6f46a4cb4"
+    },
+    {
+      "path": "ui/player-shell.js",
+      "size": 5518,
+      "sha256": "9600d0e9fc7f41b610faf69dd97e87021386fb4774e426de927fe154150a36c8"
+    },
+    {
+      "path": "ui/player-v18.css",
+      "size": 273830,
+      "sha256": "3eb69c58f4ce9d08055b98696fa4e1c2eb25ddbea14a5d1de6e9c6ac05266f64"
+    },
+    {
+      "path": "ui/relic-icon-manifest.js",
+      "size": 22391,
+      "sha256": "21d6e1d9cb1c9f4782eb30be36372930cfc54f394e1a3372e186d19dde0fd6de"
+    },
+    {
+      "path": "ui/relic-icons.js",
+      "size": 2390,
+      "sha256": "d76568a163e94c710f59a50793395045b97ff3669d5640d8910d952d80ee98be"
+    },
+    {
+      "path": "ui/status-information.js",
+      "size": 1419,
+      "sha256": "196fd5920f27c84c76ad9c19a10874c484020ac9f04bd7f964f281dfb28d0441"
+    }
+  ]
+}

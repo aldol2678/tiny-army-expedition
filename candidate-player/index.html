@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#172e3e">
+<title>꼬마 군단 원정대</title>
+<meta name="description" content="병사를 모집하고 조합해 나만의 군단을 꾸리세요. 갈림길에서 원정 경로와 보상을 선택하고, 자동 전투를 돌파하는 로그라이트 전략 게임.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="./assets/portraits/archer.af377459569fd85e.webp" as="image" type="image/webp">
+<link rel="preload" href="./assets/portraits/spear.3237f03386a175b8.webp" as="image" type="image/webp">
+<link rel="preload" href="./assets/portraits/support.c778489dcab2988e.webp" as="image" type="image/webp">
+
+
+
+<!-- army-typography:start -->
+<link rel="preload" href="./assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- army-typography:end -->
+<link rel="stylesheet" href="./ui/player-v18.css"><meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="./loading/official-loading.css"><link rel="stylesheet" href="./ui/official-host.css">
+<link rel="stylesheet" href="./ui/official-app.css">
+<link rel="stylesheet" href="./presentation/battle-presentation.css">
+<link rel="stylesheet" href="./ui/player-shell.css"></head>
+<body>
+<section id="siteBoot" class="site-boot" data-state="loading" role="dialog" aria-modal="true" aria-label="게임 준비">
+  <div class="site-boot-card">
+    <h2>꼬마 군단 원정대</h2>
+    <svg class="site-boot-scene" viewBox="0 0 240 120" aria-hidden="true" focusable="false">
+      <path class="site-boot-ground" d="M15 105H225"/>
+      <g class="site-boot-flag"><path d="M156 100V16"/><path class="site-boot-banner" d="M158 17H199L190 30L199 43H158Z"/></g>
+      <g class="site-boot-troop" transform="translate(52 0)">
+        <circle cx="0" cy="57" r="10"/><path d="M-12 75Q0 65 12 75L14 92H-14Z"/><path class="site-boot-limbs" d="M-7 91L-9 103M7 91L9 103M-10 77L-19 83M10 77L19 72M19 93V38"/><path d="M15 39L19 28L23 39Z"/>
+      </g>
+      <g class="site-boot-troop" transform="translate(108 0)">
+        <circle cx="0" cy="59" r="10"/><path d="M-12 77Q0 67 12 77L14 93H-14Z"/><path class="site-boot-limbs" d="M-7 92L-9 103M7 92L9 103M-10 79L-18 85M10 79L21 77"/><path class="site-boot-bow" d="M21 58Q39 77 21 96ZM21 77H36"/>
+      </g>
+      <g class="site-boot-troop" transform="translate(171 0)">
+        <circle cx="0" cy="60" r="10"/><path d="M-12 78Q0 68 12 78L15 94H-15Z"/><path class="site-boot-limbs" d="M-7 93L-9 103M7 93L9 103M-10 79L-18 85M10 79L21 74M21 100V57"/><circle class="site-boot-staff" cx="21" cy="53" r="5"/>
+      </g>
+    </svg>
+    <ol class="site-boot-steps" aria-label="준비 단계"><li id="siteBootPhase-data">자료 불러오기</li><li id="siteBootPhase-storage">저장 확인</li><li id="siteBootPhase-expedition">원정 준비</li></ol>
+    <p id="siteBootStatus" role="status" aria-live="polite" tabindex="-1">자료 불러오기</p>
+    <div id="siteBootProgress" class="site-boot-progress" role="progressbar" aria-label="자료 불러오기 진행" data-mode="indeterminate"><i id="siteBootProgressFill" class="site-boot-progress-fill"></i></div>
+    <p id="siteBootCount" class="site-boot-count" aria-hidden="true">진행 중</p>
+    <p id="siteBootNote" class="site-boot-note" hidden></p>
+    <div class="site-boot-actions"><button id="siteBootCancel" type="button" hidden>취소</button><button id="siteBootRetry" type="button" hidden>다시 시도</button><button id="siteBootDismiss" type="button" hidden>돌아가기</button></div>
+    <noscript><p>게임을 실행하려면 JavaScript를 켜 주세요</p></noscript>
+  </div>
+</section>
+
+
+<div id="appShell" inert data-rules="v09" class="app-shell" data-view="camp">
+  <header class="app-header">
+    <div class="brand"><span class="crest" aria-hidden="true">Ⅱ</span><h1 class="sr-only">꼬마 군단 원정대</h1></div>
+    <section class="journey" aria-label="원정 현황"><div class="journey-copy"><h2 id="stageHeading">작은 군단의 야영지</h2><span id="stageProgress" class="stage-progress">야영지</span></div></section>
+    <div class="run-stats" aria-label="보유 재화">
+      <div class="stat"><span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 20 20" width="20" height="20" focusable="false"><circle cx="10" cy="10" r="8" fill="#d4a650" stroke="#fff0b9" stroke-width="1.5"/><circle cx="10" cy="10" r="5.5" fill="none" stroke="#f6d789"/><path d="M12.4 7.2a4 4 0 0 0-2.2-.6c-2 0-3 1.3-3 3.4s1 3.4 3 3.4c.9 0 1.7-.2 2.3-.6V10h-2.2" fill="none" stroke="#fff6d3" stroke-width="1.6" stroke-linejoin="round"/></svg></span><b id="goldStat">0</b><small class="stat-label">골드</small></div>
+      <div class="stat"><span class="stat-icon token" aria-hidden="true"><svg viewBox="0 0 20 20" width="20" height="20" focusable="false"><path d="m10 1.5 7.4 4.2v8.6L10 18.5l-7.4-4.2V5.7z" fill="#438b82" stroke="#bfe2c7" stroke-width="1.5"/><path d="m10 4 5 6-5 6-5-6z" fill="#d9f1d4"/><path d="m10 4 5 6h-5z" fill="#9ed1b7"/></svg></span><b id="tokenStat">0</b><small class="stat-label">증표</small></div>
+    </div>
+    <nav class="header-actions" aria-label="게임 메뉴"><button id="menuAction" aria-label="게임 메뉴 열기"><span class="menu-glyph" aria-hidden="true"></span>메뉴</button><button id="helpAction" hidden>도움말</button><button id="campAction" hidden>야영지</button></nav>
+  </header>
+  <div class="journey-summary"><p id="stageDescription">길을 고르고, 군단을 만들고, 다시 출발해요.</p><span class="version">5장 원정</span></div>
+  <div id="saveWarning" class="save-warning" role="status" hidden></div>
+  <div id="legacyRulesBanner" class="legacy-rules-banner" role="status" hidden></div>
+  <main class="layout">
+    <section id="screen" class="panel content-screen" aria-label="원정 화면"></section>
+    <section id="battleScreen" class="panel battle-screen" aria-label="자동 전투" hidden>
+      <div class="arena-bar"><strong id="phaseTitle" class="arena-title">군단이 전진합니다</strong><div class="hud battle-hud-main"><div class="army-health"><div class="army-health-label"><small>군단 체력</small><b id="hpStat">100%</b></div><div id="armyHealth" class="army-health-track" role="meter" aria-label="군단 체력" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><i id="armyHealthFill" style="width:100%"></i></div></div><div class="battle-count"><small>아군 생존</small><b id="unitStat">3/12</b></div><div class="battle-count enemy-count"><small>남은 적</small><b id="enemyStat">0</b></div></div></div>
+      <div class="field"><canvas id="arena" width="900" height="580" role="img" aria-label="작은 군단이 자동으로 싸우는 전장"></canvas><div id="fieldStatus" class="field-status">자동 전투</div><div id="targetPanel" class="target-panel" hidden></div></div>
+      <div class="battle-status"><div class="battle-status-row"><p id="combatNote" class="battle-note"></p><span id="lowestHp" class="lowest-hp"></span></div><div id="activeEffects" class="active-effects" aria-label="적용 중인 지휘 효과"></div></div>
+      <div class="battle-dock"><button id="skillA" class="skill-button"></button><button id="skillB" class="skill-button"></button><div class="battle-controls"><button id="pauseAction">일시정지</button><button id="speedAction">×1 속도</button></div></div>
+    </section>
+    <div class="action-area"><div id="toast" class="toast" role="status" hidden></div><nav id="actionBar" class="action-bar" aria-label="현재 화면 행동"></nav></div>
+  </main>
+  <p id="announcer" class="sr-only" aria-live="polite"></p>
+</div>
+<div id="modal" class="veil" hidden><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1"><div class="dialog-head"><h2 id="modalTitle"></h2><button id="dialogClose" aria-label="팝업 닫기">×</button></div><div id="modalText" class="dialog-content"></div><div id="modalNotice" class="modal-notice" role="status" hidden></div><div id="modalButtons" class="dialog-buttons"></div></section></div>
+<noscript><p class="no-script">이 게임은 JavaScript를 켠 브라우저에서 실행할 수 있어요.</p></noscript>
+<!-- army-audio:start --><!-- army-audio:end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="./ui/player-boot.js"></script>
+</body>
+</html>

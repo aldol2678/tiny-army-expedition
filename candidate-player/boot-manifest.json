@@ -1,0 +1,94 @@
+{
+  "version": "private-u5-r2",
+  "releaseEligible": false,
+  "scripts": [
+    {
+      "file": "core/runtime/vendor/content.js",
+      "sha256": "696b7e8186583719230b51cfe4a90b80b51e31cf578668beb0927f7b5fe783e1"
+    },
+    {
+      "file": "core/runtime/vendor/v09-content.js",
+      "sha256": "3583bed4cef48cedc68287ea5e7a230501b51a6670cc09dc0102434f9f95dabe"
+    },
+    {
+      "file": "core/runtime/vendor/game-engine.js",
+      "sha256": "6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20"
+    },
+    {
+      "file": "core/rci1/game-engine.js",
+      "sha256": "8a9d3844d049dec73aebd4124c46a48c0f2a385a6fcc6694b5dc951f028ee523"
+    },
+    {
+      "file": "js/game-art.js",
+      "sha256": "90c1b0b92383695c502e50ab5429601e1160de2b2b4c49503a1b1952130f95a1"
+    },
+    {
+      "file": "js/game-ui-art.js",
+      "sha256": "a7dc40694f5bb59f8801184450ed32f49f2d0c91e95ae70ef0828bde19219b9a"
+    },
+    {
+      "file": "js/relic-art.js",
+      "sha256": "936543caf563d39f8bd23999ee5c2a8782421d9e756e0939d5052470a1e42371"
+    },
+    {
+      "file": "js/rarity-art.js",
+      "sha256": "4579650931bfdd8a06de781c7ab44be8ba5c10a570b19be880456b59d550b8e4"
+    },
+    {
+      "file": "js/skill-effects.js",
+      "sha256": "81c8fc9fd8dd049457b407d5bdd4e91c12cfb442ed053d1354aa3b545ca4a6e7"
+    },
+    {
+      "file": "js/commander-effects.js",
+      "sha256": "547b343db4c8d4a58ceed1ea5d4a31a1646db18a5124b53195d6f5167a66c42a"
+    },
+    {
+      "file": "js/screen-art.js",
+      "sha256": "861442d99a06579a5ec17d315ffb49e6338ee0d6bce58bcb012c93adb8adbbb2"
+    },
+    {
+      "file": "js/chapter-backdrop.js",
+      "sha256": "949404cbfb10684db369cd9f9bac13c31a3453be5023fee9f14dfb061664f044"
+    },
+    {
+      "file": "js/battle-readability.js",
+      "sha256": "cbc0d1129216e0b6dbc00b3a19073a9a089fa6187e55f4725a072a1ad257b142"
+    },
+    {
+      "file": "js/condition-art.js",
+      "sha256": "a6cb2c75719389294d1a953d1eb078e6ba950164a98e4a341d6d9e1ce122d8c1"
+    },
+    {
+      "file": "js/formation-input.js",
+      "sha256": "9b2088da59b728715c65049791b39227040e3cd724161132a9c6fe455cda9d5e"
+    },
+    {
+      "file": "js/formation-preview.js",
+      "sha256": "cf61cb7b3b0824b597789cc4f6784bd503e0de99cdb22741dac7ff7f25edbd4d"
+    },
+    {
+      "file": "js/strategy-view.js",
+      "sha256": "c97f61783d8937296f580e6ecb8aa48dcb9e721a1940259e54a82ea0fe837cb8"
+    },
+    {
+      "file": "js/portrait-sheets.js",
+      "sha256": "6cbf4e89631074575306ea862948e5ced98f1f6b76bd47e3b9f40c24cf8c512c"
+    },
+    {
+      "file": "js/v09-media.js",
+      "sha256": "705b216ea44b93b6f896951df20dca8c3cd8882f1c562fa0bf17719637dd8bac"
+    },
+    {
+      "file": "js/card-assets.js",
+      "sha256": "f041518c95da3b9edbcad57d6fe78d5755904c7501b6d7b271250d534554035d"
+    },
+    {
+      "file": "js/v09-art.js",
+      "sha256": "08695430e43632dce69db30f784e1b6dfed2052248abc886cc84cde23d5d0b61"
+    },
+    {
+      "file": "js/site-resources.js",
+      "sha256": "9dc2ad41ba808e38a7293a6bd539fe591ec836082229a822568be5b68036e9d7"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+/* U5 additive status detail controls. The field badge remains 24 CSS pixels. */
+.official-status-presence{margin:8px 0;padding:4px max(4px,env(safe-area-inset-left)) 4px max(4px,env(safe-area-inset-right));font-family:inherit}
+.official-status-presence button{min-width:44px;min-height:44px;font:inherit;white-space:normal}
+
+/* SF1: native, read-only four-family start shell. */
+.family-selection{border:1px solid #b9a58a;border-radius:10px;padding:12px;margin:12px 0}.family-selection legend{padding:0 6px;font-weight:700}.family-selection p{margin:6px 0}.family-selection-options{display:flex;flex-wrap:wrap;gap:12px}.family-selection-options label{display:flex;gap:6px;align-items:center}
+
+/* RI1: the same exact SVG and shared fallback fit all three existing surfaces.
+   Geometry checks model these constraints; they do not certify browser layout. */
+:is(#appShell,#modal) .official-relic-icon{display:block;position:relative;flex:none;width:64px;max-width:100%;height:auto;aspect-ratio:1;overflow:hidden;isolation:isolate;pointer-events:none}
+:is(#appShell,#modal) .official-relic-icon>img,:is(#appShell,#modal) .relic-icon-fallback{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+:is(#appShell,#modal) .official-relic-icon>img[hidden]{display:none!important}
+:is(#appShell,#modal) .relic-icon-fallback>svg{display:block;width:100%;height:100%;max-width:100%;max-height:100%}
+:is(#appShell,#modal) .official-relic-icon[data-art-status=ready]>.relic-icon-fallback{visibility:hidden}
+:is(#appShell,#modal) .relic-icon-fallback-label{position:absolute;bottom:0;left:0;right:0;display:block;text-align:center;background:var(--paper,#fff9e7);color:var(--ink,#203548);font:10px/1.2 var(--font-body,sans-serif)}
+:is(#appShell,#modal) .official-relic-icon[data-art-status=loading] .relic-icon-fallback-label{visibility:hidden}
+:is(#appShell,#modal) .relic-icon-text{display:grid;place-items:center;height:100%;font-size:12px}
+:is(#appShell,#modal) .official-relic-choice .offer-copy{min-width:0;max-width:100%;overflow-wrap:anywhere}
+:is(#appShell,#modal) .official-relic-choice .offer-copy>strong,:is(#appShell,#modal) .official-relic-choice .offer-desc{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+:is(#appShell,#modal) .official-relic-choice .offer-art{min-width:0;max-width:100%;overflow:hidden}
+#appShell[data-view=reward] .official-relic-choice .offer-art{width:64px;height:64px;max-width:100%;border:0;border-radius:0;flex:none}
+#appShell[data-view=reward] .official-relic-choice .official-choice-controls{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:6px;max-width:100%;margin-top:auto}
+:is(#appShell,#modal) .official-relic-heading{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:center;min-width:0;max-width:100%}
+:is(#appShell,#modal) .official-relic-heading h3,:is(#appShell,#modal) .official-relic-heading .screen-heading{min-width:0;margin:0;white-space:normal;overflow-wrap:anywhere}
+:is(#appShell,#modal) .official-relic-card{min-width:0;max-width:100%;overflow-wrap:anywhere}
+:is(#appShell,#modal) .official-relic-detail-art{width:64px;max-width:100%;margin-bottom:8px}
+:is(#appShell,#modal) .official-relic-strip{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;min-width:0;max-width:100%}
+:is(#appShell,#modal) .official-relic-strip .relic-mini{display:grid;grid-template-columns:32px minmax(0,1fr);gap:7px;align-items:center;min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+:is(#appShell,#modal) .official-relic-strip .official-relic-icon{width:32px;height:32px}
+@media(max-width:360px){
+ :is(#appShell,#modal) .official-relic-heading{grid-template-columns:48px minmax(0,1fr);gap:8px}
+ :is(#appShell,#modal) .official-relic-heading .official-relic-icon{width:48px;height:48px}
+}

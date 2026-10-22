@@ -1,0 +1,39 @@
+// TEST_ONLY: faithful pinned v09 tick body with explicit charge/regen owner seams.
+// Original runtime/vendor/game-engine.js SHA-256:
+// 6e6913f166527fc031fc270320cadcf5fcbb8e914883903ef360215a1b872f20
+// No vendor patching, source evaluation, polling, new RNG, or effect policy.
+export const RB5_BASE_TICK_VERSION='rb5-base-tick-charge-owner-v1';
+const STEP=1/60,LIMIT=110,finite=(n,fallback=0)=>Number.isFinite(n)?n:fallback,clamp=(n,min,max)=>Math.max(min,Math.min(max,n)),ticksFor=seconds=>Math.ceil(Math.max(0,seconds)/STEP-1e-9),distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+export function installRB5BaseTick(game,{companion}={}){
+ if(!game||game.combatRulesVersion!=='v09-combat-1'||typeof game.tick!=='function'||game._rb5BaseTick)throw Error('Unique explicit pinned v09 tick required');
+ if(!companion||!['nextChargeRoot','chargeCommitted','chargeResolved','observeMana','atomicTick'].every(k=>typeof companion[k]==='function'))throw Error('Explicit charge/regen companion required');
+ const original=game.tick;Object.defineProperty(game,'_rb5BaseTick',{value:RB5_BASE_TICK_VERSION,configurable:true});
+ function tickBody(dt=STEP){
+  if(this.phase!=='battle'||!Number.isFinite(dt)||Math.abs(dt-STEP)>1e-10)return false;this.time=this.tickCount*STEP;
+  if(!this.focusTarget()){this.focusTargetId=null;this.focusUntilTick=0}this.effects.forEach(e=>e.life-=STEP);this.effects=this.effects.filter(e=>e.life>0);
+  for(const u of [...this.units,...this.enemies]){if(u.barrier&&this.tickCount>=u.barrier.untilTick)this.expireBarrier(u);u.slows=u.slows.filter(s=>this.tickCount<s.untilTick)}this.refreshGuardianLinks();
+  for(const signal of this.telegraphs){if(signal.owner.hp<=0){if(signal.ownerKind==='base-charge'&&signal.team==='ally'&&signal.owner.type==='charger')companion.chargeResolved({rootActionId:signal.rootActionId,sourceId:signal.owner.id,skillId:'charge',resolveTick:this.tickCount,ownerKind:'base-charge',effects:[],ultimateModifier:null,cancelReason:'source-ended'});signal.left=-1;continue}signal.left-=STEP;if(signal.left<=0){if(signal.team==='enemy')this.enemySlams++;const victims=this.alive(signal.team==='enemy'?'ally':'enemy').filter(v=>Math.hypot(v.x-signal.x,v.y-signal.y)<signal.radius);const charge=signal.ownerKind==='base-charge'&&signal.team==='ally'&&signal.owner.type==='charger',effects=[];if(charge){this.resolveDamageAction(()=>victims.forEach((v,i)=>{const eventId=`${signal.rootActionId}:effect:${i+1}`,actualDamage=this.hit(signal.owner,v,signal.damage,'hit',{actionType:'unit_skill',damageType:'physical',rootActionId:signal.rootActionId,eventId,skillId:'charge'});effects.push({eventId,targetId:v.id,actualDamage,sourceKind:'normal'});}));}else this.resolveDamageAction(()=>victims.forEach(v=>this.hit(signal.owner,v,signal.damage,'hit',{actionType:'unit_skill',damageType:'physical'})));if(signal.owner.type==='charger'&&signal.owner.trainingTrack==='handling'){signal.owner.temporaryDefense=finite(signal.owner.skill&&signal.owner.skill.defenseAfter);signal.owner.temporaryDefenseUntilTick=this.tickCount+ticksFor(finite(signal.owner.skill&&signal.owner.skill.defenseDuration,2));this.refreshGuardianLinks()}if(charge)companion.chargeResolved({rootActionId:signal.rootActionId,sourceId:signal.owner.id,skillId:'charge',resolveTick:this.tickCount,ownerKind:'base-charge',effects,ultimateModifier:null});this.effect('blast',signal.x,signal.y,signal.radius,0,signal.team==='enemy'?'#c75e4b':'#eeaa52',.5)}}this.telegraphs=this.telegraphs.filter(t=>t.left>0);
+  for(const u of [...this.units,...this.enemies]){
+   if(u.hp<=0)continue;if(u.maxMana>0){u.mana=Math.min(u.maxMana,u.mana+u.manaRegen*STEP);companion.observeMana(u.id);}u.flash=Math.max(0,u.flash-STEP);const haste=this.attackHaste(u);if(u.attacks>0)u.cd=Math.max(0,u.cd-STEP*haste);u.skillCd-=STEP;u.healCd-=STEP;
+   const targets=this.alive(u.team==='ally'?'enemy':'ally');if(!targets.length)break;const supportive=u.team==='ally'&&['support','medic','warder'].includes(u.type),injured=supportive?this.alive('ally').filter(v=>v.hp<v.maxHp-1e-9).sort((a,b)=>a.hp/a.maxHp-b.hp/b.maxHp||a.id-b.id):[];
+   if(supportive&&u.healCd<=0){const patient=injured.find(v=>distance(v,u)<=u.healRange+.01);if(patient&&this.supportHeal(u,patient))u.healCd=u.healInterval}
+   const automaticTarget=targets.slice().sort((a,b)=>distance(a,u)-distance(b,u)||a.id-b.id)[0];let target=automaticTarget;
+   if(u.type==='sniper'){const inRange=targets.filter(v=>distance(v,u)<=u.range+.01);if(inRange.length)target=inRange.sort((a,b)=>a.hp-b.hp||a.id-b.id)[0]}
+   const focused=u.team==='ally'?this.focusTarget():null;if(focused&&distance(focused,u)<=u.range+.01)target=focused;const dist=distance(target,u);
+   if(u.attacks===0&&dist<=u.range+.01)u.cd=Math.max(0,u.cd-STEP*haste);
+   if(supportive){const remote=injured[0],inReach=injured.some(v=>distance(v,u)<=u.healRange+.01);if(remote&&!inReach)this.moveToward(u,remote.x,remote.y,u.healRange*.85,STEP);else if(dist<=u.range+.01){u.move=0;if(u.cd<=0&&this.attack(u,target))u.cd=u.rate}else{const anchors=this.alive('ally').filter(v=>v.id!==u.id&&!['support','medic','warder'].includes(v.type)).sort((a,b)=>distance(a,automaticTarget)-distance(b,automaticTarget)||a.id-b.id);if(anchors[0])this.moveToward(u,Math.max(75,anchors[0].x-105),anchors[0].y,30,STEP);else this.moveToward(u,automaticTarget.x,automaticTarget.y,u.range,STEP)}}
+   else if(dist>u.range+.01)this.moveToward(u,target.x,target.y,u.range,STEP);else{u.move=0;if(u.cd<=0&&this.attack(u,target))u.cd=u.rate}
+   if(u.maxMana>0)this.castUnitSkill(u.id);if(u.shield)this.castBarrier(u.id);
+   const automaticDistance=distance(automaticTarget,u);
+   if(u.type==='charger'&&u.skillCd<=0&&automaticDistance<finite(u.skill&&u.skill.range,150)&&automaticTarget.hp>0){const s=u.skill||{},damage=finite(s.damage,(u.attackPower*finite(s.attackCoefficient,1)+u.abilityPower*finite(s.coefficient,.6))*u.conditionMultiplier);const rootActionId=companion.nextChargeRoot(u.id);this.telegraphs.push({owner:u,team:'ally',x:automaticTarget.x,y:automaticTarget.y,radius:s.radius||112,left:finite(s.windup,.45),max:finite(s.windup,.45),damage,rootActionId,ownerKind:'base-charge',skillId:'charge'});companion.chargeCommitted({rootActionId,sourceId:u.id,skillId:'charge',commitTick:this.tickCount,ownerKind:'base-charge'});this.effect('charge',u.x,u.y,automaticTarget.x,automaticTarget.y,'#eeaa52',.5);u.skillCd=s.cooldown||9;this.message='돌격병이 광역 타격을 펼칩니다!'}
+   if((u.type==='boss'||u.type==='brute')&&u.skillCd<=0&&automaticDistance<150&&automaticTarget.hp>0){const boss=u.type==='boss';this.telegraphs.push({owner:u,team:'enemy',x:automaticTarget.x,y:automaticTarget.y,radius:boss?150:85,left:boss?2.1:1.5,max:boss?2.1:1.5,damage:u.attackPower*(boss?2:1.6)});u.skillCd=boss?9:12;this.message=boss?'파수꾼의 강타! 붉은 범위에 공격이 곧 떨어져요.':'방패병의 강타가 준비됩니다.'}
+  }
+  for(const list of [this.units,this.enemies]){const living=list.filter(u=>u.hp>0);for(let i=0;i<living.length;i++)for(let j=i+1;j<living.length;j++){const a=living[i],b=living[j],dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy);if(d<32){const push=(32-d)*STEP*3,nx=d>.01?dx/d:0,ny=d>.01?dy/d:1;a.x-=nx*push;a.y-=ny*push;b.x+=nx*push;b.y+=ny*push}}for(const u of living){u.x=clamp(u.x,75,830);u.y=clamp(u.y,128,477)}}
+  this.tickCount++;this.time=this.tickCount*STEP;this.totalTime+=STEP;if(!this.alive('enemy').length)this.finish(true);else if(!this.alive('ally').length)this.finish(false);else if(this.tickCount>=ticksFor(LIMIT)){this.message='해가 저물었어요. 제한 시간 안에 돌파하지 못했습니다.';this.finish(false,'timeout')}return true;
+ }
+ game.tick=function(dt=STEP){
+  if(this.phase!=='battle'||!Number.isFinite(dt)||Math.abs(dt-STEP)>1e-10)return false;
+  return companion.atomicTick(()=>tickBody.call(this,dt));
+ };
+ return Object.freeze({version:RB5_BASE_TICK_VERSION,dispose(){game.tick=original;delete game._rb5BaseTick;}});
+}

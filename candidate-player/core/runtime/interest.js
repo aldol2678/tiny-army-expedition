@@ -1,0 +1,6 @@
+import {INTEREST_RULES} from './interest-config.js';
+export {INTEREST_RULES};
+export const INTEREST_DESCRIPTION=`시험 수치 · ${INTEREST_RULES.rarity} · 상점 ${INTEREST_RULES.shopPrice}G (미확정). 전투 시작 시 보유 ${INTEREST_RULES.principalStep}G당 ${INTEREST_RULES.goldPerStep}G, 최대 ${INTEREST_RULES.cap}G. 시작 전에 소유한 경우 실제 승리 시 1회 지급. 패배·도주·방문 0G, 이번 전투 수입·보상 취득은 소급하지 않음. 중복·강화 불가. 전투 능력치 증가 없음.`;
+export function interestAmount(gold){if(!Number.isSafeInteger(gold)||gold<0)throw Error('Invalid interest principal');return Math.min(INTEREST_RULES.cap,Math.floor(gold/INTEREST_RULES.principalStep)*INTEREST_RULES.goldPerStep);}
+export function freezeInterest(state,battleId){return Object.freeze({rulesVersion:INTEREST_RULES.version,battleId,principal:state.gold,ownedAtStart:state.relics.some(r=>r.id===INTEREST_RULES.relicId),amountOnVictory:state.relics.some(r=>r.id===INTEREST_RULES.relicId)?interestAmount(state.gold):0});}
+export function settleInterest(snapshot,result,resultDigest){if(snapshot.rulesVersion!==INTEREST_RULES.version||snapshot.amountOnVictory!==(snapshot.ownedAtStart?interestAmount(snapshot.principal):0))throw Error('Invalid frozen interest');return {...snapshot,resultDigest,win:result.win===true,amount:result.win===true?snapshot.amountOnVictory:0};}
