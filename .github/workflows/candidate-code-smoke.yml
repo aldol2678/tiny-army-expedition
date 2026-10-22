@@ -1,0 +1,38 @@
+name: Code-only candidate smoke
+on:
+  push:
+    branches:
+      - candidate/player-code-20261022
+    paths:
+      - candidate-player/**
+      - .github/workflows/candidate-code-smoke.yml
+permissions:
+  contents: read
+concurrency:
+  group: candidate-code-smoke-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  source-and-native-storage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: candidate-player/ci
+    steps:
+      - name: Check out code without retained credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify immutable source and JavaScript syntax
+        run: node verify-source.mjs
+      - name: Install pinned browser test package
+        run: npm install --no-save --package-lock=false --ignore-scripts --no-audit --no-fund playwright@1.64.1
+      - name: Install Chromium from the pinned Playwright distribution
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Check fresh native IndexedDB and Worker behavior
+        run: node browser-smoke.mjs
