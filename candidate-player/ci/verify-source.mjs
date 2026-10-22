@@ -1,3 +1,4 @@
+// Code-only source integrity and syntax checks; browser behavior is checked separately.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
